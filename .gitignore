@@ -1,0 +1,4 @@
+*.log
+**/plots/
+**/plots_part_fit/
+**/datasets/
