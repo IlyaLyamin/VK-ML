@@ -1,4 +1,4 @@
-*.log
+*.csv
 **/plots/
 **/plots_part_fit/
 **/datasets/

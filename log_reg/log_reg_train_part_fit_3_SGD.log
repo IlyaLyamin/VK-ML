@@ -1,0 +1,1256 @@
+2026-08-12 23:18:59,464 | INFO | === New model #0 | batch_size=128, n_iter_no_change=5, tol=0.001, params={'alpha': 1e-06, 'class_weight': None, 'eta0': 0.001, 'learning_rate': 'optimal', 'loss': 'hinge', 'penalty': 'l1'} ===
+2026-08-12 23:18:59,591 | INFO | Model 0 | epoch=0 idx=0 | f1=0.6445 recall=0.6584 loss_train=0.3407 loss_test=0.3459
+2026-08-12 23:19:02,589 | INFO | Model 0 | epoch=0 finished | elapsed=3.12s
+2026-08-12 23:19:02,706 | INFO | Model 0 | epoch=1 idx=0 | f1=0.9804 recall=0.9776 loss_train=0.0125 loss_test=0.0380
+2026-08-12 23:19:05,674 | INFO | Model 0 | epoch=1 finished | elapsed=6.21s
+2026-08-12 23:19:05,791 | INFO | Model 0 | epoch=2 idx=0 | f1=0.9823 recall=0.9797 loss_train=0.0034 loss_test=0.0310
+2026-08-12 23:19:08,637 | INFO | Model 0 | epoch=2 finished | elapsed=9.17s
+2026-08-12 23:19:08,754 | INFO | Model 0 | epoch=3 idx=0 | f1=0.9827 recall=0.9764 loss_train=0.0023 loss_test=0.0309
+2026-08-12 23:19:11,762 | INFO | Model 0 | epoch=3 finished | elapsed=12.30s
+2026-08-12 23:19:11,875 | INFO | Model 0 | epoch=4 idx=0 | f1=0.9838 recall=0.9791 loss_train=0.0012 loss_test=0.0295
+2026-08-12 23:19:14,682 | INFO | Model 0 | epoch=4 finished | elapsed=15.22s
+2026-08-12 23:19:14,802 | INFO | Model 0 | epoch=5 idx=0 | f1=0.9836 recall=0.9788 loss_train=0.0010 loss_test=0.0293
+2026-08-12 23:19:17,759 | INFO | Model 0 | epoch=5 finished | elapsed=18.29s
+2026-08-12 23:19:17,879 | INFO | Model 0 | epoch=6 idx=0 | f1=0.9830 recall=0.9785 loss_train=0.0008 loss_test=0.0293
+2026-08-12 23:19:20,850 | INFO | Model 0 | epoch=6 finished | elapsed=21.38s
+2026-08-12 23:19:20,960 | INFO | Model 0 | epoch=7 idx=0 | f1=0.9832 recall=0.9788 loss_train=0.0008 loss_test=0.0293
+2026-08-12 23:19:23,831 | INFO | Model 0 | epoch=7 finished | elapsed=24.37s
+2026-08-12 23:19:23,943 | INFO | Model 0 | epoch=8 idx=0 | f1=0.9833 recall=0.9785 loss_train=0.0007 loss_test=0.0293
+2026-08-12 23:19:26,882 | INFO | Model 0 | epoch=8 finished | elapsed=27.42s
+2026-08-12 23:19:26,998 | INFO | Model 0 | epoch=9 idx=0 | f1=0.9830 recall=0.9791 loss_train=0.0007 loss_test=0.0294
+2026-08-12 23:19:29,825 | INFO | Model 0 | epoch=9 finished | elapsed=30.36s
+2026-08-12 23:19:29,938 | INFO | Model 0 | epoch=10 idx=0 | f1=0.9829 recall=0.9788 loss_train=0.0006 loss_test=0.0294
+2026-08-12 23:19:29,938 | INFO | Model 0 | early stopping at epoch=10 idx=0
+2026-08-12 23:19:29,938 | INFO | Model 0 | epoch=10 finished | elapsed=30.47s
+2026-08-12 23:19:29,939 | INFO | Model 0 | training finished | total_elapsed=30.47s
+2026-08-12 23:19:30,408 | INFO | === New model #1 | batch_size=128, n_iter_no_change=5, tol=0.001, params={'alpha': 1e-06, 'class_weight': None, 'eta0': 0.001, 'learning_rate': 'optimal', 'loss': 'hinge', 'penalty': 'l2'} ===
+2026-08-12 23:19:30,522 | INFO | Model 1 | epoch=0 idx=0 | f1=0.6441 recall=0.6578 loss_train=0.3403 loss_test=0.3455
+2026-08-12 23:19:31,974 | INFO | Model 1 | epoch=0 finished | elapsed=1.57s
+2026-08-12 23:19:32,090 | INFO | Model 1 | epoch=1 idx=0 | f1=0.9796 recall=0.9782 loss_train=0.0115 loss_test=0.0238
+2026-08-12 23:19:33,472 | INFO | Model 1 | epoch=1 finished | elapsed=3.06s
+2026-08-12 23:19:33,585 | INFO | Model 1 | epoch=2 idx=0 | f1=0.9846 recall=0.9821 loss_train=0.0037 loss_test=0.0131
+2026-08-12 23:19:35,024 | INFO | Model 1 | epoch=2 finished | elapsed=4.62s
+2026-08-12 23:19:35,143 | INFO | Model 1 | epoch=3 idx=0 | f1=0.9837 recall=0.9752 loss_train=0.0033 loss_test=0.0133
+2026-08-12 23:19:36,605 | INFO | Model 1 | epoch=3 finished | elapsed=6.20s
+2026-08-12 23:19:36,721 | INFO | Model 1 | epoch=4 idx=0 | f1=0.9833 recall=0.9758 loss_train=0.0024 loss_test=0.0124
+2026-08-12 23:19:38,141 | INFO | Model 1 | epoch=4 finished | elapsed=7.73s
+2026-08-12 23:19:38,266 | INFO | Model 1 | epoch=5 idx=0 | f1=0.9834 recall=0.9764 loss_train=0.0016 loss_test=0.0109
+2026-08-12 23:19:39,718 | INFO | Model 1 | epoch=5 finished | elapsed=9.31s
+2026-08-12 23:19:39,845 | INFO | Model 1 | epoch=6 idx=0 | f1=0.9861 recall=0.9782 loss_train=0.0012 loss_test=0.0101
+2026-08-12 23:19:41,298 | INFO | Model 1 | epoch=6 finished | elapsed=10.89s
+2026-08-12 23:19:41,433 | INFO | Model 1 | epoch=7 idx=0 | f1=0.9848 recall=0.9785 loss_train=0.0012 loss_test=0.0100
+2026-08-12 23:19:42,812 | INFO | Model 1 | epoch=7 finished | elapsed=12.40s
+2026-08-12 23:19:42,926 | INFO | Model 1 | epoch=8 idx=0 | f1=0.9837 recall=0.9755 loss_train=0.0014 loss_test=0.0108
+2026-08-12 23:19:42,927 | INFO | Model 1 | early stopping at epoch=8 idx=0
+2026-08-12 23:19:42,927 | INFO | Model 1 | epoch=8 finished | elapsed=12.52s
+2026-08-12 23:19:42,927 | INFO | Model 1 | training finished | total_elapsed=12.52s
+2026-08-12 23:19:43,172 | INFO | === New model #2 | batch_size=128, n_iter_no_change=5, tol=0.001, params={'alpha': 1e-06, 'class_weight': None, 'eta0': 0.001, 'learning_rate': 'optimal', 'loss': 'log_loss', 'penalty': 'l1'} ===
+2026-08-12 23:19:43,310 | INFO | Model 2 | epoch=0 idx=0 | f1=0.7273 recall=0.6569 loss_train=0.2013 loss_test=0.2012
+2026-08-12 23:19:46,326 | INFO | Model 2 | epoch=0 finished | elapsed=3.15s
+2026-08-12 23:19:46,486 | INFO | Model 2 | epoch=1 idx=0 | f1=0.9826 recall=0.9800 loss_train=0.0054 loss_test=0.0229
+2026-08-12 23:19:49,523 | INFO | Model 2 | epoch=1 finished | elapsed=6.35s
+2026-08-12 23:19:49,702 | INFO | Model 2 | epoch=2 idx=0 | f1=0.9844 recall=0.9818 loss_train=0.0019 loss_test=0.0204
+2026-08-12 23:19:52,710 | INFO | Model 2 | epoch=2 finished | elapsed=9.54s
+2026-08-12 23:19:52,841 | INFO | Model 2 | epoch=3 idx=0 | f1=0.9850 recall=0.9806 loss_train=0.0013 loss_test=0.0199
+2026-08-12 23:19:55,827 | INFO | Model 2 | epoch=3 finished | elapsed=12.65s
+2026-08-12 23:19:55,959 | INFO | Model 2 | epoch=4 idx=0 | f1=0.9845 recall=0.9797 loss_train=0.0011 loss_test=0.0197
+2026-08-12 23:19:59,069 | INFO | Model 2 | epoch=4 finished | elapsed=15.90s
+2026-08-12 23:19:59,205 | INFO | Model 2 | epoch=5 idx=0 | f1=0.9844 recall=0.9794 loss_train=0.0009 loss_test=0.0195
+2026-08-12 23:20:02,229 | INFO | Model 2 | epoch=5 finished | elapsed=19.06s
+2026-08-12 23:20:02,363 | INFO | Model 2 | epoch=6 idx=0 | f1=0.9842 recall=0.9794 loss_train=0.0009 loss_test=0.0195
+2026-08-12 23:20:05,343 | INFO | Model 2 | epoch=6 finished | elapsed=22.17s
+2026-08-12 23:20:05,480 | INFO | Model 2 | epoch=7 idx=0 | f1=0.9847 recall=0.9797 loss_train=0.0008 loss_test=0.0194
+2026-08-12 23:20:08,537 | INFO | Model 2 | epoch=7 finished | elapsed=25.36s
+2026-08-12 23:20:08,665 | INFO | Model 2 | epoch=8 idx=0 | f1=0.9845 recall=0.9794 loss_train=0.0008 loss_test=0.0194
+2026-08-12 23:20:08,665 | INFO | Model 2 | early stopping at epoch=8 idx=0
+2026-08-12 23:20:08,665 | INFO | Model 2 | epoch=8 finished | elapsed=25.49s
+2026-08-12 23:20:08,665 | INFO | Model 2 | training finished | total_elapsed=25.49s
+2026-08-12 23:20:08,859 | INFO | === New model #3 | batch_size=128, n_iter_no_change=5, tol=0.001, params={'alpha': 1e-06, 'class_weight': None, 'eta0': 0.001, 'learning_rate': 'optimal', 'loss': 'log_loss', 'penalty': 'l2'} ===
+2026-08-12 23:20:08,990 | INFO | Model 3 | epoch=0 idx=0 | f1=0.7278 recall=0.6569 loss_train=0.2012 loss_test=0.2011
+2026-08-12 23:20:10,493 | INFO | Model 3 | epoch=0 finished | elapsed=1.63s
+2026-08-12 23:20:10,618 | INFO | Model 3 | epoch=1 idx=0 | f1=0.9836 recall=0.9800 loss_train=0.0068 loss_test=0.0156
+2026-08-12 23:20:12,043 | INFO | Model 3 | epoch=1 finished | elapsed=3.18s
+2026-08-12 23:20:12,171 | INFO | Model 3 | epoch=2 idx=0 | f1=0.9840 recall=0.9758 loss_train=0.0039 loss_test=0.0123
+2026-08-12 23:20:13,749 | INFO | Model 3 | epoch=2 finished | elapsed=4.89s
+2026-08-12 23:20:13,876 | INFO | Model 3 | epoch=3 idx=0 | f1=0.9835 recall=0.9734 loss_train=0.0043 loss_test=0.0126
+2026-08-12 23:20:15,300 | INFO | Model 3 | epoch=3 finished | elapsed=6.44s
+2026-08-12 23:20:15,425 | INFO | Model 3 | epoch=4 idx=0 | f1=0.9832 recall=0.9725 loss_train=0.0046 loss_test=0.0128
+2026-08-12 23:20:16,854 | INFO | Model 3 | epoch=4 finished | elapsed=7.99s
+2026-08-12 23:20:16,988 | INFO | Model 3 | epoch=5 idx=0 | f1=0.9837 recall=0.9728 loss_train=0.0047 loss_test=0.0129
+2026-08-12 23:20:18,555 | INFO | Model 3 | epoch=5 finished | elapsed=9.70s
+2026-08-12 23:20:18,678 | INFO | Model 3 | epoch=6 idx=0 | f1=0.9840 recall=0.9725 loss_train=0.0048 loss_test=0.0129
+2026-08-12 23:20:20,080 | INFO | Model 3 | epoch=6 finished | elapsed=11.22s
+2026-08-12 23:20:20,211 | INFO | Model 3 | epoch=7 idx=0 | f1=0.9846 recall=0.9731 loss_train=0.0049 loss_test=0.0130
+2026-08-12 23:20:21,633 | INFO | Model 3 | epoch=7 finished | elapsed=12.77s
+2026-08-12 23:20:21,763 | INFO | Model 3 | epoch=8 idx=0 | f1=0.9844 recall=0.9728 loss_train=0.0049 loss_test=0.0130
+2026-08-12 23:20:21,763 | INFO | Model 3 | early stopping at epoch=8 idx=0
+2026-08-12 23:20:21,763 | INFO | Model 3 | epoch=8 finished | elapsed=12.90s
+2026-08-12 23:20:21,763 | INFO | Model 3 | training finished | total_elapsed=12.90s
+2026-08-12 23:20:21,991 | INFO | === New model #4 | batch_size=128, n_iter_no_change=5, tol=0.001, params={'alpha': 1e-06, 'class_weight': None, 'eta0': 0.0001, 'learning_rate': 'optimal', 'loss': 'hinge', 'penalty': 'l1'} ===
+2026-08-12 23:20:22,120 | INFO | Model 4 | epoch=0 idx=0 | f1=0.6445 recall=0.6584 loss_train=0.3407 loss_test=0.3459
+2026-08-12 23:20:25,009 | INFO | Model 4 | epoch=0 finished | elapsed=3.02s
+2026-08-12 23:20:25,128 | INFO | Model 4 | epoch=1 idx=0 | f1=0.9804 recall=0.9776 loss_train=0.0125 loss_test=0.0380
+2026-08-12 23:20:27,940 | INFO | Model 4 | epoch=1 finished | elapsed=5.95s
+2026-08-12 23:20:28,101 | INFO | Model 4 | epoch=2 idx=0 | f1=0.9823 recall=0.9797 loss_train=0.0034 loss_test=0.0310
+2026-08-12 23:20:30,998 | INFO | Model 4 | epoch=2 finished | elapsed=9.01s
+2026-08-12 23:20:31,120 | INFO | Model 4 | epoch=3 idx=0 | f1=0.9827 recall=0.9764 loss_train=0.0023 loss_test=0.0309
+2026-08-12 23:20:34,016 | INFO | Model 4 | epoch=3 finished | elapsed=12.02s
+2026-08-12 23:20:34,142 | INFO | Model 4 | epoch=4 idx=0 | f1=0.9838 recall=0.9791 loss_train=0.0012 loss_test=0.0295
+2026-08-12 23:20:37,018 | INFO | Model 4 | epoch=4 finished | elapsed=15.03s
+2026-08-12 23:20:37,136 | INFO | Model 4 | epoch=5 idx=0 | f1=0.9836 recall=0.9788 loss_train=0.0010 loss_test=0.0293
+2026-08-12 23:20:40,023 | INFO | Model 4 | epoch=5 finished | elapsed=18.03s
+2026-08-12 23:20:40,143 | INFO | Model 4 | epoch=6 idx=0 | f1=0.9830 recall=0.9785 loss_train=0.0008 loss_test=0.0293
+2026-08-12 23:20:42,960 | INFO | Model 4 | epoch=6 finished | elapsed=20.97s
+2026-08-12 23:20:43,079 | INFO | Model 4 | epoch=7 idx=0 | f1=0.9832 recall=0.9788 loss_train=0.0008 loss_test=0.0293
+2026-08-12 23:20:46,030 | INFO | Model 4 | epoch=7 finished | elapsed=24.04s
+2026-08-12 23:20:46,144 | INFO | Model 4 | epoch=8 idx=0 | f1=0.9833 recall=0.9785 loss_train=0.0007 loss_test=0.0293
+2026-08-12 23:20:49,114 | INFO | Model 4 | epoch=8 finished | elapsed=27.12s
+2026-08-12 23:20:49,239 | INFO | Model 4 | epoch=9 idx=0 | f1=0.9830 recall=0.9791 loss_train=0.0007 loss_test=0.0294
+2026-08-12 23:20:52,173 | INFO | Model 4 | epoch=9 finished | elapsed=30.18s
+2026-08-12 23:20:52,293 | INFO | Model 4 | epoch=10 idx=0 | f1=0.9829 recall=0.9788 loss_train=0.0006 loss_test=0.0294
+2026-08-12 23:20:52,293 | INFO | Model 4 | early stopping at epoch=10 idx=0
+2026-08-12 23:20:52,293 | INFO | Model 4 | epoch=10 finished | elapsed=30.30s
+2026-08-12 23:20:52,293 | INFO | Model 4 | training finished | total_elapsed=30.30s
+2026-08-12 23:20:52,474 | INFO | === New model #5 | batch_size=128, n_iter_no_change=5, tol=0.001, params={'alpha': 1e-06, 'class_weight': None, 'eta0': 0.0001, 'learning_rate': 'optimal', 'loss': 'hinge', 'penalty': 'l2'} ===
+2026-08-12 23:20:52,587 | INFO | Model 5 | epoch=0 idx=0 | f1=0.6441 recall=0.6578 loss_train=0.3403 loss_test=0.3455
+2026-08-12 23:20:53,991 | INFO | Model 5 | epoch=0 finished | elapsed=1.52s
+2026-08-12 23:20:54,149 | INFO | Model 5 | epoch=1 idx=0 | f1=0.9796 recall=0.9782 loss_train=0.0115 loss_test=0.0238
+2026-08-12 23:20:55,573 | INFO | Model 5 | epoch=1 finished | elapsed=3.10s
+2026-08-12 23:20:55,685 | INFO | Model 5 | epoch=2 idx=0 | f1=0.9846 recall=0.9821 loss_train=0.0037 loss_test=0.0131
+2026-08-12 23:20:57,046 | INFO | Model 5 | epoch=2 finished | elapsed=4.57s
+2026-08-12 23:20:57,158 | INFO | Model 5 | epoch=3 idx=0 | f1=0.9837 recall=0.9752 loss_train=0.0033 loss_test=0.0133
+2026-08-12 23:20:58,559 | INFO | Model 5 | epoch=3 finished | elapsed=6.08s
+2026-08-12 23:20:58,677 | INFO | Model 5 | epoch=4 idx=0 | f1=0.9833 recall=0.9758 loss_train=0.0024 loss_test=0.0124
+2026-08-12 23:21:00,189 | INFO | Model 5 | epoch=4 finished | elapsed=7.71s
+2026-08-12 23:21:00,311 | INFO | Model 5 | epoch=5 idx=0 | f1=0.9834 recall=0.9764 loss_train=0.0016 loss_test=0.0109
+2026-08-12 23:21:01,732 | INFO | Model 5 | epoch=5 finished | elapsed=9.26s
+2026-08-12 23:21:01,855 | INFO | Model 5 | epoch=6 idx=0 | f1=0.9861 recall=0.9782 loss_train=0.0012 loss_test=0.0101
+2026-08-12 23:21:03,212 | INFO | Model 5 | epoch=6 finished | elapsed=10.74s
+2026-08-12 23:21:03,328 | INFO | Model 5 | epoch=7 idx=0 | f1=0.9848 recall=0.9785 loss_train=0.0012 loss_test=0.0100
+2026-08-12 23:21:04,772 | INFO | Model 5 | epoch=7 finished | elapsed=12.30s
+2026-08-12 23:21:04,891 | INFO | Model 5 | epoch=8 idx=0 | f1=0.9837 recall=0.9755 loss_train=0.0014 loss_test=0.0108
+2026-08-12 23:21:04,892 | INFO | Model 5 | early stopping at epoch=8 idx=0
+2026-08-12 23:21:04,892 | INFO | Model 5 | epoch=8 finished | elapsed=12.42s
+2026-08-12 23:21:04,892 | INFO | Model 5 | training finished | total_elapsed=12.42s
+2026-08-12 23:21:05,125 | INFO | === New model #6 | batch_size=128, n_iter_no_change=5, tol=0.001, params={'alpha': 1e-06, 'class_weight': None, 'eta0': 0.0001, 'learning_rate': 'optimal', 'loss': 'log_loss', 'penalty': 'l1'} ===
+2026-08-12 23:21:05,251 | INFO | Model 6 | epoch=0 idx=0 | f1=0.7273 recall=0.6569 loss_train=0.2013 loss_test=0.2012
+2026-08-12 23:21:08,182 | INFO | Model 6 | epoch=0 finished | elapsed=3.06s
+2026-08-12 23:21:08,318 | INFO | Model 6 | epoch=1 idx=0 | f1=0.9826 recall=0.9800 loss_train=0.0054 loss_test=0.0229
+2026-08-12 23:21:11,307 | INFO | Model 6 | epoch=1 finished | elapsed=6.18s
+2026-08-12 23:21:11,447 | INFO | Model 6 | epoch=2 idx=0 | f1=0.9844 recall=0.9818 loss_train=0.0019 loss_test=0.0204
+2026-08-12 23:21:14,417 | INFO | Model 6 | epoch=2 finished | elapsed=9.29s
+2026-08-12 23:21:14,544 | INFO | Model 6 | epoch=3 idx=0 | f1=0.9850 recall=0.9806 loss_train=0.0013 loss_test=0.0199
+2026-08-12 23:21:17,660 | INFO | Model 6 | epoch=3 finished | elapsed=12.53s
+2026-08-12 23:21:17,788 | INFO | Model 6 | epoch=4 idx=0 | f1=0.9845 recall=0.9797 loss_train=0.0011 loss_test=0.0197
+2026-08-12 23:21:20,832 | INFO | Model 6 | epoch=4 finished | elapsed=15.71s
+2026-08-12 23:21:20,971 | INFO | Model 6 | epoch=5 idx=0 | f1=0.9844 recall=0.9794 loss_train=0.0009 loss_test=0.0195
+2026-08-12 23:21:23,975 | INFO | Model 6 | epoch=5 finished | elapsed=18.85s
+2026-08-12 23:21:24,104 | INFO | Model 6 | epoch=6 idx=0 | f1=0.9842 recall=0.9794 loss_train=0.0009 loss_test=0.0195
+2026-08-12 23:21:27,208 | INFO | Model 6 | epoch=6 finished | elapsed=22.08s
+2026-08-12 23:21:27,346 | INFO | Model 6 | epoch=7 idx=0 | f1=0.9847 recall=0.9797 loss_train=0.0008 loss_test=0.0194
+2026-08-12 23:21:30,318 | INFO | Model 6 | epoch=7 finished | elapsed=25.19s
+2026-08-12 23:21:30,450 | INFO | Model 6 | epoch=8 idx=0 | f1=0.9845 recall=0.9794 loss_train=0.0008 loss_test=0.0194
+2026-08-12 23:21:30,450 | INFO | Model 6 | early stopping at epoch=8 idx=0
+2026-08-12 23:21:30,450 | INFO | Model 6 | epoch=8 finished | elapsed=25.32s
+2026-08-12 23:21:30,451 | INFO | Model 6 | training finished | total_elapsed=25.32s
+2026-08-12 23:21:30,815 | INFO | === New model #7 | batch_size=128, n_iter_no_change=5, tol=0.001, params={'alpha': 1e-06, 'class_weight': None, 'eta0': 0.0001, 'learning_rate': 'optimal', 'loss': 'log_loss', 'penalty': 'l2'} ===
+2026-08-12 23:21:30,946 | INFO | Model 7 | epoch=0 idx=0 | f1=0.7278 recall=0.6569 loss_train=0.2012 loss_test=0.2011
+2026-08-12 23:21:32,491 | INFO | Model 7 | epoch=0 finished | elapsed=1.68s
+2026-08-12 23:21:32,616 | INFO | Model 7 | epoch=1 idx=0 | f1=0.9836 recall=0.9800 loss_train=0.0068 loss_test=0.0156
+2026-08-12 23:21:34,041 | INFO | Model 7 | epoch=1 finished | elapsed=3.22s
+2026-08-12 23:21:34,171 | INFO | Model 7 | epoch=2 idx=0 | f1=0.9840 recall=0.9758 loss_train=0.0039 loss_test=0.0123
+2026-08-12 23:21:35,601 | INFO | Model 7 | epoch=2 finished | elapsed=4.79s
+2026-08-12 23:21:35,782 | INFO | Model 7 | epoch=3 idx=0 | f1=0.9835 recall=0.9734 loss_train=0.0043 loss_test=0.0126
+2026-08-12 23:21:37,397 | INFO | Model 7 | epoch=3 finished | elapsed=6.58s
+2026-08-12 23:21:37,523 | INFO | Model 7 | epoch=4 idx=0 | f1=0.9832 recall=0.9725 loss_train=0.0046 loss_test=0.0128
+2026-08-12 23:21:38,965 | INFO | Model 7 | epoch=4 finished | elapsed=8.15s
+2026-08-12 23:21:39,089 | INFO | Model 7 | epoch=5 idx=0 | f1=0.9837 recall=0.9728 loss_train=0.0047 loss_test=0.0129
+2026-08-12 23:21:40,507 | INFO | Model 7 | epoch=5 finished | elapsed=9.69s
+2026-08-12 23:21:40,634 | INFO | Model 7 | epoch=6 idx=0 | f1=0.9840 recall=0.9725 loss_train=0.0048 loss_test=0.0129
+2026-08-12 23:21:42,191 | INFO | Model 7 | epoch=6 finished | elapsed=11.38s
+2026-08-12 23:21:42,329 | INFO | Model 7 | epoch=7 idx=0 | f1=0.9846 recall=0.9731 loss_train=0.0049 loss_test=0.0130
+2026-08-12 23:21:43,778 | INFO | Model 7 | epoch=7 finished | elapsed=12.96s
+2026-08-12 23:21:43,900 | INFO | Model 7 | epoch=8 idx=0 | f1=0.9844 recall=0.9728 loss_train=0.0049 loss_test=0.0130
+2026-08-12 23:21:43,900 | INFO | Model 7 | early stopping at epoch=8 idx=0
+2026-08-12 23:21:43,901 | INFO | Model 7 | epoch=8 finished | elapsed=13.08s
+2026-08-12 23:21:43,901 | INFO | Model 7 | training finished | total_elapsed=13.08s
+2026-08-12 23:21:44,092 | INFO | === New model #8 | batch_size=128, n_iter_no_change=5, tol=0.001, params={'alpha': 1e-06, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'eta0': 0.001, 'learning_rate': 'optimal', 'loss': 'hinge', 'penalty': 'l1'} ===
+2026-08-12 23:21:44,214 | INFO | Model 8 | epoch=0 idx=0 | f1=0.5599 recall=0.8549 loss_train=1.1705 loss_test=1.1894
+2026-08-12 23:21:47,216 | INFO | Model 8 | epoch=0 finished | elapsed=3.12s
+2026-08-12 23:21:47,342 | INFO | Model 8 | epoch=1 idx=0 | f1=0.9537 recall=0.9868 loss_train=0.0890 loss_test=0.1664
+2026-08-12 23:21:50,219 | INFO | Model 8 | epoch=1 finished | elapsed=6.13s
+2026-08-12 23:21:50,339 | INFO | Model 8 | epoch=2 idx=0 | f1=0.9676 recall=0.9868 loss_train=0.0392 loss_test=0.1122
+2026-08-12 23:21:53,329 | INFO | Model 8 | epoch=2 finished | elapsed=9.24s
+2026-08-12 23:21:53,456 | INFO | Model 8 | epoch=3 idx=0 | f1=0.9731 recall=0.9841 loss_train=0.0268 loss_test=0.0991
+2026-08-12 23:21:56,349 | INFO | Model 8 | epoch=3 finished | elapsed=12.26s
+2026-08-12 23:21:56,472 | INFO | Model 8 | epoch=4 idx=0 | f1=0.9751 recall=0.9841 loss_train=0.0221 loss_test=0.0943
+2026-08-12 23:21:59,559 | INFO | Model 8 | epoch=4 finished | elapsed=15.47s
+2026-08-12 23:21:59,678 | INFO | Model 8 | epoch=5 idx=0 | f1=0.9760 recall=0.9838 loss_train=0.0184 loss_test=0.0912
+2026-08-12 23:22:02,594 | INFO | Model 8 | epoch=5 finished | elapsed=18.50s
+2026-08-12 23:22:02,713 | INFO | Model 8 | epoch=6 idx=0 | f1=0.9761 recall=0.9841 loss_train=0.0170 loss_test=0.0907
+2026-08-12 23:22:05,704 | INFO | Model 8 | epoch=6 finished | elapsed=21.61s
+2026-08-12 23:22:05,824 | INFO | Model 8 | epoch=7 idx=0 | f1=0.9745 recall=0.9832 loss_train=0.0160 loss_test=0.0907
+2026-08-12 23:22:08,732 | INFO | Model 8 | epoch=7 finished | elapsed=24.64s
+2026-08-12 23:22:08,848 | INFO | Model 8 | epoch=8 idx=0 | f1=0.9756 recall=0.9824 loss_train=0.0143 loss_test=0.0889
+2026-08-12 23:22:11,822 | INFO | Model 8 | epoch=8 finished | elapsed=27.73s
+2026-08-12 23:22:11,941 | INFO | Model 8 | epoch=9 idx=0 | f1=0.9761 recall=0.9827 loss_train=0.0131 loss_test=0.0876
+2026-08-12 23:22:14,897 | INFO | Model 8 | epoch=9 finished | elapsed=30.81s
+2026-08-12 23:22:15,023 | INFO | Model 8 | epoch=10 idx=0 | f1=0.9762 recall=0.9818 loss_train=0.0116 loss_test=0.0865
+2026-08-12 23:22:17,956 | INFO | Model 8 | epoch=10 finished | elapsed=33.86s
+2026-08-12 23:22:18,072 | INFO | Model 8 | epoch=11 idx=0 | f1=0.9769 recall=0.9818 loss_train=0.0112 loss_test=0.0856
+2026-08-12 23:22:20,983 | INFO | Model 8 | epoch=11 finished | elapsed=36.89s
+2026-08-12 23:22:21,101 | INFO | Model 8 | epoch=12 idx=0 | f1=0.9766 recall=0.9818 loss_train=0.0108 loss_test=0.0853
+2026-08-12 23:22:24,061 | INFO | Model 8 | epoch=12 finished | elapsed=39.97s
+2026-08-12 23:22:24,190 | INFO | Model 8 | epoch=13 idx=0 | f1=0.9769 recall=0.9815 loss_train=0.0096 loss_test=0.0843
+2026-08-12 23:22:27,055 | INFO | Model 8 | epoch=13 finished | elapsed=42.96s
+2026-08-12 23:22:27,177 | INFO | Model 8 | epoch=14 idx=0 | f1=0.9772 recall=0.9809 loss_train=0.0093 loss_test=0.0837
+2026-08-12 23:22:30,184 | INFO | Model 8 | epoch=14 finished | elapsed=46.09s
+2026-08-12 23:22:30,302 | INFO | Model 8 | epoch=15 idx=0 | f1=0.9773 recall=0.9809 loss_train=0.0087 loss_test=0.0831
+2026-08-12 23:22:33,163 | INFO | Model 8 | epoch=15 finished | elapsed=49.07s
+2026-08-12 23:22:33,292 | INFO | Model 8 | epoch=16 idx=0 | f1=0.9776 recall=0.9809 loss_train=0.0085 loss_test=0.0831
+2026-08-12 23:22:36,197 | INFO | Model 8 | epoch=16 finished | elapsed=52.11s
+2026-08-12 23:22:36,313 | INFO | Model 8 | epoch=17 idx=0 | f1=0.9779 recall=0.9803 loss_train=0.0081 loss_test=0.0828
+2026-08-12 23:22:39,147 | INFO | Model 8 | epoch=17 finished | elapsed=55.05s
+2026-08-12 23:22:39,263 | INFO | Model 8 | epoch=18 idx=0 | f1=0.9778 recall=0.9797 loss_train=0.0077 loss_test=0.0823
+2026-08-12 23:22:42,271 | INFO | Model 8 | epoch=18 finished | elapsed=58.18s
+2026-08-12 23:22:42,397 | INFO | Model 8 | epoch=19 idx=0 | f1=0.9785 recall=0.9800 loss_train=0.0073 loss_test=0.0820
+2026-08-12 23:22:42,397 | INFO | Model 8 | early stopping at epoch=19 idx=0
+2026-08-12 23:22:42,397 | INFO | Model 8 | epoch=19 finished | elapsed=58.30s
+2026-08-12 23:22:42,397 | INFO | Model 8 | training finished | total_elapsed=58.31s
+2026-08-12 23:22:42,576 | INFO | === New model #9 | batch_size=128, n_iter_no_change=5, tol=0.001, params={'alpha': 1e-06, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'eta0': 0.001, 'learning_rate': 'optimal', 'loss': 'hinge', 'penalty': 'l2'} ===
+2026-08-12 23:22:42,706 | INFO | Model 9 | epoch=0 idx=0 | f1=0.5600 recall=0.8546 loss_train=1.1651 loss_test=1.1840
+2026-08-12 23:22:44,114 | INFO | Model 9 | epoch=0 finished | elapsed=1.54s
+2026-08-12 23:22:44,232 | INFO | Model 9 | epoch=1 idx=0 | f1=0.9515 recall=0.9868 loss_train=0.0544 loss_test=0.0907
+2026-08-12 23:22:45,770 | INFO | Model 9 | epoch=1 finished | elapsed=3.19s
+2026-08-12 23:22:45,888 | INFO | Model 9 | epoch=2 idx=0 | f1=0.9661 recall=0.9859 loss_train=0.0201 loss_test=0.0432
+2026-08-12 23:22:47,308 | INFO | Model 9 | epoch=2 finished | elapsed=4.73s
+2026-08-12 23:22:47,432 | INFO | Model 9 | epoch=3 idx=0 | f1=0.9766 recall=0.9850 loss_train=0.0103 loss_test=0.0262
+2026-08-12 23:22:48,817 | INFO | Model 9 | epoch=3 finished | elapsed=6.24s
+2026-08-12 23:22:48,939 | INFO | Model 9 | epoch=4 idx=0 | f1=0.9766 recall=0.9841 loss_train=0.0060 loss_test=0.0215
+2026-08-12 23:22:50,455 | INFO | Model 9 | epoch=4 finished | elapsed=7.88s
+2026-08-12 23:22:50,574 | INFO | Model 9 | epoch=5 idx=0 | f1=0.9777 recall=0.9838 loss_train=0.0043 loss_test=0.0190
+2026-08-12 23:22:51,956 | INFO | Model 9 | epoch=5 finished | elapsed=9.38s
+2026-08-12 23:22:52,075 | INFO | Model 9 | epoch=6 idx=0 | f1=0.9818 recall=0.9818 loss_train=0.0028 loss_test=0.0150
+2026-08-12 23:22:53,464 | INFO | Model 9 | epoch=6 finished | elapsed=10.89s
+2026-08-12 23:22:53,589 | INFO | Model 9 | epoch=7 idx=0 | f1=0.9811 recall=0.9847 loss_train=0.0029 loss_test=0.0154
+2026-08-12 23:22:55,121 | INFO | Model 9 | epoch=7 finished | elapsed=12.54s
+2026-08-12 23:22:55,241 | INFO | Model 9 | epoch=8 idx=0 | f1=0.9809 recall=0.9829 loss_train=0.0023 loss_test=0.0141
+2026-08-12 23:22:56,598 | INFO | Model 9 | epoch=8 finished | elapsed=14.02s
+2026-08-12 23:22:56,712 | INFO | Model 9 | epoch=9 idx=0 | f1=0.9804 recall=0.9850 loss_train=0.0030 loss_test=0.0148
+2026-08-12 23:22:58,123 | INFO | Model 9 | epoch=9 finished | elapsed=15.55s
+2026-08-12 23:22:58,279 | INFO | Model 9 | epoch=10 idx=0 | f1=0.9827 recall=0.9853 loss_train=0.0023 loss_test=0.0135
+2026-08-12 23:22:59,745 | INFO | Model 9 | epoch=10 finished | elapsed=17.17s
+2026-08-12 23:22:59,862 | INFO | Model 9 | epoch=11 idx=0 | f1=0.9825 recall=0.9844 loss_train=0.0020 loss_test=0.0126
+2026-08-12 23:23:01,326 | INFO | Model 9 | epoch=11 finished | elapsed=18.75s
+2026-08-12 23:23:01,452 | INFO | Model 9 | epoch=12 idx=0 | f1=0.9824 recall=0.9853 loss_train=0.0022 loss_test=0.0127
+2026-08-12 23:23:01,452 | INFO | Model 9 | early stopping at epoch=12 idx=0
+2026-08-12 23:23:01,452 | INFO | Model 9 | epoch=12 finished | elapsed=18.88s
+2026-08-12 23:23:01,452 | INFO | Model 9 | training finished | total_elapsed=18.88s
+2026-08-12 23:23:01,620 | INFO | === New model #10 | batch_size=128, n_iter_no_change=5, tol=0.001, params={'alpha': 1e-06, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'eta0': 0.001, 'learning_rate': 'optimal', 'loss': 'log_loss', 'penalty': 'l1'} ===
+2026-08-12 23:23:01,758 | INFO | Model 10 | epoch=0 idx=0 | f1=0.5855 recall=0.8229 loss_train=0.7190 loss_test=0.7234
+2026-08-12 23:23:04,705 | INFO | Model 10 | epoch=0 finished | elapsed=3.09s
+2026-08-12 23:23:04,842 | INFO | Model 10 | epoch=1 idx=0 | f1=0.9543 recall=0.9880 loss_train=0.0675 loss_test=0.1256
+2026-08-12 23:23:07,904 | INFO | Model 10 | epoch=1 finished | elapsed=6.28s
+2026-08-12 23:23:08,039 | INFO | Model 10 | epoch=2 idx=0 | f1=0.9731 recall=0.9862 loss_train=0.0237 loss_test=0.0765
+2026-08-12 23:23:11,072 | INFO | Model 10 | epoch=2 finished | elapsed=9.45s
+2026-08-12 23:23:11,214 | INFO | Model 10 | epoch=3 idx=0 | f1=0.9773 recall=0.9838 loss_train=0.0157 loss_test=0.0716
+2026-08-12 23:23:14,177 | INFO | Model 10 | epoch=3 finished | elapsed=12.56s
+2026-08-12 23:23:14,328 | INFO | Model 10 | epoch=4 idx=0 | f1=0.9765 recall=0.9829 loss_train=0.0123 loss_test=0.0694
+2026-08-12 23:23:17,340 | INFO | Model 10 | epoch=4 finished | elapsed=15.72s
+2026-08-12 23:23:17,471 | INFO | Model 10 | epoch=5 idx=0 | f1=0.9768 recall=0.9818 loss_train=0.0099 loss_test=0.0679
+2026-08-12 23:23:20,425 | INFO | Model 10 | epoch=5 finished | elapsed=18.80s
+2026-08-12 23:23:20,557 | INFO | Model 10 | epoch=6 idx=0 | f1=0.9775 recall=0.9809 loss_train=0.0085 loss_test=0.0664
+2026-08-12 23:23:23,577 | INFO | Model 10 | epoch=6 finished | elapsed=21.96s
+2026-08-12 23:23:23,715 | INFO | Model 10 | epoch=7 idx=0 | f1=0.9768 recall=0.9803 loss_train=0.0080 loss_test=0.0658
+2026-08-12 23:23:26,781 | INFO | Model 10 | epoch=7 finished | elapsed=25.16s
+2026-08-12 23:23:26,915 | INFO | Model 10 | epoch=8 idx=0 | f1=0.9770 recall=0.9797 loss_train=0.0071 loss_test=0.0649
+2026-08-12 23:23:29,898 | INFO | Model 10 | epoch=8 finished | elapsed=28.28s
+2026-08-12 23:23:30,032 | INFO | Model 10 | epoch=9 idx=0 | f1=0.9770 recall=0.9794 loss_train=0.0066 loss_test=0.0644
+2026-08-12 23:23:33,105 | INFO | Model 10 | epoch=9 finished | elapsed=31.48s
+2026-08-12 23:23:33,249 | INFO | Model 10 | epoch=10 idx=0 | f1=0.9770 recall=0.9794 loss_train=0.0061 loss_test=0.0638
+2026-08-12 23:23:36,168 | INFO | Model 10 | epoch=10 finished | elapsed=34.55s
+2026-08-12 23:23:36,315 | INFO | Model 10 | epoch=11 idx=0 | f1=0.9772 recall=0.9794 loss_train=0.0057 loss_test=0.0634
+2026-08-12 23:23:39,389 | INFO | Model 10 | epoch=11 finished | elapsed=37.77s
+2026-08-12 23:23:39,526 | INFO | Model 10 | epoch=12 idx=0 | f1=0.9772 recall=0.9791 loss_train=0.0055 loss_test=0.0631
+2026-08-12 23:23:39,526 | INFO | Model 10 | early stopping at epoch=12 idx=0
+2026-08-12 23:23:39,526 | INFO | Model 10 | epoch=12 finished | elapsed=37.91s
+2026-08-12 23:23:39,526 | INFO | Model 10 | training finished | total_elapsed=37.91s
+2026-08-12 23:23:39,702 | INFO | === New model #11 | batch_size=128, n_iter_no_change=5, tol=0.001, params={'alpha': 1e-06, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'eta0': 0.001, 'learning_rate': 'optimal', 'loss': 'log_loss', 'penalty': 'l2'} ===
+2026-08-12 23:23:39,826 | INFO | Model 11 | epoch=0 idx=0 | f1=0.5856 recall=0.8229 loss_train=0.7167 loss_test=0.7211
+2026-08-12 23:23:41,272 | INFO | Model 11 | epoch=0 finished | elapsed=1.57s
+2026-08-12 23:23:41,403 | INFO | Model 11 | epoch=1 idx=0 | f1=0.9667 recall=0.9853 loss_train=0.0305 loss_test=0.0560
+2026-08-12 23:23:43,001 | INFO | Model 11 | epoch=1 finished | elapsed=3.30s
+2026-08-12 23:23:43,134 | INFO | Model 11 | epoch=2 idx=0 | f1=0.9795 recall=0.9838 loss_train=0.0089 loss_test=0.0240
+2026-08-12 23:23:44,560 | INFO | Model 11 | epoch=2 finished | elapsed=4.86s
+2026-08-12 23:23:44,689 | INFO | Model 11 | epoch=3 idx=0 | f1=0.9818 recall=0.9847 loss_train=0.0044 loss_test=0.0167
+2026-08-12 23:23:46,106 | INFO | Model 11 | epoch=3 finished | elapsed=6.40s
+2026-08-12 23:23:46,238 | INFO | Model 11 | epoch=4 idx=0 | f1=0.9842 recall=0.9853 loss_train=0.0037 loss_test=0.0138
+2026-08-12 23:23:47,802 | INFO | Model 11 | epoch=4 finished | elapsed=8.10s
+2026-08-12 23:23:47,936 | INFO | Model 11 | epoch=5 idx=0 | f1=0.9842 recall=0.9847 loss_train=0.0043 loss_test=0.0136
+2026-08-12 23:23:49,358 | INFO | Model 11 | epoch=5 finished | elapsed=9.66s
+2026-08-12 23:23:49,491 | INFO | Model 11 | epoch=6 idx=0 | f1=0.9850 recall=0.9850 loss_train=0.0043 loss_test=0.0130
+2026-08-12 23:23:50,993 | INFO | Model 11 | epoch=6 finished | elapsed=11.29s
+2026-08-12 23:23:51,125 | INFO | Model 11 | epoch=7 idx=0 | f1=0.9855 recall=0.9850 loss_train=0.0045 loss_test=0.0130
+2026-08-12 23:23:52,645 | INFO | Model 11 | epoch=7 finished | elapsed=12.94s
+2026-08-12 23:23:52,773 | INFO | Model 11 | epoch=8 idx=0 | f1=0.9864 recall=0.9853 loss_train=0.0047 loss_test=0.0130
+2026-08-12 23:23:54,191 | INFO | Model 11 | epoch=8 finished | elapsed=14.49s
+2026-08-12 23:23:54,320 | INFO | Model 11 | epoch=9 idx=0 | f1=0.9865 recall=0.9853 loss_train=0.0049 loss_test=0.0130
+2026-08-12 23:23:54,320 | INFO | Model 11 | early stopping at epoch=9 idx=0
+2026-08-12 23:23:54,320 | INFO | Model 11 | epoch=9 finished | elapsed=14.62s
+2026-08-12 23:23:54,320 | INFO | Model 11 | training finished | total_elapsed=14.62s
+2026-08-12 23:23:54,528 | INFO | === New model #12 | batch_size=128, n_iter_no_change=5, tol=0.001, params={'alpha': 1e-06, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'eta0': 0.0001, 'learning_rate': 'optimal', 'loss': 'hinge', 'penalty': 'l1'} ===
+2026-08-12 23:23:54,648 | INFO | Model 12 | epoch=0 idx=0 | f1=0.5599 recall=0.8549 loss_train=1.1705 loss_test=1.1894
+2026-08-12 23:23:57,651 | INFO | Model 12 | epoch=0 finished | elapsed=3.12s
+2026-08-12 23:23:57,773 | INFO | Model 12 | epoch=1 idx=0 | f1=0.9537 recall=0.9868 loss_train=0.0890 loss_test=0.1664
+2026-08-12 23:24:00,662 | INFO | Model 12 | epoch=1 finished | elapsed=6.13s
+2026-08-12 23:24:00,780 | INFO | Model 12 | epoch=2 idx=0 | f1=0.9676 recall=0.9868 loss_train=0.0392 loss_test=0.1122
+2026-08-12 23:24:03,960 | INFO | Model 12 | epoch=2 finished | elapsed=9.43s
+2026-08-12 23:24:04,091 | INFO | Model 12 | epoch=3 idx=0 | f1=0.9731 recall=0.9841 loss_train=0.0268 loss_test=0.0991
+2026-08-12 23:24:06,935 | INFO | Model 12 | epoch=3 finished | elapsed=12.41s
+2026-08-12 23:24:07,049 | INFO | Model 12 | epoch=4 idx=0 | f1=0.9751 recall=0.9841 loss_train=0.0221 loss_test=0.0943
+2026-08-12 23:24:10,025 | INFO | Model 12 | epoch=4 finished | elapsed=15.50s
+2026-08-12 23:24:10,148 | INFO | Model 12 | epoch=5 idx=0 | f1=0.9760 recall=0.9838 loss_train=0.0184 loss_test=0.0912
+2026-08-12 23:24:13,061 | INFO | Model 12 | epoch=5 finished | elapsed=18.53s
+2026-08-12 23:24:13,181 | INFO | Model 12 | epoch=6 idx=0 | f1=0.9761 recall=0.9841 loss_train=0.0170 loss_test=0.0907
+2026-08-12 23:24:16,078 | INFO | Model 12 | epoch=6 finished | elapsed=21.55s
+2026-08-12 23:24:16,197 | INFO | Model 12 | epoch=7 idx=0 | f1=0.9745 recall=0.9832 loss_train=0.0160 loss_test=0.0907
+2026-08-12 23:24:19,116 | INFO | Model 12 | epoch=7 finished | elapsed=24.59s
+2026-08-12 23:24:19,234 | INFO | Model 12 | epoch=8 idx=0 | f1=0.9756 recall=0.9824 loss_train=0.0143 loss_test=0.0889
+2026-08-12 23:24:22,173 | INFO | Model 12 | epoch=8 finished | elapsed=27.65s
+2026-08-12 23:24:22,292 | INFO | Model 12 | epoch=9 idx=0 | f1=0.9761 recall=0.9827 loss_train=0.0131 loss_test=0.0876
+2026-08-12 23:24:25,241 | INFO | Model 12 | epoch=9 finished | elapsed=30.71s
+2026-08-12 23:24:25,356 | INFO | Model 12 | epoch=10 idx=0 | f1=0.9762 recall=0.9818 loss_train=0.0116 loss_test=0.0865
+2026-08-12 23:24:28,198 | INFO | Model 12 | epoch=10 finished | elapsed=33.67s
+2026-08-12 23:24:28,312 | INFO | Model 12 | epoch=11 idx=0 | f1=0.9769 recall=0.9818 loss_train=0.0112 loss_test=0.0856
+2026-08-12 23:24:31,321 | INFO | Model 12 | epoch=11 finished | elapsed=36.79s
+2026-08-12 23:24:31,437 | INFO | Model 12 | epoch=12 idx=0 | f1=0.9766 recall=0.9818 loss_train=0.0108 loss_test=0.0853
+2026-08-12 23:24:34,375 | INFO | Model 12 | epoch=12 finished | elapsed=39.85s
+2026-08-12 23:24:34,491 | INFO | Model 12 | epoch=13 idx=0 | f1=0.9769 recall=0.9815 loss_train=0.0096 loss_test=0.0843
+2026-08-12 23:24:37,394 | INFO | Model 12 | epoch=13 finished | elapsed=42.87s
+2026-08-12 23:24:37,508 | INFO | Model 12 | epoch=14 idx=0 | f1=0.9772 recall=0.9809 loss_train=0.0093 loss_test=0.0837
+2026-08-12 23:24:40,462 | INFO | Model 12 | epoch=14 finished | elapsed=45.93s
+2026-08-12 23:24:40,583 | INFO | Model 12 | epoch=15 idx=0 | f1=0.9773 recall=0.9809 loss_train=0.0087 loss_test=0.0831
+2026-08-12 23:24:43,470 | INFO | Model 12 | epoch=15 finished | elapsed=48.94s
+2026-08-12 23:24:43,585 | INFO | Model 12 | epoch=16 idx=0 | f1=0.9776 recall=0.9809 loss_train=0.0085 loss_test=0.0831
+2026-08-12 23:24:46,578 | INFO | Model 12 | epoch=16 finished | elapsed=52.05s
+2026-08-12 23:24:46,695 | INFO | Model 12 | epoch=17 idx=0 | f1=0.9779 recall=0.9803 loss_train=0.0081 loss_test=0.0828
+2026-08-12 23:24:49,762 | INFO | Model 12 | epoch=17 finished | elapsed=55.23s
+2026-08-12 23:24:49,879 | INFO | Model 12 | epoch=18 idx=0 | f1=0.9778 recall=0.9797 loss_train=0.0077 loss_test=0.0823
+2026-08-12 23:24:52,710 | INFO | Model 12 | epoch=18 finished | elapsed=58.18s
+2026-08-12 23:24:52,830 | INFO | Model 12 | epoch=19 idx=0 | f1=0.9785 recall=0.9800 loss_train=0.0073 loss_test=0.0820
+2026-08-12 23:24:52,830 | INFO | Model 12 | early stopping at epoch=19 idx=0
+2026-08-12 23:24:52,831 | INFO | Model 12 | epoch=19 finished | elapsed=58.30s
+2026-08-12 23:24:52,831 | INFO | Model 12 | training finished | total_elapsed=58.30s
+2026-08-12 23:24:53,016 | INFO | === New model #13 | batch_size=128, n_iter_no_change=5, tol=0.001, params={'alpha': 1e-06, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'eta0': 0.0001, 'learning_rate': 'optimal', 'loss': 'hinge', 'penalty': 'l2'} ===
+2026-08-12 23:24:53,128 | INFO | Model 13 | epoch=0 idx=0 | f1=0.5600 recall=0.8546 loss_train=1.1651 loss_test=1.1840
+2026-08-12 23:24:54,644 | INFO | Model 13 | epoch=0 finished | elapsed=1.63s
+2026-08-12 23:24:54,765 | INFO | Model 13 | epoch=1 idx=0 | f1=0.9515 recall=0.9868 loss_train=0.0544 loss_test=0.0907
+2026-08-12 23:24:56,169 | INFO | Model 13 | epoch=1 finished | elapsed=3.15s
+2026-08-12 23:24:56,289 | INFO | Model 13 | epoch=2 idx=0 | f1=0.9661 recall=0.9859 loss_train=0.0201 loss_test=0.0432
+2026-08-12 23:24:57,704 | INFO | Model 13 | epoch=2 finished | elapsed=4.69s
+2026-08-12 23:24:57,834 | INFO | Model 13 | epoch=3 idx=0 | f1=0.9766 recall=0.9850 loss_train=0.0103 loss_test=0.0262
+2026-08-12 23:24:59,319 | INFO | Model 13 | epoch=3 finished | elapsed=6.30s
+2026-08-12 23:24:59,436 | INFO | Model 13 | epoch=4 idx=0 | f1=0.9766 recall=0.9841 loss_train=0.0060 loss_test=0.0215
+2026-08-12 23:25:01,018 | INFO | Model 13 | epoch=4 finished | elapsed=8.00s
+2026-08-12 23:25:01,136 | INFO | Model 13 | epoch=5 idx=0 | f1=0.9777 recall=0.9838 loss_train=0.0043 loss_test=0.0190
+2026-08-12 23:25:02,591 | INFO | Model 13 | epoch=5 finished | elapsed=9.57s
+2026-08-12 23:25:02,708 | INFO | Model 13 | epoch=6 idx=0 | f1=0.9818 recall=0.9818 loss_train=0.0028 loss_test=0.0150
+2026-08-12 23:25:04,108 | INFO | Model 13 | epoch=6 finished | elapsed=11.09s
+2026-08-12 23:25:04,224 | INFO | Model 13 | epoch=7 idx=0 | f1=0.9811 recall=0.9847 loss_train=0.0029 loss_test=0.0154
+2026-08-12 23:25:05,642 | INFO | Model 13 | epoch=7 finished | elapsed=12.63s
+2026-08-12 23:25:05,757 | INFO | Model 13 | epoch=8 idx=0 | f1=0.9809 recall=0.9829 loss_train=0.0023 loss_test=0.0141
+2026-08-12 23:25:07,300 | INFO | Model 13 | epoch=8 finished | elapsed=14.28s
+2026-08-12 23:25:07,412 | INFO | Model 13 | epoch=9 idx=0 | f1=0.9804 recall=0.9850 loss_train=0.0030 loss_test=0.0148
+2026-08-12 23:25:08,823 | INFO | Model 13 | epoch=9 finished | elapsed=15.81s
+2026-08-12 23:25:08,939 | INFO | Model 13 | epoch=10 idx=0 | f1=0.9827 recall=0.9853 loss_train=0.0023 loss_test=0.0135
+2026-08-12 23:25:10,320 | INFO | Model 13 | epoch=10 finished | elapsed=17.30s
+2026-08-12 23:25:10,434 | INFO | Model 13 | epoch=11 idx=0 | f1=0.9825 recall=0.9844 loss_train=0.0020 loss_test=0.0126
+2026-08-12 23:25:12,065 | INFO | Model 13 | epoch=11 finished | elapsed=19.05s
+2026-08-12 23:25:12,196 | INFO | Model 13 | epoch=12 idx=0 | f1=0.9824 recall=0.9853 loss_train=0.0022 loss_test=0.0127
+2026-08-12 23:25:12,196 | INFO | Model 13 | early stopping at epoch=12 idx=0
+2026-08-12 23:25:12,196 | INFO | Model 13 | epoch=12 finished | elapsed=19.18s
+2026-08-12 23:25:12,196 | INFO | Model 13 | training finished | total_elapsed=19.18s
+2026-08-12 23:25:12,378 | INFO | === New model #14 | batch_size=128, n_iter_no_change=5, tol=0.001, params={'alpha': 1e-06, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'eta0': 0.0001, 'learning_rate': 'optimal', 'loss': 'log_loss', 'penalty': 'l1'} ===
+2026-08-12 23:25:12,524 | INFO | Model 14 | epoch=0 idx=0 | f1=0.5855 recall=0.8229 loss_train=0.7190 loss_test=0.7234
+2026-08-12 23:25:15,585 | INFO | Model 14 | epoch=0 finished | elapsed=3.21s
+2026-08-12 23:25:15,720 | INFO | Model 14 | epoch=1 idx=0 | f1=0.9543 recall=0.9880 loss_train=0.0675 loss_test=0.1256
+2026-08-12 23:25:18,777 | INFO | Model 14 | epoch=1 finished | elapsed=6.40s
+2026-08-12 23:25:18,919 | INFO | Model 14 | epoch=2 idx=0 | f1=0.9731 recall=0.9862 loss_train=0.0237 loss_test=0.0765
+2026-08-12 23:25:21,920 | INFO | Model 14 | epoch=2 finished | elapsed=9.54s
+2026-08-12 23:25:22,056 | INFO | Model 14 | epoch=3 idx=0 | f1=0.9773 recall=0.9838 loss_train=0.0157 loss_test=0.0716
+2026-08-12 23:25:25,002 | INFO | Model 14 | epoch=3 finished | elapsed=12.62s
+2026-08-12 23:25:25,169 | INFO | Model 14 | epoch=4 idx=0 | f1=0.9765 recall=0.9829 loss_train=0.0123 loss_test=0.0694
+2026-08-12 23:25:28,190 | INFO | Model 14 | epoch=4 finished | elapsed=15.81s
+2026-08-12 23:25:28,326 | INFO | Model 14 | epoch=5 idx=0 | f1=0.9768 recall=0.9818 loss_train=0.0099 loss_test=0.0679
+2026-08-12 23:25:31,591 | INFO | Model 14 | epoch=5 finished | elapsed=19.21s
+2026-08-12 23:25:31,732 | INFO | Model 14 | epoch=6 idx=0 | f1=0.9775 recall=0.9809 loss_train=0.0085 loss_test=0.0664
+2026-08-12 23:25:34,953 | INFO | Model 14 | epoch=6 finished | elapsed=22.57s
+2026-08-12 23:25:35,105 | INFO | Model 14 | epoch=7 idx=0 | f1=0.9768 recall=0.9803 loss_train=0.0080 loss_test=0.0658
+2026-08-12 23:25:38,427 | INFO | Model 14 | epoch=7 finished | elapsed=26.05s
+2026-08-12 23:25:38,574 | INFO | Model 14 | epoch=8 idx=0 | f1=0.9770 recall=0.9797 loss_train=0.0071 loss_test=0.0649
+2026-08-12 23:25:41,722 | INFO | Model 14 | epoch=8 finished | elapsed=29.34s
+2026-08-12 23:25:41,886 | INFO | Model 14 | epoch=9 idx=0 | f1=0.9770 recall=0.9794 loss_train=0.0066 loss_test=0.0644
+2026-08-12 23:25:45,228 | INFO | Model 14 | epoch=9 finished | elapsed=32.85s
+2026-08-12 23:25:45,378 | INFO | Model 14 | epoch=10 idx=0 | f1=0.9770 recall=0.9794 loss_train=0.0061 loss_test=0.0638
+2026-08-12 23:25:48,570 | INFO | Model 14 | epoch=10 finished | elapsed=36.19s
+2026-08-12 23:25:48,715 | INFO | Model 14 | epoch=11 idx=0 | f1=0.9772 recall=0.9794 loss_train=0.0057 loss_test=0.0634
+2026-08-12 23:25:52,091 | INFO | Model 14 | epoch=11 finished | elapsed=39.71s
+2026-08-12 23:25:52,235 | INFO | Model 14 | epoch=12 idx=0 | f1=0.9772 recall=0.9791 loss_train=0.0055 loss_test=0.0631
+2026-08-12 23:25:52,235 | INFO | Model 14 | early stopping at epoch=12 idx=0
+2026-08-12 23:25:52,235 | INFO | Model 14 | epoch=12 finished | elapsed=39.86s
+2026-08-12 23:25:52,235 | INFO | Model 14 | training finished | total_elapsed=39.86s
+2026-08-12 23:25:52,423 | INFO | === New model #15 | batch_size=128, n_iter_no_change=5, tol=0.001, params={'alpha': 1e-06, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'eta0': 0.0001, 'learning_rate': 'optimal', 'loss': 'log_loss', 'penalty': 'l2'} ===
+2026-08-12 23:25:52,570 | INFO | Model 15 | epoch=0 idx=0 | f1=0.5856 recall=0.8229 loss_train=0.7167 loss_test=0.7211
+2026-08-12 23:25:54,226 | INFO | Model 15 | epoch=0 finished | elapsed=1.80s
+2026-08-12 23:25:54,364 | INFO | Model 15 | epoch=1 idx=0 | f1=0.9667 recall=0.9853 loss_train=0.0305 loss_test=0.0560
+2026-08-12 23:25:55,931 | INFO | Model 15 | epoch=1 finished | elapsed=3.51s
+2026-08-12 23:25:56,077 | INFO | Model 15 | epoch=2 idx=0 | f1=0.9795 recall=0.9838 loss_train=0.0089 loss_test=0.0240
+2026-08-12 23:25:57,663 | INFO | Model 15 | epoch=2 finished | elapsed=5.24s
+2026-08-12 23:25:57,796 | INFO | Model 15 | epoch=3 idx=0 | f1=0.9818 recall=0.9847 loss_train=0.0044 loss_test=0.0167
+2026-08-12 23:25:59,406 | INFO | Model 15 | epoch=3 finished | elapsed=6.98s
+2026-08-12 23:25:59,540 | INFO | Model 15 | epoch=4 idx=0 | f1=0.9842 recall=0.9853 loss_train=0.0037 loss_test=0.0138
+2026-08-12 23:26:01,155 | INFO | Model 15 | epoch=4 finished | elapsed=8.73s
+2026-08-12 23:26:01,288 | INFO | Model 15 | epoch=5 idx=0 | f1=0.9842 recall=0.9847 loss_train=0.0043 loss_test=0.0136
+2026-08-12 23:26:02,821 | INFO | Model 15 | epoch=5 finished | elapsed=10.40s
+2026-08-12 23:26:02,969 | INFO | Model 15 | epoch=6 idx=0 | f1=0.9850 recall=0.9850 loss_train=0.0043 loss_test=0.0130
+2026-08-12 23:26:04,638 | INFO | Model 15 | epoch=6 finished | elapsed=12.21s
+2026-08-12 23:26:04,773 | INFO | Model 15 | epoch=7 idx=0 | f1=0.9855 recall=0.9850 loss_train=0.0045 loss_test=0.0130
+2026-08-12 23:26:06,304 | INFO | Model 15 | epoch=7 finished | elapsed=13.88s
+2026-08-12 23:26:06,431 | INFO | Model 15 | epoch=8 idx=0 | f1=0.9864 recall=0.9853 loss_train=0.0047 loss_test=0.0130
+2026-08-12 23:26:07,960 | INFO | Model 15 | epoch=8 finished | elapsed=15.54s
+2026-08-12 23:26:08,091 | INFO | Model 15 | epoch=9 idx=0 | f1=0.9865 recall=0.9853 loss_train=0.0049 loss_test=0.0130
+2026-08-12 23:26:08,091 | INFO | Model 15 | early stopping at epoch=9 idx=0
+2026-08-12 23:26:08,091 | INFO | Model 15 | epoch=9 finished | elapsed=15.67s
+2026-08-12 23:26:08,091 | INFO | Model 15 | training finished | total_elapsed=15.67s
+2026-08-12 23:26:08,270 | INFO | === New model #16 | batch_size=128, n_iter_no_change=5, tol=0.0001, params={'alpha': 1e-06, 'class_weight': None, 'eta0': 0.001, 'learning_rate': 'optimal', 'loss': 'hinge', 'penalty': 'l1'} ===
+2026-08-12 23:26:08,396 | INFO | Model 16 | epoch=0 idx=0 | f1=0.6445 recall=0.6584 loss_train=0.3407 loss_test=0.3459
+2026-08-12 23:26:11,522 | INFO | Model 16 | epoch=0 finished | elapsed=3.25s
+2026-08-12 23:26:11,639 | INFO | Model 16 | epoch=1 idx=0 | f1=0.9804 recall=0.9776 loss_train=0.0125 loss_test=0.0380
+2026-08-12 23:26:14,792 | INFO | Model 16 | epoch=1 finished | elapsed=6.52s
+2026-08-12 23:26:14,918 | INFO | Model 16 | epoch=2 idx=0 | f1=0.9823 recall=0.9797 loss_train=0.0034 loss_test=0.0310
+2026-08-12 23:26:18,007 | INFO | Model 16 | epoch=2 finished | elapsed=9.74s
+2026-08-12 23:26:18,124 | INFO | Model 16 | epoch=3 idx=0 | f1=0.9827 recall=0.9764 loss_train=0.0023 loss_test=0.0309
+2026-08-12 23:26:21,371 | INFO | Model 16 | epoch=3 finished | elapsed=13.10s
+2026-08-12 23:26:21,509 | INFO | Model 16 | epoch=4 idx=0 | f1=0.9838 recall=0.9791 loss_train=0.0012 loss_test=0.0295
+2026-08-12 23:26:24,621 | INFO | Model 16 | epoch=4 finished | elapsed=16.35s
+2026-08-12 23:26:24,741 | INFO | Model 16 | epoch=5 idx=0 | f1=0.9836 recall=0.9788 loss_train=0.0010 loss_test=0.0293
+2026-08-12 23:26:27,794 | INFO | Model 16 | epoch=5 finished | elapsed=19.52s
+2026-08-12 23:26:27,936 | INFO | Model 16 | epoch=6 idx=0 | f1=0.9830 recall=0.9785 loss_train=0.0008 loss_test=0.0293
+2026-08-12 23:26:31,095 | INFO | Model 16 | epoch=6 finished | elapsed=22.83s
+2026-08-12 23:26:31,220 | INFO | Model 16 | epoch=7 idx=0 | f1=0.9832 recall=0.9788 loss_train=0.0008 loss_test=0.0293
+2026-08-12 23:26:34,280 | INFO | Model 16 | epoch=7 finished | elapsed=26.01s
+2026-08-12 23:26:34,413 | INFO | Model 16 | epoch=8 idx=0 | f1=0.9833 recall=0.9785 loss_train=0.0007 loss_test=0.0293
+2026-08-12 23:26:37,592 | INFO | Model 16 | epoch=8 finished | elapsed=29.32s
+2026-08-12 23:26:37,709 | INFO | Model 16 | epoch=9 idx=0 | f1=0.9830 recall=0.9791 loss_train=0.0007 loss_test=0.0294
+2026-08-12 23:26:41,134 | INFO | Model 16 | epoch=9 finished | elapsed=32.86s
+2026-08-12 23:26:41,294 | INFO | Model 16 | epoch=10 idx=0 | f1=0.9829 recall=0.9788 loss_train=0.0006 loss_test=0.0294
+2026-08-12 23:26:44,291 | INFO | Model 16 | epoch=10 finished | elapsed=36.02s
+2026-08-12 23:26:44,413 | INFO | Model 16 | epoch=11 idx=0 | f1=0.9829 recall=0.9788 loss_train=0.0006 loss_test=0.0293
+2026-08-12 23:26:47,359 | INFO | Model 16 | epoch=11 finished | elapsed=39.09s
+2026-08-12 23:26:47,477 | INFO | Model 16 | epoch=12 idx=0 | f1=0.9829 recall=0.9785 loss_train=0.0006 loss_test=0.0294
+2026-08-12 23:26:47,477 | INFO | Model 16 | early stopping at epoch=12 idx=0
+2026-08-12 23:26:47,477 | INFO | Model 16 | epoch=12 finished | elapsed=39.21s
+2026-08-12 23:26:47,478 | INFO | Model 16 | training finished | total_elapsed=39.21s
+2026-08-12 23:26:47,657 | INFO | === New model #17 | batch_size=128, n_iter_no_change=5, tol=0.0001, params={'alpha': 1e-06, 'class_weight': None, 'eta0': 0.001, 'learning_rate': 'optimal', 'loss': 'hinge', 'penalty': 'l2'} ===
+2026-08-12 23:26:47,771 | INFO | Model 17 | epoch=0 idx=0 | f1=0.6441 recall=0.6578 loss_train=0.3403 loss_test=0.3455
+2026-08-12 23:26:49,198 | INFO | Model 17 | epoch=0 finished | elapsed=1.54s
+2026-08-12 23:26:49,316 | INFO | Model 17 | epoch=1 idx=0 | f1=0.9796 recall=0.9782 loss_train=0.0115 loss_test=0.0238
+2026-08-12 23:26:50,813 | INFO | Model 17 | epoch=1 finished | elapsed=3.16s
+2026-08-12 23:26:50,934 | INFO | Model 17 | epoch=2 idx=0 | f1=0.9846 recall=0.9821 loss_train=0.0037 loss_test=0.0131
+2026-08-12 23:26:52,364 | INFO | Model 17 | epoch=2 finished | elapsed=4.71s
+2026-08-12 23:26:52,479 | INFO | Model 17 | epoch=3 idx=0 | f1=0.9837 recall=0.9752 loss_train=0.0033 loss_test=0.0133
+2026-08-12 23:26:53,859 | INFO | Model 17 | epoch=3 finished | elapsed=6.20s
+2026-08-12 23:26:53,978 | INFO | Model 17 | epoch=4 idx=0 | f1=0.9833 recall=0.9758 loss_train=0.0024 loss_test=0.0124
+2026-08-12 23:26:55,468 | INFO | Model 17 | epoch=4 finished | elapsed=7.81s
+2026-08-12 23:26:55,586 | INFO | Model 17 | epoch=5 idx=0 | f1=0.9834 recall=0.9764 loss_train=0.0016 loss_test=0.0109
+2026-08-12 23:26:57,035 | INFO | Model 17 | epoch=5 finished | elapsed=9.38s
+2026-08-12 23:26:57,146 | INFO | Model 17 | epoch=6 idx=0 | f1=0.9861 recall=0.9782 loss_train=0.0012 loss_test=0.0101
+2026-08-12 23:26:58,533 | INFO | Model 17 | epoch=6 finished | elapsed=10.88s
+2026-08-12 23:26:58,648 | INFO | Model 17 | epoch=7 idx=0 | f1=0.9848 recall=0.9785 loss_train=0.0012 loss_test=0.0100
+2026-08-12 23:27:00,056 | INFO | Model 17 | epoch=7 finished | elapsed=12.40s
+2026-08-12 23:27:00,167 | INFO | Model 17 | epoch=8 idx=0 | f1=0.9837 recall=0.9755 loss_train=0.0014 loss_test=0.0108
+2026-08-12 23:27:01,690 | INFO | Model 17 | epoch=8 finished | elapsed=14.03s
+2026-08-12 23:27:01,804 | INFO | Model 17 | epoch=9 idx=0 | f1=0.9855 recall=0.9761 loss_train=0.0014 loss_test=0.0106
+2026-08-12 23:27:03,206 | INFO | Model 17 | epoch=9 finished | elapsed=15.55s
+2026-08-12 23:27:03,324 | INFO | Model 17 | epoch=10 idx=0 | f1=0.9856 recall=0.9794 loss_train=0.0008 loss_test=0.0104
+2026-08-12 23:27:04,762 | INFO | Model 17 | epoch=10 finished | elapsed=17.10s
+2026-08-12 23:27:04,885 | INFO | Model 17 | epoch=11 idx=0 | f1=0.9858 recall=0.9782 loss_train=0.0011 loss_test=0.0103
+2026-08-12 23:27:06,353 | INFO | Model 17 | epoch=11 finished | elapsed=18.70s
+2026-08-12 23:27:06,469 | INFO | Model 17 | epoch=12 idx=0 | f1=0.9848 recall=0.9770 loss_train=0.0011 loss_test=0.0104
+2026-08-12 23:27:07,901 | INFO | Model 17 | epoch=12 finished | elapsed=20.24s
+2026-08-12 23:27:08,017 | INFO | Model 17 | epoch=13 idx=0 | f1=0.9862 recall=0.9824 loss_train=0.0008 loss_test=0.0102
+2026-08-12 23:27:09,466 | INFO | Model 17 | epoch=13 finished | elapsed=21.81s
+2026-08-12 23:27:09,579 | INFO | Model 17 | epoch=14 idx=0 | f1=0.9868 recall=0.9809 loss_train=0.0009 loss_test=0.0103
+2026-08-12 23:27:11,070 | INFO | Model 17 | epoch=14 finished | elapsed=23.41s
+2026-08-12 23:27:11,194 | INFO | Model 17 | epoch=15 idx=0 | f1=0.9857 recall=0.9797 loss_train=0.0007 loss_test=0.0103
+2026-08-12 23:27:12,637 | INFO | Model 17 | epoch=15 finished | elapsed=24.98s
+2026-08-12 23:27:12,751 | INFO | Model 17 | epoch=16 idx=0 | f1=0.9851 recall=0.9782 loss_train=0.0008 loss_test=0.0106
+2026-08-12 23:27:14,173 | INFO | Model 17 | epoch=16 finished | elapsed=26.52s
+2026-08-12 23:27:14,292 | INFO | Model 17 | epoch=17 idx=0 | f1=0.9851 recall=0.9794 loss_train=0.0006 loss_test=0.0106
+2026-08-12 23:27:15,677 | INFO | Model 17 | epoch=17 finished | elapsed=28.02s
+2026-08-12 23:27:15,792 | INFO | Model 17 | epoch=18 idx=0 | f1=0.9843 recall=0.9761 loss_train=0.0009 loss_test=0.0109
+2026-08-12 23:27:17,318 | INFO | Model 17 | epoch=18 finished | elapsed=29.66s
+2026-08-12 23:27:17,434 | INFO | Model 17 | epoch=19 idx=0 | f1=0.9856 recall=0.9794 loss_train=0.0007 loss_test=0.0107
+2026-08-12 23:27:18,815 | INFO | Model 17 | epoch=19 finished | elapsed=31.16s
+2026-08-12 23:27:18,932 | INFO | Model 17 | epoch=20 idx=0 | f1=0.9860 recall=0.9794 loss_train=0.0007 loss_test=0.0109
+2026-08-12 23:27:20,321 | INFO | Model 17 | epoch=20 finished | elapsed=32.66s
+2026-08-12 23:27:20,432 | INFO | Model 17 | epoch=21 idx=0 | f1=0.9862 recall=0.9806 loss_train=0.0007 loss_test=0.0108
+2026-08-12 23:27:21,923 | INFO | Model 17 | epoch=21 finished | elapsed=34.27s
+2026-08-12 23:27:22,036 | INFO | Model 17 | epoch=22 idx=0 | f1=0.9860 recall=0.9797 loss_train=0.0007 loss_test=0.0109
+2026-08-12 23:27:23,454 | INFO | Model 17 | epoch=22 finished | elapsed=35.80s
+2026-08-12 23:27:23,571 | INFO | Model 17 | epoch=23 idx=0 | f1=0.9865 recall=0.9809 loss_train=0.0006 loss_test=0.0109
+2026-08-12 23:27:25,014 | INFO | Model 17 | epoch=23 finished | elapsed=37.36s
+2026-08-12 23:27:25,142 | INFO | Model 17 | epoch=24 idx=0 | f1=0.9864 recall=0.9800 loss_train=0.0007 loss_test=0.0111
+2026-08-12 23:27:26,589 | INFO | Model 17 | epoch=24 finished | elapsed=38.93s
+2026-08-12 23:27:26,716 | INFO | Model 17 | epoch=25 idx=0 | f1=0.9860 recall=0.9785 loss_train=0.0007 loss_test=0.0111
+2026-08-12 23:27:28,099 | INFO | Model 17 | epoch=25 finished | elapsed=40.44s
+2026-08-12 23:27:28,213 | INFO | Model 17 | epoch=26 idx=0 | f1=0.9864 recall=0.9788 loss_train=0.0009 loss_test=0.0113
+2026-08-12 23:27:29,652 | INFO | Model 17 | epoch=26 finished | elapsed=41.99s
+2026-08-12 23:27:29,766 | INFO | Model 17 | epoch=27 idx=0 | f1=0.9864 recall=0.9797 loss_train=0.0007 loss_test=0.0113
+2026-08-12 23:27:31,151 | INFO | Model 17 | epoch=27 finished | elapsed=43.49s
+2026-08-12 23:27:31,263 | INFO | Model 17 | epoch=28 idx=0 | f1=0.9866 recall=0.9803 loss_train=0.0006 loss_test=0.0112
+2026-08-12 23:27:32,710 | INFO | Model 17 | epoch=28 finished | elapsed=45.05s
+2026-08-12 23:27:32,824 | INFO | Model 17 | epoch=29 idx=0 | f1=0.9854 recall=0.9791 loss_train=0.0006 loss_test=0.0115
+2026-08-12 23:27:34,264 | INFO | Model 17 | epoch=29 finished | elapsed=46.61s
+2026-08-12 23:27:34,383 | INFO | Model 17 | epoch=30 idx=0 | f1=0.9859 recall=0.9800 loss_train=0.0006 loss_test=0.0117
+2026-08-12 23:27:35,752 | INFO | Model 17 | epoch=30 finished | elapsed=48.09s
+2026-08-12 23:27:35,871 | INFO | Model 17 | epoch=31 idx=0 | f1=0.9857 recall=0.9788 loss_train=0.0006 loss_test=0.0117
+2026-08-12 23:27:37,394 | INFO | Model 17 | epoch=31 finished | elapsed=49.74s
+2026-08-12 23:27:37,521 | INFO | Model 17 | epoch=32 idx=0 | f1=0.9858 recall=0.9794 loss_train=0.0007 loss_test=0.0117
+2026-08-12 23:27:38,912 | INFO | Model 17 | epoch=32 finished | elapsed=51.25s
+2026-08-12 23:27:39,031 | INFO | Model 17 | epoch=33 idx=0 | f1=0.9862 recall=0.9800 loss_train=0.0007 loss_test=0.0116
+2026-08-12 23:27:39,031 | INFO | Model 17 | early stopping at epoch=33 idx=0
+2026-08-12 23:27:39,031 | INFO | Model 17 | epoch=33 finished | elapsed=51.37s
+2026-08-12 23:27:39,031 | INFO | Model 17 | training finished | total_elapsed=51.37s
+2026-08-12 23:27:39,218 | INFO | === New model #18 | batch_size=128, n_iter_no_change=5, tol=0.0001, params={'alpha': 1e-06, 'class_weight': None, 'eta0': 0.001, 'learning_rate': 'optimal', 'loss': 'log_loss', 'penalty': 'l1'} ===
+2026-08-12 23:27:39,347 | INFO | Model 18 | epoch=0 idx=0 | f1=0.7273 recall=0.6569 loss_train=0.2013 loss_test=0.2012
+2026-08-12 23:27:42,421 | INFO | Model 18 | epoch=0 finished | elapsed=3.20s
+2026-08-12 23:27:42,549 | INFO | Model 18 | epoch=1 idx=0 | f1=0.9826 recall=0.9800 loss_train=0.0054 loss_test=0.0229
+2026-08-12 23:27:45,560 | INFO | Model 18 | epoch=1 finished | elapsed=6.34s
+2026-08-12 23:27:45,690 | INFO | Model 18 | epoch=2 idx=0 | f1=0.9844 recall=0.9818 loss_train=0.0019 loss_test=0.0204
+2026-08-12 23:27:48,758 | INFO | Model 18 | epoch=2 finished | elapsed=9.54s
+2026-08-12 23:27:48,884 | INFO | Model 18 | epoch=3 idx=0 | f1=0.9850 recall=0.9806 loss_train=0.0013 loss_test=0.0199
+2026-08-12 23:27:51,812 | INFO | Model 18 | epoch=3 finished | elapsed=12.59s
+2026-08-12 23:27:51,948 | INFO | Model 18 | epoch=4 idx=0 | f1=0.9845 recall=0.9797 loss_train=0.0011 loss_test=0.0197
+2026-08-12 23:27:55,017 | INFO | Model 18 | epoch=4 finished | elapsed=15.80s
+2026-08-12 23:27:55,156 | INFO | Model 18 | epoch=5 idx=0 | f1=0.9844 recall=0.9794 loss_train=0.0009 loss_test=0.0195
+2026-08-12 23:27:58,245 | INFO | Model 18 | epoch=5 finished | elapsed=19.03s
+2026-08-12 23:27:58,373 | INFO | Model 18 | epoch=6 idx=0 | f1=0.9842 recall=0.9794 loss_train=0.0009 loss_test=0.0195
+2026-08-12 23:28:01,409 | INFO | Model 18 | epoch=6 finished | elapsed=22.19s
+2026-08-12 23:28:01,545 | INFO | Model 18 | epoch=7 idx=0 | f1=0.9847 recall=0.9797 loss_train=0.0008 loss_test=0.0194
+2026-08-12 23:28:04,807 | INFO | Model 18 | epoch=7 finished | elapsed=25.59s
+2026-08-12 23:28:04,940 | INFO | Model 18 | epoch=8 idx=0 | f1=0.9845 recall=0.9794 loss_train=0.0008 loss_test=0.0194
+2026-08-12 23:28:07,912 | INFO | Model 18 | epoch=8 finished | elapsed=28.69s
+2026-08-12 23:28:08,051 | INFO | Model 18 | epoch=9 idx=0 | f1=0.9845 recall=0.9794 loss_train=0.0007 loss_test=0.0194
+2026-08-12 23:28:11,255 | INFO | Model 18 | epoch=9 finished | elapsed=32.04s
+2026-08-12 23:28:11,391 | INFO | Model 18 | epoch=10 idx=0 | f1=0.9841 recall=0.9788 loss_train=0.0007 loss_test=0.0193
+2026-08-12 23:28:14,403 | INFO | Model 18 | epoch=10 finished | elapsed=35.18s
+2026-08-12 23:28:14,534 | INFO | Model 18 | epoch=11 idx=0 | f1=0.9839 recall=0.9788 loss_train=0.0007 loss_test=0.0193
+2026-08-12 23:28:14,534 | INFO | Model 18 | early stopping at epoch=11 idx=0
+2026-08-12 23:28:14,534 | INFO | Model 18 | epoch=11 finished | elapsed=35.32s
+2026-08-12 23:28:14,534 | INFO | Model 18 | training finished | total_elapsed=35.32s
+2026-08-12 23:28:14,756 | INFO | === New model #19 | batch_size=128, n_iter_no_change=5, tol=0.0001, params={'alpha': 1e-06, 'class_weight': None, 'eta0': 0.001, 'learning_rate': 'optimal', 'loss': 'log_loss', 'penalty': 'l2'} ===
+2026-08-12 23:28:14,888 | INFO | Model 19 | epoch=0 idx=0 | f1=0.7278 recall=0.6569 loss_train=0.2012 loss_test=0.2011
+2026-08-12 23:28:16,368 | INFO | Model 19 | epoch=0 finished | elapsed=1.61s
+2026-08-12 23:28:16,495 | INFO | Model 19 | epoch=1 idx=0 | f1=0.9836 recall=0.9800 loss_train=0.0068 loss_test=0.0156
+2026-08-12 23:28:17,923 | INFO | Model 19 | epoch=1 finished | elapsed=3.17s
+2026-08-12 23:28:18,054 | INFO | Model 19 | epoch=2 idx=0 | f1=0.9840 recall=0.9758 loss_train=0.0039 loss_test=0.0123
+2026-08-12 23:28:19,613 | INFO | Model 19 | epoch=2 finished | elapsed=4.86s
+2026-08-12 23:28:19,751 | INFO | Model 19 | epoch=3 idx=0 | f1=0.9835 recall=0.9734 loss_train=0.0043 loss_test=0.0126
+2026-08-12 23:28:21,196 | INFO | Model 19 | epoch=3 finished | elapsed=6.44s
+2026-08-12 23:28:21,335 | INFO | Model 19 | epoch=4 idx=0 | f1=0.9832 recall=0.9725 loss_train=0.0046 loss_test=0.0128
+2026-08-12 23:28:22,786 | INFO | Model 19 | epoch=4 finished | elapsed=8.03s
+2026-08-12 23:28:22,911 | INFO | Model 19 | epoch=5 idx=0 | f1=0.9837 recall=0.9728 loss_train=0.0047 loss_test=0.0129
+2026-08-12 23:28:24,401 | INFO | Model 19 | epoch=5 finished | elapsed=9.64s
+2026-08-12 23:28:24,533 | INFO | Model 19 | epoch=6 idx=0 | f1=0.9840 recall=0.9725 loss_train=0.0048 loss_test=0.0129
+2026-08-12 23:28:26,056 | INFO | Model 19 | epoch=6 finished | elapsed=11.30s
+2026-08-12 23:28:26,190 | INFO | Model 19 | epoch=7 idx=0 | f1=0.9846 recall=0.9731 loss_train=0.0049 loss_test=0.0130
+2026-08-12 23:28:27,641 | INFO | Model 19 | epoch=7 finished | elapsed=12.88s
+2026-08-12 23:28:27,773 | INFO | Model 19 | epoch=8 idx=0 | f1=0.9844 recall=0.9728 loss_train=0.0049 loss_test=0.0130
+2026-08-12 23:28:27,773 | INFO | Model 19 | early stopping at epoch=8 idx=0
+2026-08-12 23:28:27,773 | INFO | Model 19 | epoch=8 finished | elapsed=13.02s
+2026-08-12 23:28:27,773 | INFO | Model 19 | training finished | total_elapsed=13.02s
+2026-08-12 23:28:27,965 | INFO | === New model #20 | batch_size=128, n_iter_no_change=5, tol=0.0001, params={'alpha': 1e-06, 'class_weight': None, 'eta0': 0.0001, 'learning_rate': 'optimal', 'loss': 'hinge', 'penalty': 'l1'} ===
+2026-08-12 23:28:28,081 | INFO | Model 20 | epoch=0 idx=0 | f1=0.6445 recall=0.6584 loss_train=0.3407 loss_test=0.3459
+2026-08-12 23:28:30,953 | INFO | Model 20 | epoch=0 finished | elapsed=2.99s
+2026-08-12 23:28:31,072 | INFO | Model 20 | epoch=1 idx=0 | f1=0.9804 recall=0.9776 loss_train=0.0125 loss_test=0.0380
+2026-08-12 23:28:33,921 | INFO | Model 20 | epoch=1 finished | elapsed=5.96s
+2026-08-12 23:28:34,035 | INFO | Model 20 | epoch=2 idx=0 | f1=0.9823 recall=0.9797 loss_train=0.0034 loss_test=0.0310
+2026-08-12 23:28:36,921 | INFO | Model 20 | epoch=2 finished | elapsed=8.96s
+2026-08-12 23:28:37,035 | INFO | Model 20 | epoch=3 idx=0 | f1=0.9827 recall=0.9764 loss_train=0.0023 loss_test=0.0309
+2026-08-12 23:28:39,890 | INFO | Model 20 | epoch=3 finished | elapsed=11.92s
+2026-08-12 23:28:40,004 | INFO | Model 20 | epoch=4 idx=0 | f1=0.9838 recall=0.9791 loss_train=0.0012 loss_test=0.0295
+2026-08-12 23:28:42,902 | INFO | Model 20 | epoch=4 finished | elapsed=14.94s
+2026-08-12 23:28:43,015 | INFO | Model 20 | epoch=5 idx=0 | f1=0.9836 recall=0.9788 loss_train=0.0010 loss_test=0.0293
+2026-08-12 23:28:45,980 | INFO | Model 20 | epoch=5 finished | elapsed=18.01s
+2026-08-12 23:28:46,093 | INFO | Model 20 | epoch=6 idx=0 | f1=0.9830 recall=0.9785 loss_train=0.0008 loss_test=0.0293
+2026-08-12 23:28:48,956 | INFO | Model 20 | epoch=6 finished | elapsed=20.99s
+2026-08-12 23:28:49,068 | INFO | Model 20 | epoch=7 idx=0 | f1=0.9832 recall=0.9788 loss_train=0.0008 loss_test=0.0293
+2026-08-12 23:28:51,962 | INFO | Model 20 | epoch=7 finished | elapsed=24.00s
+2026-08-12 23:28:52,084 | INFO | Model 20 | epoch=8 idx=0 | f1=0.9833 recall=0.9785 loss_train=0.0007 loss_test=0.0293
+2026-08-12 23:28:54,939 | INFO | Model 20 | epoch=8 finished | elapsed=26.97s
+2026-08-12 23:28:55,050 | INFO | Model 20 | epoch=9 idx=0 | f1=0.9830 recall=0.9791 loss_train=0.0007 loss_test=0.0294
+2026-08-12 23:28:57,973 | INFO | Model 20 | epoch=9 finished | elapsed=30.01s
+2026-08-12 23:28:58,091 | INFO | Model 20 | epoch=10 idx=0 | f1=0.9829 recall=0.9788 loss_train=0.0006 loss_test=0.0294
+2026-08-12 23:29:01,019 | INFO | Model 20 | epoch=10 finished | elapsed=33.05s
+2026-08-12 23:29:01,160 | INFO | Model 20 | epoch=11 idx=0 | f1=0.9829 recall=0.9788 loss_train=0.0006 loss_test=0.0293
+2026-08-12 23:29:04,031 | INFO | Model 20 | epoch=11 finished | elapsed=36.06s
+2026-08-12 23:29:04,145 | INFO | Model 20 | epoch=12 idx=0 | f1=0.9829 recall=0.9785 loss_train=0.0006 loss_test=0.0294
+2026-08-12 23:29:04,145 | INFO | Model 20 | early stopping at epoch=12 idx=0
+2026-08-12 23:29:04,145 | INFO | Model 20 | epoch=12 finished | elapsed=36.18s
+2026-08-12 23:29:04,145 | INFO | Model 20 | training finished | total_elapsed=36.18s
+2026-08-12 23:29:04,340 | INFO | === New model #21 | batch_size=128, n_iter_no_change=5, tol=0.0001, params={'alpha': 1e-06, 'class_weight': None, 'eta0': 0.0001, 'learning_rate': 'optimal', 'loss': 'hinge', 'penalty': 'l2'} ===
+2026-08-12 23:29:04,454 | INFO | Model 21 | epoch=0 idx=0 | f1=0.6441 recall=0.6578 loss_train=0.3403 loss_test=0.3455
+2026-08-12 23:29:05,888 | INFO | Model 21 | epoch=0 finished | elapsed=1.55s
+2026-08-12 23:29:06,007 | INFO | Model 21 | epoch=1 idx=0 | f1=0.9796 recall=0.9782 loss_train=0.0115 loss_test=0.0238
+2026-08-12 23:29:07,528 | INFO | Model 21 | epoch=1 finished | elapsed=3.19s
+2026-08-12 23:29:07,647 | INFO | Model 21 | epoch=2 idx=0 | f1=0.9846 recall=0.9821 loss_train=0.0037 loss_test=0.0131
+2026-08-12 23:29:09,067 | INFO | Model 21 | epoch=2 finished | elapsed=4.73s
+2026-08-12 23:29:09,184 | INFO | Model 21 | epoch=3 idx=0 | f1=0.9837 recall=0.9752 loss_train=0.0033 loss_test=0.0133
+2026-08-12 23:29:10,575 | INFO | Model 21 | epoch=3 finished | elapsed=6.23s
+2026-08-12 23:29:10,688 | INFO | Model 21 | epoch=4 idx=0 | f1=0.9833 recall=0.9758 loss_train=0.0024 loss_test=0.0124
+2026-08-12 23:29:12,124 | INFO | Model 21 | epoch=4 finished | elapsed=7.78s
+2026-08-12 23:29:12,247 | INFO | Model 21 | epoch=5 idx=0 | f1=0.9834 recall=0.9764 loss_train=0.0016 loss_test=0.0109
+2026-08-12 23:29:13,679 | INFO | Model 21 | epoch=5 finished | elapsed=9.34s
+2026-08-12 23:29:13,797 | INFO | Model 21 | epoch=6 idx=0 | f1=0.9861 recall=0.9782 loss_train=0.0012 loss_test=0.0101
+2026-08-12 23:29:15,197 | INFO | Model 21 | epoch=6 finished | elapsed=10.86s
+2026-08-12 23:29:15,321 | INFO | Model 21 | epoch=7 idx=0 | f1=0.9848 recall=0.9785 loss_train=0.0012 loss_test=0.0100
+2026-08-12 23:29:16,772 | INFO | Model 21 | epoch=7 finished | elapsed=12.43s
+2026-08-12 23:29:16,891 | INFO | Model 21 | epoch=8 idx=0 | f1=0.9837 recall=0.9755 loss_train=0.0014 loss_test=0.0108
+2026-08-12 23:29:18,326 | INFO | Model 21 | epoch=8 finished | elapsed=13.99s
+2026-08-12 23:29:18,445 | INFO | Model 21 | epoch=9 idx=0 | f1=0.9855 recall=0.9761 loss_train=0.0014 loss_test=0.0106
+2026-08-12 23:29:19,837 | INFO | Model 21 | epoch=9 finished | elapsed=15.50s
+2026-08-12 23:29:19,951 | INFO | Model 21 | epoch=10 idx=0 | f1=0.9856 recall=0.9794 loss_train=0.0008 loss_test=0.0104
+2026-08-12 23:29:21,348 | INFO | Model 21 | epoch=10 finished | elapsed=17.01s
+2026-08-12 23:29:21,465 | INFO | Model 21 | epoch=11 idx=0 | f1=0.9858 recall=0.9782 loss_train=0.0011 loss_test=0.0103
+2026-08-12 23:29:23,005 | INFO | Model 21 | epoch=11 finished | elapsed=18.67s
+2026-08-12 23:29:23,128 | INFO | Model 21 | epoch=12 idx=0 | f1=0.9848 recall=0.9770 loss_train=0.0011 loss_test=0.0104
+2026-08-12 23:29:24,517 | INFO | Model 21 | epoch=12 finished | elapsed=20.18s
+2026-08-12 23:29:24,634 | INFO | Model 21 | epoch=13 idx=0 | f1=0.9862 recall=0.9824 loss_train=0.0008 loss_test=0.0102
+2026-08-12 23:29:26,060 | INFO | Model 21 | epoch=13 finished | elapsed=21.72s
+2026-08-12 23:29:26,182 | INFO | Model 21 | epoch=14 idx=0 | f1=0.9868 recall=0.9809 loss_train=0.0009 loss_test=0.0103
+2026-08-12 23:29:27,636 | INFO | Model 21 | epoch=14 finished | elapsed=23.30s
+2026-08-12 23:29:27,756 | INFO | Model 21 | epoch=15 idx=0 | f1=0.9857 recall=0.9797 loss_train=0.0007 loss_test=0.0103
+2026-08-12 23:29:29,180 | INFO | Model 21 | epoch=15 finished | elapsed=24.84s
+2026-08-12 23:29:29,300 | INFO | Model 21 | epoch=16 idx=0 | f1=0.9851 recall=0.9782 loss_train=0.0008 loss_test=0.0106
+2026-08-12 23:29:30,776 | INFO | Model 21 | epoch=16 finished | elapsed=26.44s
+2026-08-12 23:29:30,889 | INFO | Model 21 | epoch=17 idx=0 | f1=0.9851 recall=0.9794 loss_train=0.0006 loss_test=0.0106
+2026-08-12 23:29:32,363 | INFO | Model 21 | epoch=17 finished | elapsed=28.02s
+2026-08-12 23:29:32,484 | INFO | Model 21 | epoch=18 idx=0 | f1=0.9843 recall=0.9761 loss_train=0.0009 loss_test=0.0109
+2026-08-12 23:29:33,939 | INFO | Model 21 | epoch=18 finished | elapsed=29.60s
+2026-08-12 23:29:34,053 | INFO | Model 21 | epoch=19 idx=0 | f1=0.9856 recall=0.9794 loss_train=0.0007 loss_test=0.0107
+2026-08-12 23:29:35,446 | INFO | Model 21 | epoch=19 finished | elapsed=31.11s
+2026-08-12 23:29:35,559 | INFO | Model 21 | epoch=20 idx=0 | f1=0.9860 recall=0.9794 loss_train=0.0007 loss_test=0.0109
+2026-08-12 23:29:36,918 | INFO | Model 21 | epoch=20 finished | elapsed=32.58s
+2026-08-12 23:29:37,039 | INFO | Model 21 | epoch=21 idx=0 | f1=0.9862 recall=0.9806 loss_train=0.0007 loss_test=0.0108
+2026-08-12 23:29:38,551 | INFO | Model 21 | epoch=21 finished | elapsed=34.21s
+2026-08-12 23:29:38,667 | INFO | Model 21 | epoch=22 idx=0 | f1=0.9860 recall=0.9797 loss_train=0.0007 loss_test=0.0109
+2026-08-12 23:29:40,074 | INFO | Model 21 | epoch=22 finished | elapsed=35.73s
+2026-08-12 23:29:40,193 | INFO | Model 21 | epoch=23 idx=0 | f1=0.9865 recall=0.9809 loss_train=0.0006 loss_test=0.0109
+2026-08-12 23:29:41,580 | INFO | Model 21 | epoch=23 finished | elapsed=37.24s
+2026-08-12 23:29:41,696 | INFO | Model 21 | epoch=24 idx=0 | f1=0.9864 recall=0.9800 loss_train=0.0007 loss_test=0.0111
+2026-08-12 23:29:43,245 | INFO | Model 21 | epoch=24 finished | elapsed=38.91s
+2026-08-12 23:29:43,368 | INFO | Model 21 | epoch=25 idx=0 | f1=0.9860 recall=0.9785 loss_train=0.0007 loss_test=0.0111
+2026-08-12 23:29:44,768 | INFO | Model 21 | epoch=25 finished | elapsed=40.43s
+2026-08-12 23:29:44,916 | INFO | Model 21 | epoch=26 idx=0 | f1=0.9864 recall=0.9788 loss_train=0.0009 loss_test=0.0113
+2026-08-12 23:29:46,404 | INFO | Model 21 | epoch=26 finished | elapsed=42.06s
+2026-08-12 23:29:46,517 | INFO | Model 21 | epoch=27 idx=0 | f1=0.9864 recall=0.9797 loss_train=0.0007 loss_test=0.0113
+2026-08-12 23:29:48,048 | INFO | Model 21 | epoch=27 finished | elapsed=43.71s
+2026-08-12 23:29:48,163 | INFO | Model 21 | epoch=28 idx=0 | f1=0.9866 recall=0.9803 loss_train=0.0006 loss_test=0.0112
+2026-08-12 23:29:49,523 | INFO | Model 21 | epoch=28 finished | elapsed=45.18s
+2026-08-12 23:29:49,641 | INFO | Model 21 | epoch=29 idx=0 | f1=0.9854 recall=0.9791 loss_train=0.0006 loss_test=0.0115
+2026-08-12 23:29:51,085 | INFO | Model 21 | epoch=29 finished | elapsed=46.75s
+2026-08-12 23:29:51,208 | INFO | Model 21 | epoch=30 idx=0 | f1=0.9859 recall=0.9800 loss_train=0.0006 loss_test=0.0117
+2026-08-12 23:29:52,598 | INFO | Model 21 | epoch=30 finished | elapsed=48.26s
+2026-08-12 23:29:52,714 | INFO | Model 21 | epoch=31 idx=0 | f1=0.9857 recall=0.9788 loss_train=0.0006 loss_test=0.0117
+2026-08-12 23:29:54,185 | INFO | Model 21 | epoch=31 finished | elapsed=49.84s
+2026-08-12 23:29:54,346 | INFO | Model 21 | epoch=32 idx=0 | f1=0.9858 recall=0.9794 loss_train=0.0007 loss_test=0.0117
+2026-08-12 23:29:55,750 | INFO | Model 21 | epoch=32 finished | elapsed=51.41s
+2026-08-12 23:29:55,867 | INFO | Model 21 | epoch=33 idx=0 | f1=0.9862 recall=0.9800 loss_train=0.0007 loss_test=0.0116
+2026-08-12 23:29:55,867 | INFO | Model 21 | early stopping at epoch=33 idx=0
+2026-08-12 23:29:55,867 | INFO | Model 21 | epoch=33 finished | elapsed=51.53s
+2026-08-12 23:29:55,867 | INFO | Model 21 | training finished | total_elapsed=51.53s
+2026-08-12 23:29:56,052 | INFO | === New model #22 | batch_size=128, n_iter_no_change=5, tol=0.0001, params={'alpha': 1e-06, 'class_weight': None, 'eta0': 0.0001, 'learning_rate': 'optimal', 'loss': 'log_loss', 'penalty': 'l1'} ===
+2026-08-12 23:29:56,178 | INFO | Model 22 | epoch=0 idx=0 | f1=0.7273 recall=0.6569 loss_train=0.2013 loss_test=0.2012
+2026-08-12 23:29:59,224 | INFO | Model 22 | epoch=0 finished | elapsed=3.17s
+2026-08-12 23:29:59,355 | INFO | Model 22 | epoch=1 idx=0 | f1=0.9826 recall=0.9800 loss_train=0.0054 loss_test=0.0229
+2026-08-12 23:30:02,304 | INFO | Model 22 | epoch=1 finished | elapsed=6.25s
+2026-08-12 23:30:02,448 | INFO | Model 22 | epoch=2 idx=0 | f1=0.9844 recall=0.9818 loss_train=0.0019 loss_test=0.0204
+2026-08-12 23:30:05,466 | INFO | Model 22 | epoch=2 finished | elapsed=9.41s
+2026-08-12 23:30:05,591 | INFO | Model 22 | epoch=3 idx=0 | f1=0.9850 recall=0.9806 loss_train=0.0013 loss_test=0.0199
+2026-08-12 23:30:08,536 | INFO | Model 22 | epoch=3 finished | elapsed=12.48s
+2026-08-12 23:30:08,720 | INFO | Model 22 | epoch=4 idx=0 | f1=0.9845 recall=0.9797 loss_train=0.0011 loss_test=0.0197
+2026-08-12 23:30:11,701 | INFO | Model 22 | epoch=4 finished | elapsed=15.65s
+2026-08-12 23:30:11,829 | INFO | Model 22 | epoch=5 idx=0 | f1=0.9844 recall=0.9794 loss_train=0.0009 loss_test=0.0195
+2026-08-12 23:30:14,839 | INFO | Model 22 | epoch=5 finished | elapsed=18.79s
+2026-08-12 23:30:14,964 | INFO | Model 22 | epoch=6 idx=0 | f1=0.9842 recall=0.9794 loss_train=0.0009 loss_test=0.0195
+2026-08-12 23:30:17,855 | INFO | Model 22 | epoch=6 finished | elapsed=21.80s
+2026-08-12 23:30:17,981 | INFO | Model 22 | epoch=7 idx=0 | f1=0.9847 recall=0.9797 loss_train=0.0008 loss_test=0.0194
+2026-08-12 23:30:21,278 | INFO | Model 22 | epoch=7 finished | elapsed=25.23s
+2026-08-12 23:30:21,405 | INFO | Model 22 | epoch=8 idx=0 | f1=0.9845 recall=0.9794 loss_train=0.0008 loss_test=0.0194
+2026-08-12 23:30:24,709 | INFO | Model 22 | epoch=8 finished | elapsed=28.66s
+2026-08-12 23:30:24,846 | INFO | Model 22 | epoch=9 idx=0 | f1=0.9845 recall=0.9794 loss_train=0.0007 loss_test=0.0194
+2026-08-12 23:30:27,828 | INFO | Model 22 | epoch=9 finished | elapsed=31.78s
+2026-08-12 23:30:27,951 | INFO | Model 22 | epoch=10 idx=0 | f1=0.9841 recall=0.9788 loss_train=0.0007 loss_test=0.0193
+2026-08-12 23:30:30,826 | INFO | Model 22 | epoch=10 finished | elapsed=34.77s
+2026-08-12 23:30:30,963 | INFO | Model 22 | epoch=11 idx=0 | f1=0.9839 recall=0.9788 loss_train=0.0007 loss_test=0.0193
+2026-08-12 23:30:30,963 | INFO | Model 22 | early stopping at epoch=11 idx=0
+2026-08-12 23:30:30,963 | INFO | Model 22 | epoch=11 finished | elapsed=34.91s
+2026-08-12 23:30:30,963 | INFO | Model 22 | training finished | total_elapsed=34.91s
+2026-08-12 23:30:31,140 | INFO | === New model #23 | batch_size=128, n_iter_no_change=5, tol=0.0001, params={'alpha': 1e-06, 'class_weight': None, 'eta0': 0.0001, 'learning_rate': 'optimal', 'loss': 'log_loss', 'penalty': 'l2'} ===
+2026-08-12 23:30:31,270 | INFO | Model 23 | epoch=0 idx=0 | f1=0.7278 recall=0.6569 loss_train=0.2012 loss_test=0.2011
+2026-08-12 23:30:32,642 | INFO | Model 23 | epoch=0 finished | elapsed=1.50s
+2026-08-12 23:30:32,770 | INFO | Model 23 | epoch=1 idx=0 | f1=0.9836 recall=0.9800 loss_train=0.0068 loss_test=0.0156
+2026-08-12 23:30:34,155 | INFO | Model 23 | epoch=1 finished | elapsed=3.01s
+2026-08-12 23:30:34,282 | INFO | Model 23 | epoch=2 idx=0 | f1=0.9840 recall=0.9758 loss_train=0.0039 loss_test=0.0123
+2026-08-12 23:30:35,834 | INFO | Model 23 | epoch=2 finished | elapsed=4.69s
+2026-08-12 23:30:35,963 | INFO | Model 23 | epoch=3 idx=0 | f1=0.9835 recall=0.9734 loss_train=0.0043 loss_test=0.0126
+2026-08-12 23:30:37,315 | INFO | Model 23 | epoch=3 finished | elapsed=6.17s
+2026-08-12 23:30:37,437 | INFO | Model 23 | epoch=4 idx=0 | f1=0.9832 recall=0.9725 loss_train=0.0046 loss_test=0.0128
+2026-08-12 23:30:38,810 | INFO | Model 23 | epoch=4 finished | elapsed=7.67s
+2026-08-12 23:30:38,931 | INFO | Model 23 | epoch=5 idx=0 | f1=0.9837 recall=0.9728 loss_train=0.0047 loss_test=0.0129
+2026-08-12 23:30:40,376 | INFO | Model 23 | epoch=5 finished | elapsed=9.24s
+2026-08-12 23:30:40,498 | INFO | Model 23 | epoch=6 idx=0 | f1=0.9840 recall=0.9725 loss_train=0.0048 loss_test=0.0129
+2026-08-12 23:30:41,857 | INFO | Model 23 | epoch=6 finished | elapsed=10.72s
+2026-08-12 23:30:42,004 | INFO | Model 23 | epoch=7 idx=0 | f1=0.9846 recall=0.9731 loss_train=0.0049 loss_test=0.0130
+2026-08-12 23:30:43,423 | INFO | Model 23 | epoch=7 finished | elapsed=12.28s
+2026-08-12 23:30:43,561 | INFO | Model 23 | epoch=8 idx=0 | f1=0.9844 recall=0.9728 loss_train=0.0049 loss_test=0.0130
+2026-08-12 23:30:43,561 | INFO | Model 23 | early stopping at epoch=8 idx=0
+2026-08-12 23:30:43,561 | INFO | Model 23 | epoch=8 finished | elapsed=12.42s
+2026-08-12 23:30:43,561 | INFO | Model 23 | training finished | total_elapsed=12.42s
+2026-08-12 23:30:43,762 | INFO | === New model #24 | batch_size=128, n_iter_no_change=5, tol=0.0001, params={'alpha': 1e-06, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'eta0': 0.001, 'learning_rate': 'optimal', 'loss': 'hinge', 'penalty': 'l1'} ===
+2026-08-12 23:30:43,897 | INFO | Model 24 | epoch=0 idx=0 | f1=0.5599 recall=0.8549 loss_train=1.1705 loss_test=1.1894
+2026-08-12 23:30:46,831 | INFO | Model 24 | epoch=0 finished | elapsed=3.07s
+2026-08-12 23:30:46,938 | INFO | Model 24 | epoch=1 idx=0 | f1=0.9537 recall=0.9868 loss_train=0.0890 loss_test=0.1664
+2026-08-12 23:30:49,668 | INFO | Model 24 | epoch=1 finished | elapsed=5.91s
+2026-08-12 23:30:49,802 | INFO | Model 24 | epoch=2 idx=0 | f1=0.9676 recall=0.9868 loss_train=0.0392 loss_test=0.1122
+2026-08-12 23:30:52,649 | INFO | Model 24 | epoch=2 finished | elapsed=8.89s
+2026-08-12 23:30:52,759 | INFO | Model 24 | epoch=3 idx=0 | f1=0.9731 recall=0.9841 loss_train=0.0268 loss_test=0.0991
+2026-08-12 23:30:55,575 | INFO | Model 24 | epoch=3 finished | elapsed=11.81s
+2026-08-12 23:30:55,686 | INFO | Model 24 | epoch=4 idx=0 | f1=0.9751 recall=0.9841 loss_train=0.0221 loss_test=0.0943
+2026-08-12 23:30:58,413 | INFO | Model 24 | epoch=4 finished | elapsed=14.65s
+2026-08-12 23:30:58,525 | INFO | Model 24 | epoch=5 idx=0 | f1=0.9760 recall=0.9838 loss_train=0.0184 loss_test=0.0912
+2026-08-12 23:31:01,299 | INFO | Model 24 | epoch=5 finished | elapsed=17.54s
+2026-08-12 23:31:01,420 | INFO | Model 24 | epoch=6 idx=0 | f1=0.9761 recall=0.9841 loss_train=0.0170 loss_test=0.0907
+2026-08-12 23:31:04,438 | INFO | Model 24 | epoch=6 finished | elapsed=20.68s
+2026-08-12 23:31:04,549 | INFO | Model 24 | epoch=7 idx=0 | f1=0.9745 recall=0.9832 loss_train=0.0160 loss_test=0.0907
+2026-08-12 23:31:07,467 | INFO | Model 24 | epoch=7 finished | elapsed=23.70s
+2026-08-12 23:31:07,581 | INFO | Model 24 | epoch=8 idx=0 | f1=0.9756 recall=0.9824 loss_train=0.0143 loss_test=0.0889
+2026-08-12 23:31:10,275 | INFO | Model 24 | epoch=8 finished | elapsed=26.51s
+2026-08-12 23:31:10,385 | INFO | Model 24 | epoch=9 idx=0 | f1=0.9761 recall=0.9827 loss_train=0.0131 loss_test=0.0876
+2026-08-12 23:31:13,099 | INFO | Model 24 | epoch=9 finished | elapsed=29.34s
+2026-08-12 23:31:13,223 | INFO | Model 24 | epoch=10 idx=0 | f1=0.9762 recall=0.9818 loss_train=0.0116 loss_test=0.0865
+2026-08-12 23:31:15,918 | INFO | Model 24 | epoch=10 finished | elapsed=32.16s
+2026-08-12 23:31:16,026 | INFO | Model 24 | epoch=11 idx=0 | f1=0.9769 recall=0.9818 loss_train=0.0112 loss_test=0.0856
+2026-08-12 23:31:19,023 | INFO | Model 24 | epoch=11 finished | elapsed=35.26s
+2026-08-12 23:31:19,140 | INFO | Model 24 | epoch=12 idx=0 | f1=0.9766 recall=0.9818 loss_train=0.0108 loss_test=0.0853
+2026-08-12 23:31:22,371 | INFO | Model 24 | epoch=12 finished | elapsed=38.61s
+2026-08-12 23:31:22,495 | INFO | Model 24 | epoch=13 idx=0 | f1=0.9769 recall=0.9815 loss_train=0.0096 loss_test=0.0843
+2026-08-12 23:31:25,588 | INFO | Model 24 | epoch=13 finished | elapsed=41.83s
+2026-08-12 23:31:25,702 | INFO | Model 24 | epoch=14 idx=0 | f1=0.9772 recall=0.9809 loss_train=0.0093 loss_test=0.0837
+2026-08-12 23:31:28,625 | INFO | Model 24 | epoch=14 finished | elapsed=44.86s
+2026-08-12 23:31:28,741 | INFO | Model 24 | epoch=15 idx=0 | f1=0.9773 recall=0.9809 loss_train=0.0087 loss_test=0.0831
+2026-08-12 23:31:31,762 | INFO | Model 24 | epoch=15 finished | elapsed=48.00s
+2026-08-12 23:31:31,881 | INFO | Model 24 | epoch=16 idx=0 | f1=0.9776 recall=0.9809 loss_train=0.0085 loss_test=0.0831
+2026-08-12 23:31:34,895 | INFO | Model 24 | epoch=16 finished | elapsed=51.13s
+2026-08-12 23:31:35,009 | INFO | Model 24 | epoch=17 idx=0 | f1=0.9779 recall=0.9803 loss_train=0.0081 loss_test=0.0828
+2026-08-12 23:31:37,825 | INFO | Model 24 | epoch=17 finished | elapsed=54.06s
+2026-08-12 23:31:37,939 | INFO | Model 24 | epoch=18 idx=0 | f1=0.9778 recall=0.9797 loss_train=0.0077 loss_test=0.0823
+2026-08-12 23:31:40,979 | INFO | Model 24 | epoch=18 finished | elapsed=57.22s
+2026-08-12 23:31:41,099 | INFO | Model 24 | epoch=19 idx=0 | f1=0.9785 recall=0.9800 loss_train=0.0073 loss_test=0.0820
+2026-08-12 23:31:44,089 | INFO | Model 24 | epoch=19 finished | elapsed=60.33s
+2026-08-12 23:31:44,206 | INFO | Model 24 | epoch=20 idx=0 | f1=0.9782 recall=0.9797 loss_train=0.0074 loss_test=0.0823
+2026-08-12 23:31:47,117 | INFO | Model 24 | epoch=20 finished | elapsed=63.35s
+2026-08-12 23:31:47,229 | INFO | Model 24 | epoch=21 idx=0 | f1=0.9782 recall=0.9803 loss_train=0.0071 loss_test=0.0819
+2026-08-12 23:31:50,192 | INFO | Model 24 | epoch=21 finished | elapsed=66.43s
+2026-08-12 23:31:50,308 | INFO | Model 24 | epoch=22 idx=0 | f1=0.9779 recall=0.9794 loss_train=0.0069 loss_test=0.0818
+2026-08-12 23:31:53,131 | INFO | Model 24 | epoch=22 finished | elapsed=69.37s
+2026-08-12 23:31:53,246 | INFO | Model 24 | epoch=23 idx=0 | f1=0.9777 recall=0.9791 loss_train=0.0067 loss_test=0.0818
+2026-08-12 23:31:56,181 | INFO | Model 24 | epoch=23 finished | elapsed=72.42s
+2026-08-12 23:31:56,295 | INFO | Model 24 | epoch=24 idx=0 | f1=0.9780 recall=0.9797 loss_train=0.0067 loss_test=0.0818
+2026-08-12 23:31:59,088 | INFO | Model 24 | epoch=24 finished | elapsed=75.33s
+2026-08-12 23:31:59,226 | INFO | Model 24 | epoch=25 idx=0 | f1=0.9778 recall=0.9797 loss_train=0.0066 loss_test=0.0820
+2026-08-12 23:32:02,064 | INFO | Model 24 | epoch=25 finished | elapsed=78.30s
+2026-08-12 23:32:02,182 | INFO | Model 24 | epoch=26 idx=0 | f1=0.9776 recall=0.9794 loss_train=0.0064 loss_test=0.0819
+2026-08-12 23:32:05,084 | INFO | Model 24 | epoch=26 finished | elapsed=81.32s
+2026-08-12 23:32:05,210 | INFO | Model 24 | epoch=27 idx=0 | f1=0.9774 recall=0.9782 loss_train=0.0062 loss_test=0.0817
+2026-08-12 23:32:07,993 | INFO | Model 24 | epoch=27 finished | elapsed=84.23s
+2026-08-12 23:32:08,112 | INFO | Model 24 | epoch=28 idx=0 | f1=0.9779 recall=0.9791 loss_train=0.0061 loss_test=0.0817
+2026-08-12 23:32:11,053 | INFO | Model 24 | epoch=28 finished | elapsed=87.29s
+2026-08-12 23:32:11,164 | INFO | Model 24 | epoch=29 idx=0 | f1=0.9780 recall=0.9788 loss_train=0.0059 loss_test=0.0816
+2026-08-12 23:32:13,960 | INFO | Model 24 | epoch=29 finished | elapsed=90.20s
+2026-08-12 23:32:14,079 | INFO | Model 24 | epoch=30 idx=0 | f1=0.9779 recall=0.9785 loss_train=0.0058 loss_test=0.0815
+2026-08-12 23:32:17,062 | INFO | Model 24 | epoch=30 finished | elapsed=93.30s
+2026-08-12 23:32:17,174 | INFO | Model 24 | epoch=31 idx=0 | f1=0.9779 recall=0.9785 loss_train=0.0058 loss_test=0.0815
+2026-08-12 23:32:20,023 | INFO | Model 24 | epoch=31 finished | elapsed=96.26s
+2026-08-12 23:32:20,150 | INFO | Model 24 | epoch=32 idx=0 | f1=0.9780 recall=0.9785 loss_train=0.0056 loss_test=0.0815
+2026-08-12 23:32:23,022 | INFO | Model 24 | epoch=32 finished | elapsed=99.26s
+2026-08-12 23:32:23,141 | INFO | Model 24 | epoch=33 idx=0 | f1=0.9782 recall=0.9788 loss_train=0.0055 loss_test=0.0815
+2026-08-12 23:32:26,024 | INFO | Model 24 | epoch=33 finished | elapsed=102.26s
+2026-08-12 23:32:26,141 | INFO | Model 24 | epoch=34 idx=0 | f1=0.9779 recall=0.9785 loss_train=0.0055 loss_test=0.0815
+2026-08-12 23:32:28,986 | INFO | Model 24 | epoch=34 finished | elapsed=105.22s
+2026-08-12 23:32:29,097 | INFO | Model 24 | epoch=35 idx=0 | f1=0.9780 recall=0.9785 loss_train=0.0054 loss_test=0.0815
+2026-08-12 23:32:32,138 | INFO | Model 24 | epoch=35 finished | elapsed=108.38s
+2026-08-12 23:32:32,251 | INFO | Model 24 | epoch=36 idx=0 | f1=0.9780 recall=0.9785 loss_train=0.0053 loss_test=0.0814
+2026-08-12 23:32:35,224 | INFO | Model 24 | epoch=36 finished | elapsed=111.46s
+2026-08-12 23:32:35,347 | INFO | Model 24 | epoch=37 idx=0 | f1=0.9780 recall=0.9785 loss_train=0.0053 loss_test=0.0814
+2026-08-12 23:32:38,182 | INFO | Model 24 | epoch=37 finished | elapsed=114.42s
+2026-08-12 23:32:38,297 | INFO | Model 24 | epoch=38 idx=0 | f1=0.9782 recall=0.9788 loss_train=0.0052 loss_test=0.0814
+2026-08-12 23:32:41,217 | INFO | Model 24 | epoch=38 finished | elapsed=117.45s
+2026-08-12 23:32:41,332 | INFO | Model 24 | epoch=39 idx=0 | f1=0.9779 recall=0.9782 loss_train=0.0050 loss_test=0.0813
+2026-08-12 23:32:44,212 | INFO | Model 24 | epoch=39 finished | elapsed=120.45s
+2026-08-12 23:32:44,333 | INFO | Model 24 | epoch=40 idx=0 | f1=0.9782 recall=0.9782 loss_train=0.0050 loss_test=0.0813
+2026-08-12 23:32:47,286 | INFO | Model 24 | epoch=40 finished | elapsed=123.52s
+2026-08-12 23:32:47,409 | INFO | Model 24 | epoch=41 idx=0 | f1=0.9779 recall=0.9785 loss_train=0.0049 loss_test=0.0812
+2026-08-12 23:32:50,217 | INFO | Model 24 | epoch=41 finished | elapsed=126.45s
+2026-08-12 23:32:50,336 | INFO | Model 24 | epoch=42 idx=0 | f1=0.9782 recall=0.9785 loss_train=0.0049 loss_test=0.0813
+2026-08-12 23:32:53,293 | INFO | Model 24 | epoch=42 finished | elapsed=129.53s
+2026-08-12 23:32:53,412 | INFO | Model 24 | epoch=43 idx=0 | f1=0.9780 recall=0.9782 loss_train=0.0048 loss_test=0.0812
+2026-08-12 23:32:56,221 | INFO | Model 24 | epoch=43 finished | elapsed=132.46s
+2026-08-12 23:32:56,371 | INFO | Model 24 | epoch=44 idx=0 | f1=0.9779 recall=0.9782 loss_train=0.0048 loss_test=0.0813
+2026-08-12 23:32:59,206 | INFO | Model 24 | epoch=44 finished | elapsed=135.44s
+2026-08-12 23:32:59,321 | INFO | Model 24 | epoch=45 idx=0 | f1=0.9782 recall=0.9782 loss_train=0.0047 loss_test=0.0813
+2026-08-12 23:32:59,321 | INFO | Model 24 | early stopping at epoch=45 idx=0
+2026-08-12 23:32:59,321 | INFO | Model 24 | epoch=45 finished | elapsed=135.56s
+2026-08-12 23:32:59,321 | INFO | Model 24 | training finished | total_elapsed=135.56s
+2026-08-12 23:32:59,488 | INFO | === New model #25 | batch_size=128, n_iter_no_change=5, tol=0.0001, params={'alpha': 1e-06, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'eta0': 0.001, 'learning_rate': 'optimal', 'loss': 'hinge', 'penalty': 'l2'} ===
+2026-08-12 23:32:59,601 | INFO | Model 25 | epoch=0 idx=0 | f1=0.5600 recall=0.8546 loss_train=1.1651 loss_test=1.1840
+2026-08-12 23:33:00,991 | INFO | Model 25 | epoch=0 finished | elapsed=1.50s
+2026-08-12 23:33:01,102 | INFO | Model 25 | epoch=1 idx=0 | f1=0.9515 recall=0.9868 loss_train=0.0544 loss_test=0.0907
+2026-08-12 23:33:02,595 | INFO | Model 25 | epoch=1 finished | elapsed=3.11s
+2026-08-12 23:33:02,715 | INFO | Model 25 | epoch=2 idx=0 | f1=0.9661 recall=0.9859 loss_train=0.0201 loss_test=0.0432
+2026-08-12 23:33:04,073 | INFO | Model 25 | epoch=2 finished | elapsed=4.58s
+2026-08-12 23:33:04,185 | INFO | Model 25 | epoch=3 idx=0 | f1=0.9766 recall=0.9850 loss_train=0.0103 loss_test=0.0262
+2026-08-12 23:33:05,552 | INFO | Model 25 | epoch=3 finished | elapsed=6.06s
+2026-08-12 23:33:05,664 | INFO | Model 25 | epoch=4 idx=0 | f1=0.9766 recall=0.9841 loss_train=0.0060 loss_test=0.0215
+2026-08-12 23:33:07,162 | INFO | Model 25 | epoch=4 finished | elapsed=7.67s
+2026-08-12 23:33:07,276 | INFO | Model 25 | epoch=5 idx=0 | f1=0.9777 recall=0.9838 loss_train=0.0043 loss_test=0.0190
+2026-08-12 23:33:08,625 | INFO | Model 25 | epoch=5 finished | elapsed=9.14s
+2026-08-12 23:33:08,742 | INFO | Model 25 | epoch=6 idx=0 | f1=0.9818 recall=0.9818 loss_train=0.0028 loss_test=0.0150
+2026-08-12 23:33:10,089 | INFO | Model 25 | epoch=6 finished | elapsed=10.60s
+2026-08-12 23:33:10,207 | INFO | Model 25 | epoch=7 idx=0 | f1=0.9811 recall=0.9847 loss_train=0.0029 loss_test=0.0154
+2026-08-12 23:33:11,612 | INFO | Model 25 | epoch=7 finished | elapsed=12.12s
+2026-08-12 23:33:11,727 | INFO | Model 25 | epoch=8 idx=0 | f1=0.9809 recall=0.9829 loss_train=0.0023 loss_test=0.0141
+2026-08-12 23:33:13,170 | INFO | Model 25 | epoch=8 finished | elapsed=13.68s
+2026-08-12 23:33:13,284 | INFO | Model 25 | epoch=9 idx=0 | f1=0.9804 recall=0.9850 loss_train=0.0030 loss_test=0.0148
+2026-08-12 23:33:14,638 | INFO | Model 25 | epoch=9 finished | elapsed=15.15s
+2026-08-12 23:33:14,758 | INFO | Model 25 | epoch=10 idx=0 | f1=0.9827 recall=0.9853 loss_train=0.0023 loss_test=0.0135
+2026-08-12 23:33:16,195 | INFO | Model 25 | epoch=10 finished | elapsed=16.71s
+2026-08-12 23:33:16,310 | INFO | Model 25 | epoch=11 idx=0 | f1=0.9825 recall=0.9844 loss_train=0.0020 loss_test=0.0126
+2026-08-12 23:33:17,786 | INFO | Model 25 | epoch=11 finished | elapsed=18.30s
+2026-08-12 23:33:17,901 | INFO | Model 25 | epoch=12 idx=0 | f1=0.9824 recall=0.9853 loss_train=0.0022 loss_test=0.0127
+2026-08-12 23:33:19,318 | INFO | Model 25 | epoch=12 finished | elapsed=19.83s
+2026-08-12 23:33:19,438 | INFO | Model 25 | epoch=13 idx=0 | f1=0.9831 recall=0.9835 loss_train=0.0018 loss_test=0.0121
+2026-08-12 23:33:20,812 | INFO | Model 25 | epoch=13 finished | elapsed=21.32s
+2026-08-12 23:33:20,927 | INFO | Model 25 | epoch=14 idx=0 | f1=0.9836 recall=0.9853 loss_train=0.0019 loss_test=0.0121
+2026-08-12 23:33:22,358 | INFO | Model 25 | epoch=14 finished | elapsed=22.87s
+2026-08-12 23:33:22,476 | INFO | Model 25 | epoch=15 idx=0 | f1=0.9839 recall=0.9850 loss_train=0.0017 loss_test=0.0117
+2026-08-12 23:33:23,908 | INFO | Model 25 | epoch=15 finished | elapsed=24.42s
+2026-08-12 23:33:24,022 | INFO | Model 25 | epoch=16 idx=0 | f1=0.9811 recall=0.9862 loss_train=0.0018 loss_test=0.0128
+2026-08-12 23:33:25,432 | INFO | Model 25 | epoch=16 finished | elapsed=25.94s
+2026-08-12 23:33:25,546 | INFO | Model 25 | epoch=17 idx=0 | f1=0.9849 recall=0.9838 loss_train=0.0016 loss_test=0.0113
+2026-08-12 23:33:26,901 | INFO | Model 25 | epoch=17 finished | elapsed=27.41s
+2026-08-12 23:33:27,015 | INFO | Model 25 | epoch=18 idx=0 | f1=0.9831 recall=0.9850 loss_train=0.0016 loss_test=0.0120
+2026-08-12 23:33:28,511 | INFO | Model 25 | epoch=18 finished | elapsed=29.02s
+2026-08-12 23:33:28,637 | INFO | Model 25 | epoch=19 idx=0 | f1=0.9825 recall=0.9841 loss_train=0.0016 loss_test=0.0127
+2026-08-12 23:33:30,000 | INFO | Model 25 | epoch=19 finished | elapsed=30.51s
+2026-08-12 23:33:30,115 | INFO | Model 25 | epoch=20 idx=0 | f1=0.9840 recall=0.9856 loss_train=0.0013 loss_test=0.0119
+2026-08-12 23:33:31,504 | INFO | Model 25 | epoch=20 finished | elapsed=32.02s
+2026-08-12 23:33:31,619 | INFO | Model 25 | epoch=21 idx=0 | f1=0.9838 recall=0.9838 loss_train=0.0013 loss_test=0.0115
+2026-08-12 23:33:33,111 | INFO | Model 25 | epoch=21 finished | elapsed=33.62s
+2026-08-12 23:33:33,225 | INFO | Model 25 | epoch=22 idx=0 | f1=0.9838 recall=0.9827 loss_train=0.0011 loss_test=0.0110
+2026-08-12 23:33:34,615 | INFO | Model 25 | epoch=22 finished | elapsed=35.13s
+2026-08-12 23:33:34,735 | INFO | Model 25 | epoch=23 idx=0 | f1=0.9839 recall=0.9841 loss_train=0.0012 loss_test=0.0117
+2026-08-12 23:33:36,137 | INFO | Model 25 | epoch=23 finished | elapsed=36.65s
+2026-08-12 23:33:36,257 | INFO | Model 25 | epoch=24 idx=0 | f1=0.9849 recall=0.9838 loss_train=0.0012 loss_test=0.0115
+2026-08-12 23:33:37,625 | INFO | Model 25 | epoch=24 finished | elapsed=38.14s
+2026-08-12 23:33:37,742 | INFO | Model 25 | epoch=25 idx=0 | f1=0.9843 recall=0.9838 loss_train=0.0011 loss_test=0.0113
+2026-08-12 23:33:39,347 | INFO | Model 25 | epoch=25 finished | elapsed=39.86s
+2026-08-12 23:33:39,464 | INFO | Model 25 | epoch=26 idx=0 | f1=0.9846 recall=0.9832 loss_train=0.0012 loss_test=0.0114
+2026-08-12 23:33:40,898 | INFO | Model 25 | epoch=26 finished | elapsed=41.41s
+2026-08-12 23:33:41,014 | INFO | Model 25 | epoch=27 idx=0 | f1=0.9843 recall=0.9841 loss_train=0.0011 loss_test=0.0118
+2026-08-12 23:33:42,389 | INFO | Model 25 | epoch=27 finished | elapsed=42.90s
+2026-08-12 23:33:42,501 | INFO | Model 25 | epoch=28 idx=0 | f1=0.9855 recall=0.9844 loss_train=0.0012 loss_test=0.0115
+2026-08-12 23:33:43,977 | INFO | Model 25 | epoch=28 finished | elapsed=44.49s
+2026-08-12 23:33:44,096 | INFO | Model 25 | epoch=29 idx=0 | f1=0.9850 recall=0.9835 loss_train=0.0012 loss_test=0.0115
+2026-08-12 23:33:45,535 | INFO | Model 25 | epoch=29 finished | elapsed=46.05s
+2026-08-12 23:33:45,663 | INFO | Model 25 | epoch=30 idx=0 | f1=0.9855 recall=0.9838 loss_train=0.0010 loss_test=0.0111
+2026-08-12 23:33:47,177 | INFO | Model 25 | epoch=30 finished | elapsed=47.69s
+2026-08-12 23:33:47,290 | INFO | Model 25 | epoch=31 idx=0 | f1=0.9850 recall=0.9835 loss_train=0.0011 loss_test=0.0116
+2026-08-12 23:33:48,728 | INFO | Model 25 | epoch=31 finished | elapsed=49.24s
+2026-08-12 23:33:48,844 | INFO | Model 25 | epoch=32 idx=0 | f1=0.9853 recall=0.9844 loss_train=0.0010 loss_test=0.0118
+2026-08-12 23:33:50,288 | INFO | Model 25 | epoch=32 finished | elapsed=50.80s
+2026-08-12 23:33:50,408 | INFO | Model 25 | epoch=33 idx=0 | f1=0.9853 recall=0.9850 loss_train=0.0012 loss_test=0.0120
+2026-08-12 23:33:51,791 | INFO | Model 25 | epoch=33 finished | elapsed=52.30s
+2026-08-12 23:33:51,908 | INFO | Model 25 | epoch=34 idx=0 | f1=0.9853 recall=0.9841 loss_train=0.0010 loss_test=0.0117
+2026-08-12 23:33:53,290 | INFO | Model 25 | epoch=34 finished | elapsed=53.80s
+2026-08-12 23:33:53,423 | INFO | Model 25 | epoch=35 idx=0 | f1=0.9859 recall=0.9853 loss_train=0.0011 loss_test=0.0122
+2026-08-12 23:33:54,890 | INFO | Model 25 | epoch=35 finished | elapsed=55.40s
+2026-08-12 23:33:55,006 | INFO | Model 25 | epoch=36 idx=0 | f1=0.9846 recall=0.9829 loss_train=0.0010 loss_test=0.0118
+2026-08-12 23:33:56,389 | INFO | Model 25 | epoch=36 finished | elapsed=56.90s
+2026-08-12 23:33:56,500 | INFO | Model 25 | epoch=37 idx=0 | f1=0.9844 recall=0.9835 loss_train=0.0009 loss_test=0.0117
+2026-08-12 23:33:57,837 | INFO | Model 25 | epoch=37 finished | elapsed=58.35s
+2026-08-12 23:33:57,948 | INFO | Model 25 | epoch=38 idx=0 | f1=0.9847 recall=0.9832 loss_train=0.0009 loss_test=0.0118
+2026-08-12 23:33:59,458 | INFO | Model 25 | epoch=38 finished | elapsed=59.97s
+2026-08-12 23:33:59,569 | INFO | Model 25 | epoch=39 idx=0 | f1=0.9853 recall=0.9841 loss_train=0.0009 loss_test=0.0120
+2026-08-12 23:34:00,939 | INFO | Model 25 | epoch=39 finished | elapsed=61.45s
+2026-08-12 23:34:01,055 | INFO | Model 25 | epoch=40 idx=0 | f1=0.9853 recall=0.9841 loss_train=0.0010 loss_test=0.0117
+2026-08-12 23:34:02,486 | INFO | Model 25 | epoch=40 finished | elapsed=63.00s
+2026-08-12 23:34:02,600 | INFO | Model 25 | epoch=41 idx=0 | f1=0.9861 recall=0.9841 loss_train=0.0009 loss_test=0.0117
+2026-08-12 23:34:04,063 | INFO | Model 25 | epoch=41 finished | elapsed=64.58s
+2026-08-12 23:34:04,177 | INFO | Model 25 | epoch=42 idx=0 | f1=0.9864 recall=0.9844 loss_train=0.0009 loss_test=0.0117
+2026-08-12 23:34:04,177 | INFO | Model 25 | early stopping at epoch=42 idx=0
+2026-08-12 23:34:04,177 | INFO | Model 25 | epoch=42 finished | elapsed=64.69s
+2026-08-12 23:34:04,177 | INFO | Model 25 | training finished | total_elapsed=64.69s
+2026-08-12 23:34:04,341 | INFO | === New model #26 | batch_size=128, n_iter_no_change=5, tol=0.0001, params={'alpha': 1e-06, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'eta0': 0.001, 'learning_rate': 'optimal', 'loss': 'log_loss', 'penalty': 'l1'} ===
+2026-08-12 23:34:04,470 | INFO | Model 26 | epoch=0 idx=0 | f1=0.5855 recall=0.8229 loss_train=0.7190 loss_test=0.7234
+2026-08-12 23:34:07,430 | INFO | Model 26 | epoch=0 finished | elapsed=3.09s
+2026-08-12 23:34:07,566 | INFO | Model 26 | epoch=1 idx=0 | f1=0.9543 recall=0.9880 loss_train=0.0675 loss_test=0.1256
+2026-08-12 23:34:10,662 | INFO | Model 26 | epoch=1 finished | elapsed=6.32s
+2026-08-12 23:34:10,806 | INFO | Model 26 | epoch=2 idx=0 | f1=0.9731 recall=0.9862 loss_train=0.0237 loss_test=0.0765
+2026-08-12 23:34:13,764 | INFO | Model 26 | epoch=2 finished | elapsed=9.42s
+2026-08-12 23:34:13,895 | INFO | Model 26 | epoch=3 idx=0 | f1=0.9773 recall=0.9838 loss_train=0.0157 loss_test=0.0716
+2026-08-12 23:34:16,844 | INFO | Model 26 | epoch=3 finished | elapsed=12.50s
+2026-08-12 23:34:16,982 | INFO | Model 26 | epoch=4 idx=0 | f1=0.9765 recall=0.9829 loss_train=0.0123 loss_test=0.0694
+2026-08-12 23:34:19,880 | INFO | Model 26 | epoch=4 finished | elapsed=15.54s
+2026-08-12 23:34:20,012 | INFO | Model 26 | epoch=5 idx=0 | f1=0.9768 recall=0.9818 loss_train=0.0099 loss_test=0.0679
+2026-08-12 23:34:22,943 | INFO | Model 26 | epoch=5 finished | elapsed=18.60s
+2026-08-12 23:34:23,075 | INFO | Model 26 | epoch=6 idx=0 | f1=0.9775 recall=0.9809 loss_train=0.0085 loss_test=0.0664
+2026-08-12 23:34:26,092 | INFO | Model 26 | epoch=6 finished | elapsed=21.75s
+2026-08-12 23:34:26,223 | INFO | Model 26 | epoch=7 idx=0 | f1=0.9768 recall=0.9803 loss_train=0.0080 loss_test=0.0658
+2026-08-12 23:34:29,117 | INFO | Model 26 | epoch=7 finished | elapsed=24.78s
+2026-08-12 23:34:29,253 | INFO | Model 26 | epoch=8 idx=0 | f1=0.9770 recall=0.9797 loss_train=0.0071 loss_test=0.0649
+2026-08-12 23:34:32,279 | INFO | Model 26 | epoch=8 finished | elapsed=27.94s
+2026-08-12 23:34:32,410 | INFO | Model 26 | epoch=9 idx=0 | f1=0.9770 recall=0.9794 loss_train=0.0066 loss_test=0.0644
+2026-08-12 23:34:35,302 | INFO | Model 26 | epoch=9 finished | elapsed=30.96s
+2026-08-12 23:34:35,434 | INFO | Model 26 | epoch=10 idx=0 | f1=0.9770 recall=0.9794 loss_train=0.0061 loss_test=0.0638
+2026-08-12 23:34:38,445 | INFO | Model 26 | epoch=10 finished | elapsed=34.10s
+2026-08-12 23:34:38,582 | INFO | Model 26 | epoch=11 idx=0 | f1=0.9772 recall=0.9794 loss_train=0.0057 loss_test=0.0634
+2026-08-12 23:34:41,603 | INFO | Model 26 | epoch=11 finished | elapsed=37.26s
+2026-08-12 23:34:41,742 | INFO | Model 26 | epoch=12 idx=0 | f1=0.9772 recall=0.9791 loss_train=0.0055 loss_test=0.0631
+2026-08-12 23:34:44,725 | INFO | Model 26 | epoch=12 finished | elapsed=40.38s
+2026-08-12 23:34:44,894 | INFO | Model 26 | epoch=13 idx=0 | f1=0.9776 recall=0.9791 loss_train=0.0053 loss_test=0.0629
+2026-08-12 23:34:47,935 | INFO | Model 26 | epoch=13 finished | elapsed=43.59s
+2026-08-12 23:34:48,073 | INFO | Model 26 | epoch=14 idx=0 | f1=0.9779 recall=0.9794 loss_train=0.0051 loss_test=0.0627
+2026-08-12 23:34:51,021 | INFO | Model 26 | epoch=14 finished | elapsed=46.68s
+2026-08-12 23:34:51,161 | INFO | Model 26 | epoch=15 idx=0 | f1=0.9779 recall=0.9794 loss_train=0.0049 loss_test=0.0626
+2026-08-12 23:34:54,143 | INFO | Model 26 | epoch=15 finished | elapsed=49.80s
+2026-08-12 23:34:54,276 | INFO | Model 26 | epoch=16 idx=0 | f1=0.9779 recall=0.9794 loss_train=0.0048 loss_test=0.0624
+2026-08-12 23:34:57,257 | INFO | Model 26 | epoch=16 finished | elapsed=52.92s
+2026-08-12 23:34:57,394 | INFO | Model 26 | epoch=17 idx=0 | f1=0.9779 recall=0.9794 loss_train=0.0046 loss_test=0.0623
+2026-08-12 23:35:00,316 | INFO | Model 26 | epoch=17 finished | elapsed=55.97s
+2026-08-12 23:35:00,461 | INFO | Model 26 | epoch=18 idx=0 | f1=0.9780 recall=0.9794 loss_train=0.0045 loss_test=0.0622
+2026-08-12 23:35:03,440 | INFO | Model 26 | epoch=18 finished | elapsed=59.10s
+2026-08-12 23:35:03,581 | INFO | Model 26 | epoch=19 idx=0 | f1=0.9780 recall=0.9794 loss_train=0.0044 loss_test=0.0621
+2026-08-12 23:35:06,569 | INFO | Model 26 | epoch=19 finished | elapsed=62.23s
+2026-08-12 23:35:06,713 | INFO | Model 26 | epoch=20 idx=0 | f1=0.9780 recall=0.9794 loss_train=0.0043 loss_test=0.0620
+2026-08-12 23:35:09,698 | INFO | Model 26 | epoch=20 finished | elapsed=65.36s
+2026-08-12 23:35:09,830 | INFO | Model 26 | epoch=21 idx=0 | f1=0.9785 recall=0.9794 loss_train=0.0042 loss_test=0.0619
+2026-08-12 23:35:12,869 | INFO | Model 26 | epoch=21 finished | elapsed=68.53s
+2026-08-12 23:35:13,000 | INFO | Model 26 | epoch=22 idx=0 | f1=0.9785 recall=0.9794 loss_train=0.0041 loss_test=0.0619
+2026-08-12 23:35:15,939 | INFO | Model 26 | epoch=22 finished | elapsed=71.60s
+2026-08-12 23:35:16,071 | INFO | Model 26 | epoch=23 idx=0 | f1=0.9785 recall=0.9794 loss_train=0.0040 loss_test=0.0618
+2026-08-12 23:35:19,115 | INFO | Model 26 | epoch=23 finished | elapsed=74.77s
+2026-08-12 23:35:19,247 | INFO | Model 26 | epoch=24 idx=0 | f1=0.9785 recall=0.9794 loss_train=0.0039 loss_test=0.0617
+2026-08-12 23:35:22,179 | INFO | Model 26 | epoch=24 finished | elapsed=77.84s
+2026-08-12 23:35:22,313 | INFO | Model 26 | epoch=25 idx=0 | f1=0.9785 recall=0.9794 loss_train=0.0038 loss_test=0.0617
+2026-08-12 23:35:25,382 | INFO | Model 26 | epoch=25 finished | elapsed=81.04s
+2026-08-12 23:35:25,514 | INFO | Model 26 | epoch=26 idx=0 | f1=0.9786 recall=0.9794 loss_train=0.0038 loss_test=0.0616
+2026-08-12 23:35:28,508 | INFO | Model 26 | epoch=26 finished | elapsed=84.17s
+2026-08-12 23:35:28,650 | INFO | Model 26 | epoch=27 idx=0 | f1=0.9786 recall=0.9794 loss_train=0.0037 loss_test=0.0616
+2026-08-12 23:35:28,650 | INFO | Model 26 | early stopping at epoch=27 idx=0
+2026-08-12 23:35:28,650 | INFO | Model 26 | epoch=27 finished | elapsed=84.31s
+2026-08-12 23:35:28,650 | INFO | Model 26 | training finished | total_elapsed=84.31s
+2026-08-12 23:35:28,829 | INFO | === New model #27 | batch_size=128, n_iter_no_change=5, tol=0.0001, params={'alpha': 1e-06, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'eta0': 0.001, 'learning_rate': 'optimal', 'loss': 'log_loss', 'penalty': 'l2'} ===
+2026-08-12 23:35:28,964 | INFO | Model 27 | epoch=0 idx=0 | f1=0.5856 recall=0.8229 loss_train=0.7167 loss_test=0.7211
+2026-08-12 23:35:30,445 | INFO | Model 27 | epoch=0 finished | elapsed=1.62s
+2026-08-12 23:35:30,570 | INFO | Model 27 | epoch=1 idx=0 | f1=0.9667 recall=0.9853 loss_train=0.0305 loss_test=0.0560
+2026-08-12 23:35:31,977 | INFO | Model 27 | epoch=1 finished | elapsed=3.15s
+2026-08-12 23:35:32,100 | INFO | Model 27 | epoch=2 idx=0 | f1=0.9795 recall=0.9838 loss_train=0.0089 loss_test=0.0240
+2026-08-12 23:35:33,657 | INFO | Model 27 | epoch=2 finished | elapsed=4.83s
+2026-08-12 23:35:33,785 | INFO | Model 27 | epoch=3 idx=0 | f1=0.9818 recall=0.9847 loss_train=0.0044 loss_test=0.0167
+2026-08-12 23:35:35,246 | INFO | Model 27 | epoch=3 finished | elapsed=6.42s
+2026-08-12 23:35:35,378 | INFO | Model 27 | epoch=4 idx=0 | f1=0.9842 recall=0.9853 loss_train=0.0037 loss_test=0.0138
+2026-08-12 23:35:36,793 | INFO | Model 27 | epoch=4 finished | elapsed=7.96s
+2026-08-12 23:35:36,929 | INFO | Model 27 | epoch=5 idx=0 | f1=0.9842 recall=0.9847 loss_train=0.0043 loss_test=0.0136
+2026-08-12 23:35:38,466 | INFO | Model 27 | epoch=5 finished | elapsed=9.64s
+2026-08-12 23:35:38,597 | INFO | Model 27 | epoch=6 idx=0 | f1=0.9850 recall=0.9850 loss_train=0.0043 loss_test=0.0130
+2026-08-12 23:35:40,038 | INFO | Model 27 | epoch=6 finished | elapsed=11.21s
+2026-08-12 23:35:40,162 | INFO | Model 27 | epoch=7 idx=0 | f1=0.9855 recall=0.9850 loss_train=0.0045 loss_test=0.0130
+2026-08-12 23:35:41,589 | INFO | Model 27 | epoch=7 finished | elapsed=12.76s
+2026-08-12 23:35:41,713 | INFO | Model 27 | epoch=8 idx=0 | f1=0.9864 recall=0.9853 loss_train=0.0047 loss_test=0.0130
+2026-08-12 23:35:43,167 | INFO | Model 27 | epoch=8 finished | elapsed=14.34s
+2026-08-12 23:35:43,311 | INFO | Model 27 | epoch=9 idx=0 | f1=0.9865 recall=0.9853 loss_train=0.0049 loss_test=0.0130
+2026-08-12 23:35:44,809 | INFO | Model 27 | epoch=9 finished | elapsed=15.98s
+2026-08-12 23:35:44,933 | INFO | Model 27 | epoch=10 idx=0 | f1=0.9865 recall=0.9853 loss_train=0.0050 loss_test=0.0130
+2026-08-12 23:35:44,933 | INFO | Model 27 | early stopping at epoch=10 idx=0
+2026-08-12 23:35:44,933 | INFO | Model 27 | epoch=10 finished | elapsed=16.10s
+2026-08-12 23:35:44,933 | INFO | Model 27 | training finished | total_elapsed=16.10s
+2026-08-12 23:35:45,116 | INFO | === New model #28 | batch_size=128, n_iter_no_change=5, tol=0.0001, params={'alpha': 1e-06, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'eta0': 0.0001, 'learning_rate': 'optimal', 'loss': 'hinge', 'penalty': 'l1'} ===
+2026-08-12 23:35:45,247 | INFO | Model 28 | epoch=0 idx=0 | f1=0.5599 recall=0.8549 loss_train=1.1705 loss_test=1.1894
+2026-08-12 23:35:48,127 | INFO | Model 28 | epoch=0 finished | elapsed=3.01s
+2026-08-12 23:35:48,253 | INFO | Model 28 | epoch=1 idx=0 | f1=0.9537 recall=0.9868 loss_train=0.0890 loss_test=0.1664
+2026-08-12 23:35:51,216 | INFO | Model 28 | epoch=1 finished | elapsed=6.10s
+2026-08-12 23:35:51,330 | INFO | Model 28 | epoch=2 idx=0 | f1=0.9676 recall=0.9868 loss_train=0.0392 loss_test=0.1122
+2026-08-12 23:35:54,481 | INFO | Model 28 | epoch=2 finished | elapsed=9.36s
+2026-08-12 23:35:54,604 | INFO | Model 28 | epoch=3 idx=0 | f1=0.9731 recall=0.9841 loss_train=0.0268 loss_test=0.0991
+2026-08-12 23:35:58,182 | INFO | Model 28 | epoch=3 finished | elapsed=13.06s
+2026-08-12 23:35:58,300 | INFO | Model 28 | epoch=4 idx=0 | f1=0.9751 recall=0.9841 loss_train=0.0221 loss_test=0.0943
+2026-08-12 23:36:01,287 | INFO | Model 28 | epoch=4 finished | elapsed=16.17s
+2026-08-12 23:36:01,401 | INFO | Model 28 | epoch=5 idx=0 | f1=0.9760 recall=0.9838 loss_train=0.0184 loss_test=0.0912
+2026-08-12 23:36:04,390 | INFO | Model 28 | epoch=5 finished | elapsed=19.27s
+2026-08-12 23:36:04,537 | INFO | Model 28 | epoch=6 idx=0 | f1=0.9761 recall=0.9841 loss_train=0.0170 loss_test=0.0907
+2026-08-12 23:36:07,807 | INFO | Model 28 | epoch=6 finished | elapsed=22.69s
+2026-08-12 23:36:07,928 | INFO | Model 28 | epoch=7 idx=0 | f1=0.9745 recall=0.9832 loss_train=0.0160 loss_test=0.0907
+2026-08-12 23:36:10,995 | INFO | Model 28 | epoch=7 finished | elapsed=25.88s
+2026-08-12 23:36:11,116 | INFO | Model 28 | epoch=8 idx=0 | f1=0.9756 recall=0.9824 loss_train=0.0143 loss_test=0.0889
+2026-08-12 23:36:15,177 | INFO | Model 28 | epoch=8 finished | elapsed=30.06s
+2026-08-12 23:36:15,343 | INFO | Model 28 | epoch=9 idx=0 | f1=0.9761 recall=0.9827 loss_train=0.0131 loss_test=0.0876
+2026-08-12 23:36:18,970 | INFO | Model 28 | epoch=9 finished | elapsed=33.85s
+2026-08-12 23:36:19,109 | INFO | Model 28 | epoch=10 idx=0 | f1=0.9762 recall=0.9818 loss_train=0.0116 loss_test=0.0865
+2026-08-12 23:36:22,957 | INFO | Model 28 | epoch=10 finished | elapsed=37.84s
+2026-08-12 23:36:23,087 | INFO | Model 28 | epoch=11 idx=0 | f1=0.9769 recall=0.9818 loss_train=0.0112 loss_test=0.0856
+2026-08-12 23:36:27,144 | INFO | Model 28 | epoch=11 finished | elapsed=42.03s
+2026-08-12 23:36:27,292 | INFO | Model 28 | epoch=12 idx=0 | f1=0.9766 recall=0.9818 loss_train=0.0108 loss_test=0.0853
+2026-08-12 23:36:32,249 | INFO | Model 28 | epoch=12 finished | elapsed=47.13s
+2026-08-12 23:36:32,443 | INFO | Model 28 | epoch=13 idx=0 | f1=0.9769 recall=0.9815 loss_train=0.0096 loss_test=0.0843
+2026-08-12 23:36:36,889 | INFO | Model 28 | epoch=13 finished | elapsed=51.77s
+2026-08-12 23:36:37,059 | INFO | Model 28 | epoch=14 idx=0 | f1=0.9772 recall=0.9809 loss_train=0.0093 loss_test=0.0837
+2026-08-12 23:36:41,521 | INFO | Model 28 | epoch=14 finished | elapsed=56.40s
+2026-08-12 23:36:41,709 | INFO | Model 28 | epoch=15 idx=0 | f1=0.9773 recall=0.9809 loss_train=0.0087 loss_test=0.0831
+2026-08-12 23:36:46,103 | INFO | Model 28 | epoch=15 finished | elapsed=60.99s
+2026-08-12 23:36:46,253 | INFO | Model 28 | epoch=16 idx=0 | f1=0.9776 recall=0.9809 loss_train=0.0085 loss_test=0.0831
+2026-08-12 23:36:50,631 | INFO | Model 28 | epoch=16 finished | elapsed=65.51s
+2026-08-12 23:36:50,787 | INFO | Model 28 | epoch=17 idx=0 | f1=0.9779 recall=0.9803 loss_train=0.0081 loss_test=0.0828
+2026-08-12 23:36:55,096 | INFO | Model 28 | epoch=17 finished | elapsed=69.98s
+2026-08-12 23:36:55,241 | INFO | Model 28 | epoch=18 idx=0 | f1=0.9778 recall=0.9797 loss_train=0.0077 loss_test=0.0823
+2026-08-12 23:36:58,951 | INFO | Model 28 | epoch=18 finished | elapsed=73.83s
+2026-08-12 23:36:59,094 | INFO | Model 28 | epoch=19 idx=0 | f1=0.9785 recall=0.9800 loss_train=0.0073 loss_test=0.0820
+2026-08-12 23:37:03,072 | INFO | Model 28 | epoch=19 finished | elapsed=77.96s
+2026-08-12 23:37:03,204 | INFO | Model 28 | epoch=20 idx=0 | f1=0.9782 recall=0.9797 loss_train=0.0074 loss_test=0.0823
+2026-08-12 23:37:06,786 | INFO | Model 28 | epoch=20 finished | elapsed=81.67s
+2026-08-12 23:37:06,928 | INFO | Model 28 | epoch=21 idx=0 | f1=0.9782 recall=0.9803 loss_train=0.0071 loss_test=0.0819
+2026-08-12 23:37:10,659 | INFO | Model 28 | epoch=21 finished | elapsed=85.54s
+2026-08-12 23:37:10,803 | INFO | Model 28 | epoch=22 idx=0 | f1=0.9779 recall=0.9794 loss_train=0.0069 loss_test=0.0818
+2026-08-12 23:37:14,515 | INFO | Model 28 | epoch=22 finished | elapsed=89.40s
+2026-08-12 23:37:14,645 | INFO | Model 28 | epoch=23 idx=0 | f1=0.9777 recall=0.9791 loss_train=0.0067 loss_test=0.0818
+2026-08-12 23:37:18,186 | INFO | Model 28 | epoch=23 finished | elapsed=93.07s
+2026-08-12 23:37:18,355 | INFO | Model 28 | epoch=24 idx=0 | f1=0.9780 recall=0.9797 loss_train=0.0067 loss_test=0.0818
+2026-08-12 23:37:21,889 | INFO | Model 28 | epoch=24 finished | elapsed=96.77s
+2026-08-12 23:37:22,031 | INFO | Model 28 | epoch=25 idx=0 | f1=0.9778 recall=0.9797 loss_train=0.0066 loss_test=0.0820
+2026-08-12 23:37:25,688 | INFO | Model 28 | epoch=25 finished | elapsed=100.57s
+2026-08-12 23:37:25,823 | INFO | Model 28 | epoch=26 idx=0 | f1=0.9776 recall=0.9794 loss_train=0.0064 loss_test=0.0819
+2026-08-12 23:37:29,457 | INFO | Model 28 | epoch=26 finished | elapsed=104.34s
+2026-08-12 23:37:29,583 | INFO | Model 28 | epoch=27 idx=0 | f1=0.9774 recall=0.9782 loss_train=0.0062 loss_test=0.0817
+2026-08-12 23:37:32,971 | INFO | Model 28 | epoch=27 finished | elapsed=107.85s
+2026-08-12 23:37:33,106 | INFO | Model 28 | epoch=28 idx=0 | f1=0.9779 recall=0.9791 loss_train=0.0061 loss_test=0.0817
+2026-08-12 23:37:36,526 | INFO | Model 28 | epoch=28 finished | elapsed=111.41s
+2026-08-12 23:37:36,655 | INFO | Model 28 | epoch=29 idx=0 | f1=0.9780 recall=0.9788 loss_train=0.0059 loss_test=0.0816
+2026-08-12 23:37:40,182 | INFO | Model 28 | epoch=29 finished | elapsed=115.06s
+2026-08-12 23:37:40,325 | INFO | Model 28 | epoch=30 idx=0 | f1=0.9779 recall=0.9785 loss_train=0.0058 loss_test=0.0815
+2026-08-12 23:37:43,890 | INFO | Model 28 | epoch=30 finished | elapsed=118.77s
+2026-08-12 23:37:44,032 | INFO | Model 28 | epoch=31 idx=0 | f1=0.9779 recall=0.9785 loss_train=0.0058 loss_test=0.0815
+2026-08-12 23:37:47,451 | INFO | Model 28 | epoch=31 finished | elapsed=122.33s
+2026-08-12 23:37:47,579 | INFO | Model 28 | epoch=32 idx=0 | f1=0.9780 recall=0.9785 loss_train=0.0056 loss_test=0.0815
+2026-08-12 23:37:51,063 | INFO | Model 28 | epoch=32 finished | elapsed=125.95s
+2026-08-12 23:37:51,190 | INFO | Model 28 | epoch=33 idx=0 | f1=0.9782 recall=0.9788 loss_train=0.0055 loss_test=0.0815
+2026-08-12 23:37:54,462 | INFO | Model 28 | epoch=33 finished | elapsed=129.34s
+2026-08-12 23:37:54,590 | INFO | Model 28 | epoch=34 idx=0 | f1=0.9779 recall=0.9785 loss_train=0.0055 loss_test=0.0815
+2026-08-12 23:37:58,090 | INFO | Model 28 | epoch=34 finished | elapsed=132.97s
+2026-08-12 23:37:58,246 | INFO | Model 28 | epoch=35 idx=0 | f1=0.9780 recall=0.9785 loss_train=0.0054 loss_test=0.0815
+2026-08-12 23:38:01,789 | INFO | Model 28 | epoch=35 finished | elapsed=136.67s
+2026-08-12 23:38:01,927 | INFO | Model 28 | epoch=36 idx=0 | f1=0.9780 recall=0.9785 loss_train=0.0053 loss_test=0.0814
+2026-08-12 23:38:05,485 | INFO | Model 28 | epoch=36 finished | elapsed=140.37s
+2026-08-12 23:38:05,613 | INFO | Model 28 | epoch=37 idx=0 | f1=0.9780 recall=0.9785 loss_train=0.0053 loss_test=0.0814
+2026-08-12 23:38:09,085 | INFO | Model 28 | epoch=37 finished | elapsed=143.97s
+2026-08-12 23:38:09,220 | INFO | Model 28 | epoch=38 idx=0 | f1=0.9782 recall=0.9788 loss_train=0.0052 loss_test=0.0814
+2026-08-12 23:38:12,754 | INFO | Model 28 | epoch=38 finished | elapsed=147.64s
+2026-08-12 23:38:12,889 | INFO | Model 28 | epoch=39 idx=0 | f1=0.9779 recall=0.9782 loss_train=0.0050 loss_test=0.0813
+2026-08-12 23:38:16,384 | INFO | Model 28 | epoch=39 finished | elapsed=151.27s
+2026-08-12 23:38:16,527 | INFO | Model 28 | epoch=40 idx=0 | f1=0.9782 recall=0.9782 loss_train=0.0050 loss_test=0.0813
+2026-08-12 23:38:19,930 | INFO | Model 28 | epoch=40 finished | elapsed=154.81s
+2026-08-12 23:38:20,062 | INFO | Model 28 | epoch=41 idx=0 | f1=0.9779 recall=0.9785 loss_train=0.0049 loss_test=0.0812
+2026-08-12 23:38:23,586 | INFO | Model 28 | epoch=41 finished | elapsed=158.47s
+2026-08-12 23:38:23,722 | INFO | Model 28 | epoch=42 idx=0 | f1=0.9782 recall=0.9785 loss_train=0.0049 loss_test=0.0813
+2026-08-12 23:38:27,264 | INFO | Model 28 | epoch=42 finished | elapsed=162.15s
+2026-08-12 23:38:27,415 | INFO | Model 28 | epoch=43 idx=0 | f1=0.9780 recall=0.9782 loss_train=0.0048 loss_test=0.0812
+2026-08-12 23:38:31,025 | INFO | Model 28 | epoch=43 finished | elapsed=165.91s
+2026-08-12 23:38:31,154 | INFO | Model 28 | epoch=44 idx=0 | f1=0.9779 recall=0.9782 loss_train=0.0048 loss_test=0.0813
+2026-08-12 23:38:34,522 | INFO | Model 28 | epoch=44 finished | elapsed=169.40s
+2026-08-12 23:38:34,652 | INFO | Model 28 | epoch=45 idx=0 | f1=0.9782 recall=0.9782 loss_train=0.0047 loss_test=0.0813
+2026-08-12 23:38:34,652 | INFO | Model 28 | early stopping at epoch=45 idx=0
+2026-08-12 23:38:34,652 | INFO | Model 28 | epoch=45 finished | elapsed=169.53s
+2026-08-12 23:38:34,652 | INFO | Model 28 | training finished | total_elapsed=169.54s
+2026-08-12 23:38:34,844 | INFO | === New model #29 | batch_size=128, n_iter_no_change=5, tol=0.0001, params={'alpha': 1e-06, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'eta0': 0.0001, 'learning_rate': 'optimal', 'loss': 'hinge', 'penalty': 'l2'} ===
+2026-08-12 23:38:34,983 | INFO | Model 29 | epoch=0 idx=0 | f1=0.5600 recall=0.8546 loss_train=1.1651 loss_test=1.1840
+2026-08-12 23:38:36,831 | INFO | Model 29 | epoch=0 finished | elapsed=1.99s
+2026-08-12 23:38:36,954 | INFO | Model 29 | epoch=1 idx=0 | f1=0.9515 recall=0.9868 loss_train=0.0544 loss_test=0.0907
+2026-08-12 23:38:38,820 | INFO | Model 29 | epoch=1 finished | elapsed=3.98s
+2026-08-12 23:38:38,948 | INFO | Model 29 | epoch=2 idx=0 | f1=0.9661 recall=0.9859 loss_train=0.0201 loss_test=0.0432
+2026-08-12 23:38:41,049 | INFO | Model 29 | epoch=2 finished | elapsed=6.20s
+2026-08-12 23:38:41,209 | INFO | Model 29 | epoch=3 idx=0 | f1=0.9766 recall=0.9850 loss_train=0.0103 loss_test=0.0262
+2026-08-12 23:38:43,098 | INFO | Model 29 | epoch=3 finished | elapsed=8.25s
+2026-08-12 23:38:43,247 | INFO | Model 29 | epoch=4 idx=0 | f1=0.9766 recall=0.9841 loss_train=0.0060 loss_test=0.0215
+2026-08-12 23:38:44,941 | INFO | Model 29 | epoch=4 finished | elapsed=10.10s
+2026-08-12 23:38:45,064 | INFO | Model 29 | epoch=5 idx=0 | f1=0.9777 recall=0.9838 loss_train=0.0043 loss_test=0.0190
+2026-08-12 23:38:46,703 | INFO | Model 29 | epoch=5 finished | elapsed=11.86s
+2026-08-12 23:38:46,822 | INFO | Model 29 | epoch=6 idx=0 | f1=0.9818 recall=0.9818 loss_train=0.0028 loss_test=0.0150
+2026-08-12 23:38:48,475 | INFO | Model 29 | epoch=6 finished | elapsed=13.63s
+2026-08-12 23:38:48,594 | INFO | Model 29 | epoch=7 idx=0 | f1=0.9811 recall=0.9847 loss_train=0.0029 loss_test=0.0154
+2026-08-12 23:38:50,220 | INFO | Model 29 | epoch=7 finished | elapsed=15.38s
+2026-08-12 23:38:50,346 | INFO | Model 29 | epoch=8 idx=0 | f1=0.9809 recall=0.9829 loss_train=0.0023 loss_test=0.0141
+2026-08-12 23:38:51,953 | INFO | Model 29 | epoch=8 finished | elapsed=17.11s
+2026-08-12 23:38:52,084 | INFO | Model 29 | epoch=9 idx=0 | f1=0.9804 recall=0.9850 loss_train=0.0030 loss_test=0.0148
+2026-08-12 23:38:53,799 | INFO | Model 29 | epoch=9 finished | elapsed=18.95s
+2026-08-12 23:38:53,935 | INFO | Model 29 | epoch=10 idx=0 | f1=0.9827 recall=0.9853 loss_train=0.0023 loss_test=0.0135
+2026-08-12 23:38:55,639 | INFO | Model 29 | epoch=10 finished | elapsed=20.79s
+2026-08-12 23:38:55,775 | INFO | Model 29 | epoch=11 idx=0 | f1=0.9825 recall=0.9844 loss_train=0.0020 loss_test=0.0126
+2026-08-12 23:38:57,407 | INFO | Model 29 | epoch=11 finished | elapsed=22.56s
+2026-08-12 23:38:57,576 | INFO | Model 29 | epoch=12 idx=0 | f1=0.9824 recall=0.9853 loss_train=0.0022 loss_test=0.0127
+2026-08-12 23:38:59,726 | INFO | Model 29 | epoch=12 finished | elapsed=24.88s
+2026-08-12 23:38:59,846 | INFO | Model 29 | epoch=13 idx=0 | f1=0.9831 recall=0.9835 loss_train=0.0018 loss_test=0.0121
+2026-08-12 23:39:01,653 | INFO | Model 29 | epoch=13 finished | elapsed=26.81s
+2026-08-12 23:39:01,790 | INFO | Model 29 | epoch=14 idx=0 | f1=0.9836 recall=0.9853 loss_train=0.0019 loss_test=0.0121
+2026-08-12 23:39:04,394 | INFO | Model 29 | epoch=14 finished | elapsed=29.55s
+2026-08-12 23:39:04,560 | INFO | Model 29 | epoch=15 idx=0 | f1=0.9839 recall=0.9850 loss_train=0.0017 loss_test=0.0117
+2026-08-12 23:39:07,105 | INFO | Model 29 | epoch=15 finished | elapsed=32.26s
+2026-08-12 23:39:07,280 | INFO | Model 29 | epoch=16 idx=0 | f1=0.9811 recall=0.9862 loss_train=0.0018 loss_test=0.0128
+2026-08-12 23:39:09,678 | INFO | Model 29 | epoch=16 finished | elapsed=34.83s
+2026-08-12 23:39:09,841 | INFO | Model 29 | epoch=17 idx=0 | f1=0.9849 recall=0.9838 loss_train=0.0016 loss_test=0.0113
+2026-08-12 23:39:11,778 | INFO | Model 29 | epoch=17 finished | elapsed=36.93s
+2026-08-12 23:39:11,924 | INFO | Model 29 | epoch=18 idx=0 | f1=0.9831 recall=0.9850 loss_train=0.0016 loss_test=0.0120
+2026-08-12 23:39:13,857 | INFO | Model 29 | epoch=18 finished | elapsed=39.01s
+2026-08-12 23:39:14,001 | INFO | Model 29 | epoch=19 idx=0 | f1=0.9825 recall=0.9841 loss_train=0.0016 loss_test=0.0127
+2026-08-12 23:39:15,685 | INFO | Model 29 | epoch=19 finished | elapsed=40.84s
+2026-08-12 23:39:15,828 | INFO | Model 29 | epoch=20 idx=0 | f1=0.9840 recall=0.9856 loss_train=0.0013 loss_test=0.0119
+2026-08-12 23:39:17,511 | INFO | Model 29 | epoch=20 finished | elapsed=42.67s
+2026-08-12 23:39:17,634 | INFO | Model 29 | epoch=21 idx=0 | f1=0.9838 recall=0.9838 loss_train=0.0013 loss_test=0.0115
+2026-08-12 23:39:19,373 | INFO | Model 29 | epoch=21 finished | elapsed=44.53s
+2026-08-12 23:39:19,504 | INFO | Model 29 | epoch=22 idx=0 | f1=0.9838 recall=0.9827 loss_train=0.0011 loss_test=0.0110
+2026-08-12 23:39:21,111 | INFO | Model 29 | epoch=22 finished | elapsed=46.27s
+2026-08-12 23:39:21,239 | INFO | Model 29 | epoch=23 idx=0 | f1=0.9839 recall=0.9841 loss_train=0.0012 loss_test=0.0117
+2026-08-12 23:39:22,911 | INFO | Model 29 | epoch=23 finished | elapsed=48.07s
+2026-08-12 23:39:23,047 | INFO | Model 29 | epoch=24 idx=0 | f1=0.9849 recall=0.9838 loss_train=0.0012 loss_test=0.0115
+2026-08-12 23:39:24,710 | INFO | Model 29 | epoch=24 finished | elapsed=49.87s
+2026-08-12 23:39:24,854 | INFO | Model 29 | epoch=25 idx=0 | f1=0.9843 recall=0.9838 loss_train=0.0011 loss_test=0.0113
+2026-08-12 23:39:26,530 | INFO | Model 29 | epoch=25 finished | elapsed=51.68s
+2026-08-12 23:39:26,671 | INFO | Model 29 | epoch=26 idx=0 | f1=0.9846 recall=0.9832 loss_train=0.0012 loss_test=0.0114
+2026-08-12 23:39:28,298 | INFO | Model 29 | epoch=26 finished | elapsed=53.45s
+2026-08-12 23:39:28,426 | INFO | Model 29 | epoch=27 idx=0 | f1=0.9843 recall=0.9841 loss_train=0.0011 loss_test=0.0118
+2026-08-12 23:39:30,156 | INFO | Model 29 | epoch=27 finished | elapsed=55.31s
+2026-08-12 23:39:30,300 | INFO | Model 29 | epoch=28 idx=0 | f1=0.9855 recall=0.9844 loss_train=0.0012 loss_test=0.0115
+2026-08-12 23:39:31,928 | INFO | Model 29 | epoch=28 finished | elapsed=57.08s
+2026-08-12 23:39:32,059 | INFO | Model 29 | epoch=29 idx=0 | f1=0.9850 recall=0.9835 loss_train=0.0012 loss_test=0.0115
+2026-08-12 23:39:33,741 | INFO | Model 29 | epoch=29 finished | elapsed=58.90s
+2026-08-12 23:39:33,869 | INFO | Model 29 | epoch=30 idx=0 | f1=0.9855 recall=0.9838 loss_train=0.0010 loss_test=0.0111
+2026-08-12 23:39:35,599 | INFO | Model 29 | epoch=30 finished | elapsed=60.75s
+2026-08-12 23:39:35,737 | INFO | Model 29 | epoch=31 idx=0 | f1=0.9850 recall=0.9835 loss_train=0.0011 loss_test=0.0116
+2026-08-12 23:39:37,408 | INFO | Model 29 | epoch=31 finished | elapsed=62.56s
+2026-08-12 23:39:37,546 | INFO | Model 29 | epoch=32 idx=0 | f1=0.9853 recall=0.9844 loss_train=0.0010 loss_test=0.0118
+2026-08-12 23:39:39,178 | INFO | Model 29 | epoch=32 finished | elapsed=64.33s
+2026-08-12 23:39:39,319 | INFO | Model 29 | epoch=33 idx=0 | f1=0.9853 recall=0.9850 loss_train=0.0012 loss_test=0.0120
+2026-08-12 23:39:41,293 | INFO | Model 29 | epoch=33 finished | elapsed=66.45s
+2026-08-12 23:39:41,451 | INFO | Model 29 | epoch=34 idx=0 | f1=0.9853 recall=0.9841 loss_train=0.0010 loss_test=0.0117
+2026-08-12 23:39:43,898 | INFO | Model 29 | epoch=34 finished | elapsed=69.05s
+2026-08-12 23:39:44,082 | INFO | Model 29 | epoch=35 idx=0 | f1=0.9859 recall=0.9853 loss_train=0.0011 loss_test=0.0122
+2026-08-12 23:39:46,326 | INFO | Model 29 | epoch=35 finished | elapsed=71.48s
+2026-08-12 23:39:46,477 | INFO | Model 29 | epoch=36 idx=0 | f1=0.9846 recall=0.9829 loss_train=0.0010 loss_test=0.0118
+2026-08-12 23:39:48,523 | INFO | Model 29 | epoch=36 finished | elapsed=73.68s
+2026-08-12 23:39:48,651 | INFO | Model 29 | epoch=37 idx=0 | f1=0.9844 recall=0.9835 loss_train=0.0009 loss_test=0.0117
+2026-08-12 23:39:50,610 | INFO | Model 29 | epoch=37 finished | elapsed=75.76s
+2026-08-12 23:39:50,750 | INFO | Model 29 | epoch=38 idx=0 | f1=0.9847 recall=0.9832 loss_train=0.0009 loss_test=0.0118
+2026-08-12 23:39:52,663 | INFO | Model 29 | epoch=38 finished | elapsed=77.82s
+2026-08-12 23:39:52,813 | INFO | Model 29 | epoch=39 idx=0 | f1=0.9853 recall=0.9841 loss_train=0.0009 loss_test=0.0120
+2026-08-12 23:39:54,784 | INFO | Model 29 | epoch=39 finished | elapsed=79.94s
+2026-08-12 23:39:54,932 | INFO | Model 29 | epoch=40 idx=0 | f1=0.9853 recall=0.9841 loss_train=0.0010 loss_test=0.0117
+2026-08-12 23:39:56,962 | INFO | Model 29 | epoch=40 finished | elapsed=82.12s
+2026-08-12 23:39:57,115 | INFO | Model 29 | epoch=41 idx=0 | f1=0.9861 recall=0.9841 loss_train=0.0009 loss_test=0.0117
+2026-08-12 23:39:59,128 | INFO | Model 29 | epoch=41 finished | elapsed=84.28s
+2026-08-12 23:39:59,276 | INFO | Model 29 | epoch=42 idx=0 | f1=0.9864 recall=0.9844 loss_train=0.0009 loss_test=0.0117
+2026-08-12 23:39:59,276 | INFO | Model 29 | early stopping at epoch=42 idx=0
+2026-08-12 23:39:59,277 | INFO | Model 29 | epoch=42 finished | elapsed=84.43s
+2026-08-12 23:39:59,277 | INFO | Model 29 | training finished | total_elapsed=84.43s
+2026-08-12 23:39:59,482 | INFO | === New model #30 | batch_size=128, n_iter_no_change=5, tol=0.0001, params={'alpha': 1e-06, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'eta0': 0.0001, 'learning_rate': 'optimal', 'loss': 'log_loss', 'penalty': 'l1'} ===
+2026-08-12 23:39:59,650 | INFO | Model 30 | epoch=0 idx=0 | f1=0.5855 recall=0.8229 loss_train=0.7190 loss_test=0.7234
+2026-08-12 23:40:03,710 | INFO | Model 30 | epoch=0 finished | elapsed=4.23s
+2026-08-12 23:40:03,904 | INFO | Model 30 | epoch=1 idx=0 | f1=0.9543 recall=0.9880 loss_train=0.0675 loss_test=0.1256
+2026-08-12 23:40:08,167 | INFO | Model 30 | epoch=1 finished | elapsed=8.68s
+2026-08-12 23:40:08,350 | INFO | Model 30 | epoch=2 idx=0 | f1=0.9731 recall=0.9862 loss_train=0.0237 loss_test=0.0765
+2026-08-12 23:40:12,659 | INFO | Model 30 | epoch=2 finished | elapsed=13.18s
+2026-08-12 23:40:12,838 | INFO | Model 30 | epoch=3 idx=0 | f1=0.9773 recall=0.9838 loss_train=0.0157 loss_test=0.0716
+2026-08-12 23:40:17,080 | INFO | Model 30 | epoch=3 finished | elapsed=17.60s
+2026-08-12 23:40:17,276 | INFO | Model 30 | epoch=4 idx=0 | f1=0.9765 recall=0.9829 loss_train=0.0123 loss_test=0.0694
+2026-08-12 23:40:21,755 | INFO | Model 30 | epoch=4 finished | elapsed=22.27s
+2026-08-12 23:40:21,934 | INFO | Model 30 | epoch=5 idx=0 | f1=0.9768 recall=0.9818 loss_train=0.0099 loss_test=0.0679
+2026-08-12 23:40:26,287 | INFO | Model 30 | epoch=5 finished | elapsed=26.80s
+2026-08-12 23:40:26,472 | INFO | Model 30 | epoch=6 idx=0 | f1=0.9775 recall=0.9809 loss_train=0.0085 loss_test=0.0664
+2026-08-12 23:40:30,874 | INFO | Model 30 | epoch=6 finished | elapsed=31.39s
+2026-08-12 23:40:31,065 | INFO | Model 30 | epoch=7 idx=0 | f1=0.9768 recall=0.9803 loss_train=0.0080 loss_test=0.0658
+2026-08-12 23:40:35,192 | INFO | Model 30 | epoch=7 finished | elapsed=35.71s
+2026-08-12 23:40:35,408 | INFO | Model 30 | epoch=8 idx=0 | f1=0.9770 recall=0.9797 loss_train=0.0071 loss_test=0.0649
+2026-08-12 23:40:39,539 | INFO | Model 30 | epoch=8 finished | elapsed=40.06s
+2026-08-12 23:40:39,720 | INFO | Model 30 | epoch=9 idx=0 | f1=0.9770 recall=0.9794 loss_train=0.0066 loss_test=0.0644
+2026-08-12 23:40:44,077 | INFO | Model 30 | epoch=9 finished | elapsed=44.59s
+2026-08-12 23:40:44,257 | INFO | Model 30 | epoch=10 idx=0 | f1=0.9770 recall=0.9794 loss_train=0.0061 loss_test=0.0638
+2026-08-12 23:40:48,534 | INFO | Model 30 | epoch=10 finished | elapsed=49.05s
+2026-08-12 23:40:48,704 | INFO | Model 30 | epoch=11 idx=0 | f1=0.9772 recall=0.9794 loss_train=0.0057 loss_test=0.0634
+2026-08-12 23:40:53,220 | INFO | Model 30 | epoch=11 finished | elapsed=53.74s
+2026-08-12 23:40:53,402 | INFO | Model 30 | epoch=12 idx=0 | f1=0.9772 recall=0.9791 loss_train=0.0055 loss_test=0.0631
+2026-08-12 23:40:57,720 | INFO | Model 30 | epoch=12 finished | elapsed=58.24s
+2026-08-12 23:40:57,898 | INFO | Model 30 | epoch=13 idx=0 | f1=0.9776 recall=0.9791 loss_train=0.0053 loss_test=0.0629
+2026-08-12 23:41:02,434 | INFO | Model 30 | epoch=13 finished | elapsed=62.95s
+2026-08-12 23:41:02,625 | INFO | Model 30 | epoch=14 idx=0 | f1=0.9779 recall=0.9794 loss_train=0.0051 loss_test=0.0627
+2026-08-12 23:41:06,749 | INFO | Model 30 | epoch=14 finished | elapsed=67.27s
+2026-08-12 23:41:06,948 | INFO | Model 30 | epoch=15 idx=0 | f1=0.9779 recall=0.9794 loss_train=0.0049 loss_test=0.0626
+2026-08-12 23:41:11,024 | INFO | Model 30 | epoch=15 finished | elapsed=71.54s
+2026-08-12 23:41:11,211 | INFO | Model 30 | epoch=16 idx=0 | f1=0.9779 recall=0.9794 loss_train=0.0048 loss_test=0.0624
+2026-08-12 23:41:15,511 | INFO | Model 30 | epoch=16 finished | elapsed=76.03s
+2026-08-12 23:41:15,694 | INFO | Model 30 | epoch=17 idx=0 | f1=0.9779 recall=0.9794 loss_train=0.0046 loss_test=0.0623
+2026-08-12 23:41:20,051 | INFO | Model 30 | epoch=17 finished | elapsed=80.57s
+2026-08-12 23:41:20,236 | INFO | Model 30 | epoch=18 idx=0 | f1=0.9780 recall=0.9794 loss_train=0.0045 loss_test=0.0622
+2026-08-12 23:41:24,519 | INFO | Model 30 | epoch=18 finished | elapsed=85.04s
+2026-08-12 23:41:24,693 | INFO | Model 30 | epoch=19 idx=0 | f1=0.9780 recall=0.9794 loss_train=0.0044 loss_test=0.0621
+2026-08-12 23:41:28,820 | INFO | Model 30 | epoch=19 finished | elapsed=89.34s
+2026-08-12 23:41:29,011 | INFO | Model 30 | epoch=20 idx=0 | f1=0.9780 recall=0.9794 loss_train=0.0043 loss_test=0.0620
+2026-08-12 23:41:33,326 | INFO | Model 30 | epoch=20 finished | elapsed=93.84s
+2026-08-12 23:41:33,515 | INFO | Model 30 | epoch=21 idx=0 | f1=0.9785 recall=0.9794 loss_train=0.0042 loss_test=0.0619
+2026-08-12 23:41:37,558 | INFO | Model 30 | epoch=21 finished | elapsed=98.08s
+2026-08-12 23:41:37,722 | INFO | Model 30 | epoch=22 idx=0 | f1=0.9785 recall=0.9794 loss_train=0.0041 loss_test=0.0619
+2026-08-12 23:41:41,915 | INFO | Model 30 | epoch=22 finished | elapsed=102.43s
+2026-08-12 23:41:42,111 | INFO | Model 30 | epoch=23 idx=0 | f1=0.9785 recall=0.9794 loss_train=0.0040 loss_test=0.0618
+2026-08-12 23:41:46,887 | INFO | Model 30 | epoch=23 finished | elapsed=107.40s
+2026-08-12 23:41:47,103 | INFO | Model 30 | epoch=24 idx=0 | f1=0.9785 recall=0.9794 loss_train=0.0039 loss_test=0.0617
+2026-08-12 23:41:51,214 | INFO | Model 30 | epoch=24 finished | elapsed=111.73s
+2026-08-12 23:41:51,416 | INFO | Model 30 | epoch=25 idx=0 | f1=0.9785 recall=0.9794 loss_train=0.0038 loss_test=0.0617
+2026-08-12 23:41:55,743 | INFO | Model 30 | epoch=25 finished | elapsed=116.26s
+2026-08-12 23:41:55,921 | INFO | Model 30 | epoch=26 idx=0 | f1=0.9786 recall=0.9794 loss_train=0.0038 loss_test=0.0616
+2026-08-12 23:42:00,196 | INFO | Model 30 | epoch=26 finished | elapsed=120.71s
+2026-08-12 23:42:00,386 | INFO | Model 30 | epoch=27 idx=0 | f1=0.9786 recall=0.9794 loss_train=0.0037 loss_test=0.0616
+2026-08-12 23:42:00,386 | INFO | Model 30 | early stopping at epoch=27 idx=0
+2026-08-12 23:42:00,386 | INFO | Model 30 | epoch=27 finished | elapsed=120.90s
+2026-08-12 23:42:00,386 | INFO | Model 30 | training finished | total_elapsed=120.90s
+2026-08-12 23:42:00,616 | INFO | === New model #31 | batch_size=128, n_iter_no_change=5, tol=0.0001, params={'alpha': 1e-06, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'eta0': 0.0001, 'learning_rate': 'optimal', 'loss': 'log_loss', 'penalty': 'l2'} ===
+2026-08-12 23:42:00,801 | INFO | Model 31 | epoch=0 idx=0 | f1=0.5856 recall=0.8229 loss_train=0.7167 loss_test=0.7211
+2026-08-12 23:42:02,921 | INFO | Model 31 | epoch=0 finished | elapsed=2.31s
+2026-08-12 23:42:03,067 | INFO | Model 31 | epoch=1 idx=0 | f1=0.9667 recall=0.9853 loss_train=0.0305 loss_test=0.0560
+2026-08-12 23:42:05,468 | INFO | Model 31 | epoch=1 finished | elapsed=4.85s
+2026-08-12 23:42:05,608 | INFO | Model 31 | epoch=2 idx=0 | f1=0.9795 recall=0.9838 loss_train=0.0089 loss_test=0.0240
+2026-08-12 23:42:07,332 | INFO | Model 31 | epoch=2 finished | elapsed=6.72s
+2026-08-12 23:42:07,482 | INFO | Model 31 | epoch=3 idx=0 | f1=0.9818 recall=0.9847 loss_train=0.0044 loss_test=0.0167
+2026-08-12 23:42:09,375 | INFO | Model 31 | epoch=3 finished | elapsed=8.76s
+2026-08-12 23:42:09,529 | INFO | Model 31 | epoch=4 idx=0 | f1=0.9842 recall=0.9853 loss_train=0.0037 loss_test=0.0138
+2026-08-12 23:42:11,341 | INFO | Model 31 | epoch=4 finished | elapsed=10.72s
+2026-08-12 23:42:11,489 | INFO | Model 31 | epoch=5 idx=0 | f1=0.9842 recall=0.9847 loss_train=0.0043 loss_test=0.0136
+2026-08-12 23:42:13,223 | INFO | Model 31 | epoch=5 finished | elapsed=12.61s
+2026-08-12 23:42:13,370 | INFO | Model 31 | epoch=6 idx=0 | f1=0.9850 recall=0.9850 loss_train=0.0043 loss_test=0.0130
+2026-08-12 23:42:15,253 | INFO | Model 31 | epoch=6 finished | elapsed=14.64s
+2026-08-12 23:42:15,410 | INFO | Model 31 | epoch=7 idx=0 | f1=0.9855 recall=0.9850 loss_train=0.0045 loss_test=0.0130
+2026-08-12 23:42:17,115 | INFO | Model 31 | epoch=7 finished | elapsed=16.50s
+2026-08-12 23:42:17,265 | INFO | Model 31 | epoch=8 idx=0 | f1=0.9864 recall=0.9853 loss_train=0.0047 loss_test=0.0130
+2026-08-12 23:42:19,083 | INFO | Model 31 | epoch=8 finished | elapsed=18.47s
+2026-08-12 23:42:19,231 | INFO | Model 31 | epoch=9 idx=0 | f1=0.9865 recall=0.9853 loss_train=0.0049 loss_test=0.0130
+2026-08-12 23:42:21,049 | INFO | Model 31 | epoch=9 finished | elapsed=20.43s
+2026-08-12 23:42:21,182 | INFO | Model 31 | epoch=10 idx=0 | f1=0.9865 recall=0.9853 loss_train=0.0050 loss_test=0.0130
+2026-08-12 23:42:21,182 | INFO | Model 31 | early stopping at epoch=10 idx=0
+2026-08-12 23:42:21,182 | INFO | Model 31 | epoch=10 finished | elapsed=20.57s
+2026-08-12 23:42:21,182 | INFO | Model 31 | training finished | total_elapsed=20.57s

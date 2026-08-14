@@ -1,0 +1,320 @@
+2026-08-12 23:42:21,403 | INFO | === New model #0 params={'C': 100.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:42:28,823 | INFO | Model 0| f1=0.9864 recall=0.9859 loss_train=0.0017 loss_test=0.0117
+2026-08-12 23:42:28,823 | INFO | Model 0 | training finished | total_elapsed=7.42s
+2026-08-12 23:42:28,823 | INFO | === New model #1 params={'C': 100.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:42:31,154 | INFO | Model 1| f1=0.9707 recall=0.9910 loss_train=0.0185 loss_test=0.0235
+2026-08-12 23:42:31,154 | INFO | Model 1 | training finished | total_elapsed=2.33s
+2026-08-12 23:42:31,154 | INFO | === New model #2 params={'C': 100.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:42:57,583 | INFO | Model 2| f1=0.9861 recall=0.9841 loss_train=0.0014 loss_test=0.0111
+2026-08-12 23:42:57,583 | INFO | Model 2 | training finished | total_elapsed=26.43s
+2026-08-12 23:42:57,583 | INFO | === New model #3 params={'C': 100.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:43:19,617 | INFO | Model 3| f1=0.9861 recall=0.9841 loss_train=0.0014 loss_test=0.0111
+2026-08-12 23:43:19,617 | INFO | Model 3 | training finished | total_elapsed=22.03s
+2026-08-12 23:43:19,617 | INFO | === New model #4 params={'C': 100.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:43:26,414 | INFO | Model 4| f1=0.9864 recall=0.9859 loss_train=0.0017 loss_test=0.0117
+2026-08-12 23:43:26,415 | INFO | Model 4 | training finished | total_elapsed=6.80s
+2026-08-12 23:43:26,415 | INFO | === New model #5 params={'C': 100.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:43:29,059 | INFO | Model 5| f1=0.9707 recall=0.9910 loss_train=0.0185 loss_test=0.0235
+2026-08-12 23:43:29,059 | INFO | Model 5 | training finished | total_elapsed=2.64s
+2026-08-12 23:43:29,059 | INFO | === New model #6 params={'C': 100.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:43:54,481 | INFO | Model 6| f1=0.9861 recall=0.9841 loss_train=0.0014 loss_test=0.0111
+2026-08-12 23:43:54,482 | INFO | Model 6 | training finished | total_elapsed=25.42s
+2026-08-12 23:43:54,482 | INFO | === New model #7 params={'C': 100.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:44:17,941 | INFO | Model 7| f1=0.9861 recall=0.9841 loss_train=0.0014 loss_test=0.0111
+2026-08-12 23:44:17,941 | INFO | Model 7 | training finished | total_elapsed=23.46s
+2026-08-12 23:44:17,942 | INFO | === New model #8 params={'C': 100.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:44:17,943 | INFO | === New model #8 params={'C': 100.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:44:17,943 | INFO | === New model #8 params={'C': 100.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:44:29,820 | INFO | Model 8| f1=0.9849 recall=0.9835 loss_train=0.0009 loss_test=0.0157
+2026-08-12 23:44:29,820 | INFO | Model 8 | training finished | total_elapsed=11.88s
+2026-08-12 23:44:29,821 | INFO | === New model #9 params={'C': 100.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:44:34,744 | INFO | Model 9| f1=0.9855 recall=0.9841 loss_train=0.0009 loss_test=0.0145
+2026-08-12 23:44:34,744 | INFO | Model 9 | training finished | total_elapsed=4.92s
+2026-08-12 23:44:34,744 | INFO | === New model #10 params={'C': 100.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:44:34,745 | INFO | === New model #10 params={'C': 100.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:44:34,745 | INFO | === New model #10 params={'C': 100.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:44:46,425 | INFO | Model 10| f1=0.9849 recall=0.9835 loss_train=0.0009 loss_test=0.0157
+2026-08-12 23:44:46,426 | INFO | Model 10 | training finished | total_elapsed=11.68s
+2026-08-12 23:44:46,426 | INFO | === New model #11 params={'C': 100.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:44:51,468 | INFO | Model 11| f1=0.9855 recall=0.9841 loss_train=0.0009 loss_test=0.0145
+2026-08-12 23:44:51,468 | INFO | Model 11 | training finished | total_elapsed=5.04s
+2026-08-12 23:44:51,468 | INFO | === New model #12 params={'C': 100.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:44:57,918 | INFO | Model 12| f1=0.9862 recall=0.9800 loss_train=0.0014 loss_test=0.0114
+2026-08-12 23:44:57,919 | INFO | Model 12 | training finished | total_elapsed=6.45s
+2026-08-12 23:44:57,919 | INFO | === New model #13 params={'C': 100.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:45:01,982 | INFO | Model 13| f1=0.9848 recall=0.9806 loss_train=0.0065 loss_test=0.0126
+2026-08-12 23:45:01,982 | INFO | Model 13 | training finished | total_elapsed=4.06s
+2026-08-12 23:45:01,982 | INFO | === New model #14 params={'C': 100.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:45:16,192 | INFO | Model 14| f1=0.9854 recall=0.9794 loss_train=0.0011 loss_test=0.0113
+2026-08-12 23:45:16,192 | INFO | Model 14 | training finished | total_elapsed=14.21s
+2026-08-12 23:45:16,192 | INFO | === New model #15 params={'C': 100.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:45:27,725 | INFO | Model 15| f1=0.9854 recall=0.9794 loss_train=0.0011 loss_test=0.0113
+2026-08-12 23:45:27,725 | INFO | Model 15 | training finished | total_elapsed=11.53s
+2026-08-12 23:45:27,725 | INFO | === New model #16 params={'C': 100.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:45:33,766 | INFO | Model 16| f1=0.9862 recall=0.9800 loss_train=0.0014 loss_test=0.0114
+2026-08-12 23:45:33,766 | INFO | Model 16 | training finished | total_elapsed=6.04s
+2026-08-12 23:45:33,766 | INFO | === New model #17 params={'C': 100.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:45:37,534 | INFO | Model 17| f1=0.9848 recall=0.9806 loss_train=0.0065 loss_test=0.0126
+2026-08-12 23:45:37,534 | INFO | Model 17 | training finished | total_elapsed=3.77s
+2026-08-12 23:45:37,534 | INFO | === New model #18 params={'C': 100.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:45:50,589 | INFO | Model 18| f1=0.9854 recall=0.9794 loss_train=0.0011 loss_test=0.0113
+2026-08-12 23:45:50,590 | INFO | Model 18 | training finished | total_elapsed=13.06s
+2026-08-12 23:45:50,590 | INFO | === New model #19 params={'C': 100.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:46:01,179 | INFO | Model 19| f1=0.9854 recall=0.9794 loss_train=0.0011 loss_test=0.0113
+2026-08-12 23:46:01,179 | INFO | Model 19 | training finished | total_elapsed=10.59s
+2026-08-12 23:46:01,179 | INFO | === New model #20 params={'C': 100.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:46:01,180 | INFO | === New model #20 params={'C': 100.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:46:01,181 | INFO | === New model #20 params={'C': 100.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:46:11,079 | INFO | Model 20| f1=0.9850 recall=0.9791 loss_train=0.0007 loss_test=0.0150
+2026-08-12 23:46:11,079 | INFO | Model 20 | training finished | total_elapsed=9.90s
+2026-08-12 23:46:11,079 | INFO | === New model #21 params={'C': 100.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:46:15,652 | INFO | Model 21| f1=0.9856 recall=0.9794 loss_train=0.0008 loss_test=0.0139
+2026-08-12 23:46:15,653 | INFO | Model 21 | training finished | total_elapsed=4.57s
+2026-08-12 23:46:15,653 | INFO | === New model #22 params={'C': 100.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:46:15,653 | INFO | === New model #22 params={'C': 100.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:46:15,654 | INFO | === New model #22 params={'C': 100.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:46:25,763 | INFO | Model 22| f1=0.9850 recall=0.9791 loss_train=0.0007 loss_test=0.0150
+2026-08-12 23:46:25,764 | INFO | Model 22 | training finished | total_elapsed=10.11s
+2026-08-12 23:46:25,764 | INFO | === New model #23 params={'C': 100.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:46:30,913 | INFO | Model 23| f1=0.9856 recall=0.9794 loss_train=0.0008 loss_test=0.0139
+2026-08-12 23:46:30,913 | INFO | Model 23 | training finished | total_elapsed=5.15s
+2026-08-12 23:46:30,913 | INFO | === New model #24 params={'C': 10.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:46:39,213 | INFO | Model 24| f1=0.9861 recall=0.9856 loss_train=0.0059 loss_test=0.0133
+2026-08-12 23:46:39,213 | INFO | Model 24 | training finished | total_elapsed=8.30s
+2026-08-12 23:46:39,213 | INFO | === New model #25 params={'C': 10.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:46:43,978 | INFO | Model 25| f1=0.9829 recall=0.9868 loss_train=0.0097 loss_test=0.0157
+2026-08-12 23:46:43,978 | INFO | Model 25 | training finished | total_elapsed=4.76s
+2026-08-12 23:46:43,978 | INFO | === New model #26 params={'C': 10.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:47:06,357 | INFO | Model 26| f1=0.9864 recall=0.9856 loss_train=0.0059 loss_test=0.0134
+2026-08-12 23:47:06,358 | INFO | Model 26 | training finished | total_elapsed=22.38s
+2026-08-12 23:47:06,358 | INFO | === New model #27 params={'C': 10.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:47:20,602 | INFO | Model 27| f1=0.9864 recall=0.9856 loss_train=0.0059 loss_test=0.0134
+2026-08-12 23:47:20,602 | INFO | Model 27 | training finished | total_elapsed=14.24s
+2026-08-12 23:47:20,602 | INFO | === New model #28 params={'C': 10.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:47:28,774 | INFO | Model 28| f1=0.9861 recall=0.9856 loss_train=0.0059 loss_test=0.0133
+2026-08-12 23:47:28,774 | INFO | Model 28 | training finished | total_elapsed=8.17s
+2026-08-12 23:47:28,774 | INFO | === New model #29 params={'C': 10.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:47:32,664 | INFO | Model 29| f1=0.9829 recall=0.9868 loss_train=0.0097 loss_test=0.0157
+2026-08-12 23:47:32,665 | INFO | Model 29 | training finished | total_elapsed=3.89s
+2026-08-12 23:47:32,665 | INFO | === New model #30 params={'C': 10.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:47:50,018 | INFO | Model 30| f1=0.9864 recall=0.9856 loss_train=0.0059 loss_test=0.0134
+2026-08-12 23:47:50,018 | INFO | Model 30 | training finished | total_elapsed=17.35s
+2026-08-12 23:47:50,018 | INFO | === New model #31 params={'C': 10.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:48:07,419 | INFO | Model 31| f1=0.9864 recall=0.9856 loss_train=0.0059 loss_test=0.0134
+2026-08-12 23:48:07,419 | INFO | Model 31 | training finished | total_elapsed=17.40s
+2026-08-12 23:48:07,419 | INFO | === New model #32 params={'C': 10.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:48:07,420 | INFO | === New model #32 params={'C': 10.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:48:07,421 | INFO | === New model #32 params={'C': 10.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:48:17,185 | INFO | Model 32| f1=0.9841 recall=0.9841 loss_train=0.0046 loss_test=0.0139
+2026-08-12 23:48:17,185 | INFO | Model 32 | training finished | total_elapsed=9.76s
+2026-08-12 23:48:17,185 | INFO | === New model #33 params={'C': 10.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:48:24,593 | INFO | Model 33| f1=0.9839 recall=0.9841 loss_train=0.0046 loss_test=0.0138
+2026-08-12 23:48:24,593 | INFO | Model 33 | training finished | total_elapsed=7.41s
+2026-08-12 23:48:24,593 | INFO | === New model #34 params={'C': 10.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:48:24,594 | INFO | === New model #34 params={'C': 10.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:48:24,594 | INFO | === New model #34 params={'C': 10.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:48:34,591 | INFO | Model 34| f1=0.9841 recall=0.9841 loss_train=0.0046 loss_test=0.0139
+2026-08-12 23:48:34,591 | INFO | Model 34 | training finished | total_elapsed=10.00s
+2026-08-12 23:48:34,591 | INFO | === New model #35 params={'C': 10.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:48:43,012 | INFO | Model 35| f1=0.9839 recall=0.9841 loss_train=0.0046 loss_test=0.0138
+2026-08-12 23:48:43,012 | INFO | Model 35 | training finished | total_elapsed=8.42s
+2026-08-12 23:48:43,012 | INFO | === New model #36 params={'C': 10.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:48:51,759 | INFO | Model 36| f1=0.9852 recall=0.9755 loss_train=0.0059 loss_test=0.0129
+2026-08-12 23:48:51,759 | INFO | Model 36 | training finished | total_elapsed=8.75s
+2026-08-12 23:48:51,759 | INFO | === New model #37 params={'C': 10.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:48:56,014 | INFO | Model 37| f1=0.9840 recall=0.9746 loss_train=0.0077 loss_test=0.0133
+2026-08-12 23:48:56,014 | INFO | Model 37 | training finished | total_elapsed=4.25s
+2026-08-12 23:48:56,014 | INFO | === New model #38 params={'C': 10.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:49:06,453 | INFO | Model 38| f1=0.9847 recall=0.9749 loss_train=0.0050 loss_test=0.0128
+2026-08-12 23:49:06,453 | INFO | Model 38 | training finished | total_elapsed=10.44s
+2026-08-12 23:49:06,453 | INFO | === New model #39 params={'C': 10.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:49:15,150 | INFO | Model 39| f1=0.9847 recall=0.9749 loss_train=0.0050 loss_test=0.0128
+2026-08-12 23:49:15,150 | INFO | Model 39 | training finished | total_elapsed=8.70s
+2026-08-12 23:49:15,150 | INFO | === New model #40 params={'C': 10.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:49:21,353 | INFO | Model 40| f1=0.9852 recall=0.9755 loss_train=0.0059 loss_test=0.0129
+2026-08-12 23:49:21,353 | INFO | Model 40 | training finished | total_elapsed=6.20s
+2026-08-12 23:49:21,353 | INFO | === New model #41 params={'C': 10.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:49:25,896 | INFO | Model 41| f1=0.9840 recall=0.9746 loss_train=0.0077 loss_test=0.0133
+2026-08-12 23:49:25,896 | INFO | Model 41 | training finished | total_elapsed=4.54s
+2026-08-12 23:49:25,896 | INFO | === New model #42 params={'C': 10.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:49:35,616 | INFO | Model 42| f1=0.9847 recall=0.9749 loss_train=0.0050 loss_test=0.0128
+2026-08-12 23:49:35,616 | INFO | Model 42 | training finished | total_elapsed=9.72s
+2026-08-12 23:49:35,617 | INFO | === New model #43 params={'C': 10.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:49:43,359 | INFO | Model 43| f1=0.9847 recall=0.9749 loss_train=0.0050 loss_test=0.0128
+2026-08-12 23:49:43,360 | INFO | Model 43 | training finished | total_elapsed=7.74s
+2026-08-12 23:49:43,360 | INFO | === New model #44 params={'C': 10.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:49:43,361 | INFO | === New model #44 params={'C': 10.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:49:43,361 | INFO | === New model #44 params={'C': 10.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:49:55,934 | INFO | Model 44| f1=0.9851 recall=0.9779 loss_train=0.0041 loss_test=0.0129
+2026-08-12 23:49:55,934 | INFO | Model 44 | training finished | total_elapsed=12.57s
+2026-08-12 23:49:55,934 | INFO | === New model #45 params={'C': 10.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:50:03,781 | INFO | Model 45| f1=0.9852 recall=0.9779 loss_train=0.0041 loss_test=0.0129
+2026-08-12 23:50:03,781 | INFO | Model 45 | training finished | total_elapsed=7.85s
+2026-08-12 23:50:03,781 | INFO | === New model #46 params={'C': 10.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:50:03,782 | INFO | === New model #46 params={'C': 10.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:50:03,782 | INFO | === New model #46 params={'C': 10.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:50:11,998 | INFO | Model 46| f1=0.9851 recall=0.9779 loss_train=0.0041 loss_test=0.0129
+2026-08-12 23:50:11,998 | INFO | Model 46 | training finished | total_elapsed=8.22s
+2026-08-12 23:50:11,998 | INFO | === New model #47 params={'C': 10.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:50:18,498 | INFO | Model 47| f1=0.9852 recall=0.9779 loss_train=0.0041 loss_test=0.0129
+2026-08-12 23:50:18,498 | INFO | Model 47 | training finished | total_elapsed=6.50s
+2026-08-12 23:50:18,498 | INFO | === New model #48 params={'C': 1.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:50:23,879 | INFO | Model 48| f1=0.9834 recall=0.9856 loss_train=0.0249 loss_test=0.0295
+2026-08-12 23:50:23,879 | INFO | Model 48 | training finished | total_elapsed=5.38s
+2026-08-12 23:50:23,880 | INFO | === New model #49 params={'C': 1.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:50:27,485 | INFO | Model 49| f1=0.9811 recall=0.9853 loss_train=0.0259 loss_test=0.0301
+2026-08-12 23:50:27,486 | INFO | Model 49 | training finished | total_elapsed=3.61s
+2026-08-12 23:50:27,486 | INFO | === New model #50 params={'C': 1.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:50:37,212 | INFO | Model 50| f1=0.9834 recall=0.9856 loss_train=0.0244 loss_test=0.0292
+2026-08-12 23:50:37,212 | INFO | Model 50 | training finished | total_elapsed=9.73s
+2026-08-12 23:50:37,212 | INFO | === New model #51 params={'C': 1.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:50:47,358 | INFO | Model 51| f1=0.9834 recall=0.9856 loss_train=0.0244 loss_test=0.0292
+2026-08-12 23:50:47,358 | INFO | Model 51 | training finished | total_elapsed=10.15s
+2026-08-12 23:50:47,359 | INFO | === New model #52 params={'C': 1.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:50:53,056 | INFO | Model 52| f1=0.9834 recall=0.9856 loss_train=0.0249 loss_test=0.0295
+2026-08-12 23:50:53,056 | INFO | Model 52 | training finished | total_elapsed=5.70s
+2026-08-12 23:50:53,056 | INFO | === New model #53 params={'C': 1.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:50:56,821 | INFO | Model 53| f1=0.9811 recall=0.9853 loss_train=0.0259 loss_test=0.0301
+2026-08-12 23:50:56,821 | INFO | Model 53 | training finished | total_elapsed=3.76s
+2026-08-12 23:50:56,821 | INFO | === New model #54 params={'C': 1.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:51:06,552 | INFO | Model 54| f1=0.9834 recall=0.9856 loss_train=0.0244 loss_test=0.0292
+2026-08-12 23:51:06,553 | INFO | Model 54 | training finished | total_elapsed=9.73s
+2026-08-12 23:51:06,553 | INFO | === New model #55 params={'C': 1.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:51:16,119 | INFO | Model 55| f1=0.9834 recall=0.9856 loss_train=0.0244 loss_test=0.0292
+2026-08-12 23:51:16,119 | INFO | Model 55 | training finished | total_elapsed=9.57s
+2026-08-12 23:51:16,119 | INFO | === New model #56 params={'C': 1.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:51:16,120 | INFO | === New model #56 params={'C': 1.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:51:16,121 | INFO | === New model #56 params={'C': 1.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:51:23,310 | INFO | Model 56| f1=0.9775 recall=0.9832 loss_train=0.0256 loss_test=0.0284
+2026-08-12 23:51:23,310 | INFO | Model 56 | training finished | total_elapsed=7.19s
+2026-08-12 23:51:23,310 | INFO | === New model #57 params={'C': 1.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:51:28,220 | INFO | Model 57| f1=0.9778 recall=0.9835 loss_train=0.0257 loss_test=0.0285
+2026-08-12 23:51:28,220 | INFO | Model 57 | training finished | total_elapsed=4.91s
+2026-08-12 23:51:28,220 | INFO | === New model #58 params={'C': 1.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:51:28,221 | INFO | === New model #58 params={'C': 1.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:51:28,221 | INFO | === New model #58 params={'C': 1.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:51:35,560 | INFO | Model 58| f1=0.9775 recall=0.9832 loss_train=0.0256 loss_test=0.0284
+2026-08-12 23:51:35,560 | INFO | Model 58 | training finished | total_elapsed=7.34s
+2026-08-12 23:51:35,561 | INFO | === New model #59 params={'C': 1.0, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:51:40,180 | INFO | Model 59| f1=0.9778 recall=0.9835 loss_train=0.0257 loss_test=0.0285
+2026-08-12 23:51:40,180 | INFO | Model 59 | training finished | total_elapsed=4.62s
+2026-08-12 23:51:40,181 | INFO | === New model #60 params={'C': 1.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:51:47,743 | INFO | Model 60| f1=0.9768 recall=0.9557 loss_train=0.0205 loss_test=0.0245
+2026-08-12 23:51:47,744 | INFO | Model 60 | training finished | total_elapsed=7.56s
+2026-08-12 23:51:47,744 | INFO | === New model #61 params={'C': 1.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:51:52,052 | INFO | Model 61| f1=0.9766 recall=0.9557 loss_train=0.0218 loss_test=0.0247
+2026-08-12 23:51:52,052 | INFO | Model 61 | training finished | total_elapsed=4.31s
+2026-08-12 23:51:52,052 | INFO | === New model #62 params={'C': 1.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:51:59,519 | INFO | Model 62| f1=0.9766 recall=0.9554 loss_train=0.0206 loss_test=0.0246
+2026-08-12 23:51:59,519 | INFO | Model 62 | training finished | total_elapsed=7.47s
+2026-08-12 23:51:59,519 | INFO | === New model #63 params={'C': 1.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:52:05,986 | INFO | Model 63| f1=0.9766 recall=0.9554 loss_train=0.0206 loss_test=0.0246
+2026-08-12 23:52:05,986 | INFO | Model 63 | training finished | total_elapsed=6.47s
+2026-08-12 23:52:05,986 | INFO | === New model #64 params={'C': 1.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:52:13,150 | INFO | Model 64| f1=0.9768 recall=0.9557 loss_train=0.0205 loss_test=0.0245
+2026-08-12 23:52:13,150 | INFO | Model 64 | training finished | total_elapsed=7.16s
+2026-08-12 23:52:13,150 | INFO | === New model #65 params={'C': 1.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:52:17,253 | INFO | Model 65| f1=0.9766 recall=0.9557 loss_train=0.0218 loss_test=0.0247
+2026-08-12 23:52:17,253 | INFO | Model 65 | training finished | total_elapsed=4.10s
+2026-08-12 23:52:17,253 | INFO | === New model #66 params={'C': 1.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:52:24,946 | INFO | Model 66| f1=0.9766 recall=0.9554 loss_train=0.0206 loss_test=0.0246
+2026-08-12 23:52:24,947 | INFO | Model 66 | training finished | total_elapsed=7.69s
+2026-08-12 23:52:24,947 | INFO | === New model #67 params={'C': 1.0, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:52:31,655 | INFO | Model 67| f1=0.9766 recall=0.9554 loss_train=0.0206 loss_test=0.0246
+2026-08-12 23:52:31,655 | INFO | Model 67 | training finished | total_elapsed=6.71s
+2026-08-12 23:52:31,655 | INFO | === New model #68 params={'C': 1.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:52:31,656 | INFO | === New model #68 params={'C': 1.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:52:31,657 | INFO | === New model #68 params={'C': 1.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:52:37,207 | INFO | Model 68| f1=0.9739 recall=0.9542 loss_train=0.0224 loss_test=0.0231
+2026-08-12 23:52:37,207 | INFO | Model 68 | training finished | total_elapsed=5.55s
+2026-08-12 23:52:37,207 | INFO | === New model #69 params={'C': 1.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:52:41,479 | INFO | Model 69| f1=0.9741 recall=0.9545 loss_train=0.0224 loss_test=0.0232
+2026-08-12 23:52:41,479 | INFO | Model 69 | training finished | total_elapsed=4.27s
+2026-08-12 23:52:41,479 | INFO | === New model #70 params={'C': 1.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:52:41,480 | INFO | === New model #70 params={'C': 1.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:52:41,481 | INFO | === New model #70 params={'C': 1.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:52:46,864 | INFO | Model 70| f1=0.9739 recall=0.9542 loss_train=0.0224 loss_test=0.0231
+2026-08-12 23:52:46,864 | INFO | Model 70 | training finished | total_elapsed=5.38s
+2026-08-12 23:52:46,864 | INFO | === New model #71 params={'C': 1.0, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:52:51,391 | INFO | Model 71| f1=0.9741 recall=0.9545 loss_train=0.0224 loss_test=0.0232
+2026-08-12 23:52:51,391 | INFO | Model 71 | training finished | total_elapsed=4.53s
+2026-08-12 23:52:51,391 | INFO | === New model #72 params={'C': 2, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:52:56,450 | INFO | Model 72| f1=0.9845 recall=0.9865 loss_train=0.0163 loss_test=0.0219
+2026-08-12 23:52:56,450 | INFO | Model 72 | training finished | total_elapsed=5.06s
+2026-08-12 23:52:56,450 | INFO | === New model #73 params={'C': 2, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:52:59,303 | INFO | Model 73| f1=0.9806 recall=0.9880 loss_train=0.0212 loss_test=0.0254
+2026-08-12 23:52:59,303 | INFO | Model 73 | training finished | total_elapsed=2.85s
+2026-08-12 23:52:59,303 | INFO | === New model #74 params={'C': 2, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:53:11,122 | INFO | Model 74| f1=0.9846 recall=0.9859 loss_train=0.0162 loss_test=0.0218
+2026-08-12 23:53:11,122 | INFO | Model 74 | training finished | total_elapsed=11.82s
+2026-08-12 23:53:11,122 | INFO | === New model #75 params={'C': 2, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:53:22,536 | INFO | Model 75| f1=0.9848 recall=0.9862 loss_train=0.0162 loss_test=0.0218
+2026-08-12 23:53:22,536 | INFO | Model 75 | training finished | total_elapsed=11.41s
+2026-08-12 23:53:22,537 | INFO | === New model #76 params={'C': 2, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:53:30,663 | INFO | Model 76| f1=0.9845 recall=0.9865 loss_train=0.0163 loss_test=0.0219
+2026-08-12 23:53:30,663 | INFO | Model 76 | training finished | total_elapsed=8.13s
+2026-08-12 23:53:30,663 | INFO | === New model #77 params={'C': 2, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:53:34,032 | INFO | Model 77| f1=0.9806 recall=0.9880 loss_train=0.0212 loss_test=0.0254
+2026-08-12 23:53:34,032 | INFO | Model 77 | training finished | total_elapsed=3.37s
+2026-08-12 23:53:34,033 | INFO | === New model #78 params={'C': 2, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:53:48,709 | INFO | Model 78| f1=0.9846 recall=0.9859 loss_train=0.0162 loss_test=0.0218
+2026-08-12 23:53:48,709 | INFO | Model 78 | training finished | total_elapsed=14.68s
+2026-08-12 23:53:48,709 | INFO | === New model #79 params={'C': 2, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:54:02,385 | INFO | Model 79| f1=0.9848 recall=0.9862 loss_train=0.0162 loss_test=0.0218
+2026-08-12 23:54:02,385 | INFO | Model 79 | training finished | total_elapsed=13.68s
+2026-08-12 23:54:02,385 | INFO | === New model #80 params={'C': 2, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:54:02,386 | INFO | === New model #80 params={'C': 2, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:54:02,387 | INFO | === New model #80 params={'C': 2, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:54:10,084 | INFO | Model 80| f1=0.9811 recall=0.9847 loss_train=0.0163 loss_test=0.0210
+2026-08-12 23:54:10,084 | INFO | Model 80 | training finished | total_elapsed=7.70s
+2026-08-12 23:54:10,084 | INFO | === New model #81 params={'C': 2, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:54:16,056 | INFO | Model 81| f1=0.9808 recall=0.9847 loss_train=0.0163 loss_test=0.0210
+2026-08-12 23:54:16,057 | INFO | Model 81 | training finished | total_elapsed=5.97s
+2026-08-12 23:54:16,057 | INFO | === New model #82 params={'C': 2, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:54:16,057 | INFO | === New model #82 params={'C': 2, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:54:16,058 | INFO | === New model #82 params={'C': 2, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:54:23,770 | INFO | Model 82| f1=0.9811 recall=0.9847 loss_train=0.0163 loss_test=0.0210
+2026-08-12 23:54:23,770 | INFO | Model 82 | training finished | total_elapsed=7.71s
+2026-08-12 23:54:23,770 | INFO | === New model #83 params={'C': 2, 'class_weight': {np.int64(0): np.float64(0.570472416046546), np.int64(1): np.float64(4.0474872868680825)}, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:54:29,822 | INFO | Model 83| f1=0.9808 recall=0.9847 loss_train=0.0163 loss_test=0.0210
+2026-08-12 23:54:29,823 | INFO | Model 83 | training finished | total_elapsed=6.05s
+2026-08-12 23:54:29,823 | INFO | === New model #84 params={'C': 2, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:54:38,199 | INFO | Model 84| f1=0.9813 recall=0.9653 loss_train=0.0139 loss_test=0.0192
+2026-08-12 23:54:38,199 | INFO | Model 84 | training finished | total_elapsed=8.38s
+2026-08-12 23:54:38,199 | INFO | === New model #85 params={'C': 2, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:54:43,618 | INFO | Model 85| f1=0.9813 recall=0.9656 loss_train=0.0141 loss_test=0.0188
+2026-08-12 23:54:43,618 | INFO | Model 85 | training finished | total_elapsed=5.42s
+2026-08-12 23:54:43,618 | INFO | === New model #86 params={'C': 2, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:54:51,416 | INFO | Model 86| f1=0.9813 recall=0.9653 loss_train=0.0139 loss_test=0.0191
+2026-08-12 23:54:51,416 | INFO | Model 86 | training finished | total_elapsed=7.80s
+2026-08-12 23:54:51,416 | INFO | === New model #87 params={'C': 2, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:54:58,147 | INFO | Model 87| f1=0.9813 recall=0.9653 loss_train=0.0139 loss_test=0.0191
+2026-08-12 23:54:58,147 | INFO | Model 87 | training finished | total_elapsed=6.73s
+2026-08-12 23:54:58,148 | INFO | === New model #88 params={'C': 2, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:55:06,453 | INFO | Model 88| f1=0.9813 recall=0.9653 loss_train=0.0139 loss_test=0.0192
+2026-08-12 23:55:06,453 | INFO | Model 88 | training finished | total_elapsed=8.31s
+2026-08-12 23:55:06,453 | INFO | === New model #89 params={'C': 2, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:55:11,720 | INFO | Model 89| f1=0.9813 recall=0.9656 loss_train=0.0141 loss_test=0.0188
+2026-08-12 23:55:11,720 | INFO | Model 89 | training finished | total_elapsed=5.27s
+2026-08-12 23:55:11,720 | INFO | === New model #90 params={'C': 2, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:55:19,093 | INFO | Model 90| f1=0.9813 recall=0.9653 loss_train=0.0139 loss_test=0.0191
+2026-08-12 23:55:19,093 | INFO | Model 90 | training finished | total_elapsed=7.37s
+2026-08-12 23:55:19,093 | INFO | === New model #91 params={'C': 2, 'class_weight': None, 'l1_ratio': 0.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:55:25,406 | INFO | Model 91| f1=0.9813 recall=0.9653 loss_train=0.0139 loss_test=0.0191
+2026-08-12 23:55:25,406 | INFO | Model 91 | training finished | total_elapsed=6.31s
+2026-08-12 23:55:25,406 | INFO | === New model #92 params={'C': 2, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:55:25,407 | INFO | === New model #92 params={'C': 2, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:55:25,408 | INFO | === New model #92 params={'C': 2, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:55:31,070 | INFO | Model 92| f1=0.9795 recall=0.9665 loss_train=0.0154 loss_test=0.0175
+2026-08-12 23:55:31,070 | INFO | Model 92 | training finished | total_elapsed=5.66s
+2026-08-12 23:55:31,070 | INFO | === New model #93 params={'C': 2, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 100, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:55:35,934 | INFO | Model 93| f1=0.9792 recall=0.9662 loss_train=0.0154 loss_test=0.0175
+2026-08-12 23:55:35,934 | INFO | Model 93 | training finished | total_elapsed=4.86s
+2026-08-12 23:55:35,935 | INFO | === New model #94 params={'C': 2, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 1e-05} ===
+2026-08-12 23:55:35,936 | INFO | === New model #94 params={'C': 2, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'lbfgs', 'tol': 0.0001} ===
+2026-08-12 23:55:35,936 | INFO | === New model #94 params={'C': 2, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 1e-05} ===
+2026-08-12 23:55:41,430 | INFO | Model 94| f1=0.9795 recall=0.9665 loss_train=0.0154 loss_test=0.0175
+2026-08-12 23:55:41,430 | INFO | Model 94 | training finished | total_elapsed=5.49s
+2026-08-12 23:55:41,430 | INFO | === New model #95 params={'C': 2, 'class_weight': None, 'l1_ratio': 1.0, 'max_iter': 120, 'solver': 'liblinear', 'tol': 0.0001} ===
+2026-08-12 23:55:46,308 | INFO | Model 95| f1=0.9792 recall=0.9662 loss_train=0.0154 loss_test=0.0175
+2026-08-12 23:55:46,308 | INFO | Model 95 | training finished | total_elapsed=4.88s
