@@ -1,3 +1,17 @@
+from scipy import sparse
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import plotly.express as px
+import os
+import time
+import seaborn as sns
+
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
+os.environ["MKL_THREADING_LAYER"] = "GNU"
+
+
 def plot_3D(X, colors=None, title=None, size=2):    
     fig = px.scatter_3d(
         x=X[:, 0], 
@@ -7,8 +21,8 @@ def plot_3D(X, colors=None, title=None, size=2):
         title=title,
         size=[size for i in range(X.shape[0])],
         hover_data=None,  # убираем дополнительные данные
-        hover_name=None)  # убираем имя при наведении
-    )
+        hover_name=None
+    )  # убираем имя при наведении
     fig.write_html(f"temp_3d_plot_{title}.html")
     fig.show()
 
@@ -40,13 +54,15 @@ def plot_the_PCA_interval(pca_obj, start, stop, step, show_ratios=False, print_c
             print(string)
 
 
-if __name__ == "__main__":
-    from scipy import sparse
-    import numpy as np
-    import matplotlib.pyplot as plt
-    import plotly.express as px
-    import os
-
-    from sklearn.preprocessing import StandardScaler
-    from sklearn.decomposition import PCA
-    os.environ["MKL_THREADING_LAYER"] = "GNU"
+def plot_clusters(data, algorithm, args, kwds):
+    start_time = time.time()
+    labels = algorithm(*args, **kwds).fit_predict(data)
+    subm = pd.DataFrame({"ID": np.arange(labels.size), "TARGET": labels})
+    subm.to_csv(f"subm_{algorithm.__name__}.csv", index=False)
+    print(labels[:10])
+    end_time = time.time()
+    palette = sns.color_palette('deep', np.unique(labels).max() + 1)
+    colors = [palette[x] if x >= 0 else (0.0, 0.0, 0.0) for x in labels]
+    plot_3D(data, colors, title=f"{algorithm.__name__}")
+    print('Clusters found by {}'.format(str(algorithm.__name__)))
+    print('Clustering took {:.2f} s'.format(end_time - start_time))
