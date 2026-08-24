@@ -6,6 +6,8 @@ import plotly.express as px
 import os
 import time
 import seaborn as sns
+import umap as up
+from sklearn.metrics import silhouette_score
 
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
@@ -20,10 +22,9 @@ def plot_3D(X, colors=None, title=None, size=2):
         color=colors,
         title=title,
         size=[size for i in range(X.shape[0])],
-        hover_data=None,  # убираем дополнительные данные
+        hover_data=None,
         hover_name=None
-    )  # убираем имя при наведении
-    fig.write_html(f"temp_3d_plot_{title}.html")
+    )
     fig.show()
 
 
@@ -57,12 +58,16 @@ def plot_the_PCA_interval(pca_obj, start, stop, step, show_ratios=False, print_c
 def plot_clusters(data, algorithm, args, kwds):
     start_time = time.time()
     labels = algorithm(*args, **kwds).fit_predict(data)
+    print(f"silhouette_score: {silhouette_score(data, labels)}")
     subm = pd.DataFrame({"ID": np.arange(labels.size), "TARGET": labels})
     subm.to_csv(f"subm_{algorithm.__name__}.csv", index=False)
-    print(labels[:10])
     end_time = time.time()
     palette = sns.color_palette('deep', np.unique(labels).max() + 1)
     colors = [palette[x] if x >= 0 else (0.0, 0.0, 0.0) for x in labels]
-    plot_3D(data, colors, title=f"{algorithm.__name__}")
+    class_counts = dict(zip(*np.unique(labels, return_counts=True)))
+    print(f"Данные по классам: {class_counts}")
+    umap = up.UMAP(n_components=3)
+    data_embedded = umap.fit_transform(data)
+    plot_3D(data_embedded, colors, title=f"{algorithm.__name__}")
     print('Clusters found by {}'.format(str(algorithm.__name__)))
     print('Clustering took {:.2f} s'.format(end_time - start_time))
