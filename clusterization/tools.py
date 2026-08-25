@@ -66,7 +66,7 @@ def plot_clusters(data, algorithm, args, kwds):
     colors = [palette[x] if x >= 0 else (0.0, 0.0, 0.0) for x in labels]
     class_counts = dict(zip(*np.unique(labels, return_counts=True)))
     print(f"Данные по классам: {class_counts}")
-    umap = up.UMAP(n_components=3)
+    umap = up.UMAP(n_components=2)
     data_embedded = umap.fit_transform(data)
     plot_3D(data_embedded, colors, title=f"{algorithm.__name__}")
     print('Clusters found by {}'.format(str(algorithm.__name__)))
