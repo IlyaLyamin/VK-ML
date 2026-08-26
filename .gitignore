@@ -3,3 +3,5 @@
 **/plots_part_fit/
 **/datasets/
 **/garbage/
+**/__pycache__/
+**/GaussianMixture_subs/
