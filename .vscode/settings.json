@@ -4,7 +4,10 @@
     "servers": {
         "kaggle": {
             "url": "https://www.kaggle.com/mcp",
-            "type": "http"
+            "type": "http",
+            "headers" : {
+                "authorization": "Bearer KGAT_9052e212562bb7eed0e47de0067d13f2"
+            }
         }
     }
 }
