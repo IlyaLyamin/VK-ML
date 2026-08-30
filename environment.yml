@@ -1,0 +1,6 @@
+Active code page: 1251
+name: ipynb_VK
+channels:
+  - conda-forge
+dependencies: []
+prefix: C:\Users\user_1\miniforge3\envs\ipynb_VK
