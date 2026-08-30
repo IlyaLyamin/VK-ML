@@ -1,4 +1,3 @@
-from scipy import sparse
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -9,12 +8,38 @@ import seaborn as sns
 import umap as up
 from sklearn.metrics import silhouette_score
 
-from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
 os.environ["MKL_THREADING_LAYER"] = "GNU"
 
 
-def plot_3D(X, colors=None, title=None, size=2):    
+def plot_3D(X, colors=None, reduce_dim=False, title=None, size=2, save_html=False):
+    if reduce_dim:
+        X_3d = up.UMAP(n_components=3).fit_transform(X)
+        fig = px.scatter_3d(
+            x=X_3d[:, 0],
+            y=X_3d[:, 1],
+            z=X_3d[:, 2],
+            color=colors,
+            title=title,
+            size=[size for i in range(X.shape[0])],
+            hover_data=None,
+            hover_name=None
+        )
+        if save_html: fig.write_html("images/html/clusstered_data.html")
+        fig.show()
+
+        X_2d = up.UMAP(n_components=2).fit_transform(X)
+        fig = px.scatter(
+            x=X_2d[:, 0],
+            y=X_2d[:, 1],
+            color=colors,
+            title=title,
+            size=[size for i in range(X.shape[0])],
+            hover_data=None,
+            hover_name=None
+        )
+        fig.show()
+        return
+
     fig = px.scatter_3d(
         x=X[:, 0], 
         y=X[:, 1], 
@@ -66,8 +91,6 @@ def plot_clusters(data, algorithm, args, kwds):
     colors = [palette[x] if x >= 0 else (0.0, 0.0, 0.0) for x in labels]
     class_counts = dict(zip(*np.unique(labels, return_counts=True)))
     print(f"Данные по классам: {class_counts}")
-    umap = up.UMAP(n_components=2)
-    data_embedded = umap.fit_transform(data)
-    plot_3D(data_embedded, colors, title=f"{algorithm.__name__}")
+    plot_3D(data, colors, title=f"{algorithm.__name__}", reduce_dim=True)
     print('Clusters found by {}'.format(str(algorithm.__name__)))
     print('Clustering took {:.2f} s'.format(end_time - start_time))
