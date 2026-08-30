@@ -16,8 +16,6 @@ from sklearn.model_selection import ParameterGrid
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 
-from sklearn.metrics import silhouette_score
-
 import subprocess
 from multiprocessing import Pool
 
